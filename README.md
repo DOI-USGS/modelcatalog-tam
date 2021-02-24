@@ -1,8 +1,12 @@
-# modelcatalog-tam
+# tam
 
-hello world.
+*USGS Model Catalog Tools and Metadata*
 
-Model Catalog Tools and Metadata
+This repo contains information, tools and metadata schemas for the USGS Model Catalog.
+
+## Versioning
+
+Schema versioning can be found as a private model attribute within each schema as `model._version` and will follow semver standards (major.minor.patch)
 
 ## Provisional Software Statement
 
