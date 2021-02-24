@@ -47,7 +47,7 @@ class Person(BaseModel):
         Public GitHub user profile
         aappling-usgs
     usgs_employee: bool
-        USGS employee 1 = yes 0 = no
+        USGS employee 1 = yes; 0 = no
         1
     """
 
