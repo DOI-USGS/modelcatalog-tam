@@ -1,5 +1,7 @@
 # tam
 
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Generic badge](https://img.shields.io/badge/Version-1.0.0-<COLOR>.svg)]() 
+
 *USGS Model Catalog Tools and Metadata*
 
 This repo contains information, tools and metadata schemas for the USGS Model Catalog.
