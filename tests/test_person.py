@@ -23,7 +23,7 @@ def test_full_person():
         sciencebase_id="68008",
         usgs_staffprofile_url="https://www.usgs.gov/staff-profiles/alison-appling",
         github_profile="aappling-usgs",
-        usgs_employee=1
+        usgs_employee=1,
     )
     assert ppl
     assert ppl.github_profile == "aappling-usgs"
