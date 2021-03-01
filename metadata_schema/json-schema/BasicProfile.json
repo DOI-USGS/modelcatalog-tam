@@ -1,0 +1,418 @@
+{
+  "title": "BasicProfile",
+  "description": "Basic metadata profile\n\nFields\n------\nitem_type : ModelTypeEnum\n    model, tool, framework, testbed\n    model\nname : str\n    title\n    COAWST - Coupled-Ocean-Atmosphere-Waves-Sediment Transport\ndescription : str\n    abstract or general description\n    The COAWST modeling system joins an ocean model, an atmosphere model, a wave model, and a sediment transport model for studies of coastal change...\norganization: bool = 1\n    1 = usgs ; 0 = external\n    1\nexternal_organization_name: Optional[str]\nrelease_date : str\n    Date\n    200810\nlast_update : str\n    Date\n    202009\nauthor : Optional[List[Person]]\n    The author(s) or developer(s) of this content.\n    Person(\n            name=\"John C Warner\",\n            orcid=\"https://orcid.org/0000-0003-4993-021X\",\n            email=\"jcwarner@usgs.gov\",\n            authortype=\"maintainer\",\n        )\ncontact : Optional[List[Person]]\n    Person(s) responsible for maintenance of the model or item.\n    Person(\n            name=\"John C Warner\",\n            orcid=\"https://orcid.org/0000-0003-4993-021X\",\n            email=\"jcwarner@usgs.gov\",\n            authortype=\"author\",\n        )\nversion : str\n    Latest release version v1.0.0\n    3.4\nhow_to_cite: Optional[str]\n    Preferred citation format\n    Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System...\nusgs_missionarea: Optional[str]\n    USGS mission area\n    Water Resources\nidentifier: Optional[List[Identifier]]\n    Identifiers related to the model\nprogramming_language: Optional[str]\n    Primary programming language used for the modeling\n    Fortran, Roff, C++, C, MATLAB, PostScript\nlicense: Optional[str]\n   CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nresources: Optional[Resources]\n    Custom object containing advanced resource section\nreferences: Optional[References]\n    Custom object containing advanced reference section\nscience_keywords: Optional[str]\n    Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/\ntype_keywords: Optional[TypeKeywordEnum]\nother_keywords: Optional[str]\n    For example, platform and mode (Jupyter, Graphical User Interface, etc).\n    Jupyter Notebook\nimage: Optional[HttpUrl]\n    Header image for the model profile page\n    https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b\nrelated_catalog_items: Optional[List[str]]\n    coawst - wrf item\nrelated_catalog_item_types: Optional[str]",
+  "type": "object",
+  "properties": {
+    "item_type": {
+      "default": "model",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ModelTypeEnum"
+        }
+      ]
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "organization": {
+      "title": "Organization",
+      "default": 1,
+      "type": "boolean"
+    },
+    "external_organization_name": {
+      "title": "External Organization Name",
+      "type": "string"
+    },
+    "release_date": {
+      "title": "Release Date",
+      "type": "string"
+    },
+    "last_update": {
+      "title": "Last Update",
+      "type": "string"
+    },
+    "subtitle": {
+      "title": "Subtitle",
+      "type": "string"
+    },
+    "author": {
+      "title": "Author",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Person"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Person"
+      }
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "how_to_cite": {
+      "title": "How To Cite",
+      "type": "string"
+    },
+    "usgs_missionarea": {
+      "title": "Usgs Missionarea",
+      "type": "string"
+    },
+    "identifier": {
+      "title": "Identifier",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Identifier"
+      }
+    },
+    "programming_language": {
+      "title": "Programming Language",
+      "type": "string"
+    },
+    "license": {
+      "title": "License",
+      "default": "CC0",
+      "type": "string"
+    },
+    "resources": {
+      "$ref": "#/definitions/Resources"
+    },
+    "references": {
+      "$ref": "#/definitions/References"
+    },
+    "science_keywords": {
+      "title": "Science Keywords",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "type_keywords": {
+      "$ref": "#/definitions/TypeKeywordEnum"
+    },
+    "other_keywords": {
+      "title": "Other Keywords",
+      "type": "string"
+    },
+    "image": {
+      "title": "Image",
+      "minLength": 1,
+      "maxLength": 2083,
+      "format": "uri",
+      "type": "string"
+    },
+    "related_catalog_item": {
+      "$ref": "#/definitions/RelatedCatalogItem"
+    }
+  },
+  "required": [
+    "name",
+    "description"
+  ],
+  "definitions": {
+    "ModelTypeEnum": {
+      "title": "ModelTypeEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "model",
+        "framework",
+        "tool",
+        "testbed"
+      ],
+      "type": "string"
+    },
+    "ContactTypeEnum": {
+      "title": "ContactTypeEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "maintainer",
+        "author",
+        "point_of_contact"
+      ],
+      "type": "string"
+    },
+    "Person": {
+      "title": "Person",
+      "description": "Person or contact model\n\nFields\n------\nname : str\n    Contact name to display\n    Alison P Appling\norcid : HttpUrl\n    Full URL for ORCID profile, see: https://orcid.org/\n    https://orcid.org/0000-0003-3638-8572\nemail : EmailStr\n    Valid email address\n    aappling@usgs.gov\nauthor_type : str\n    Specification for type of contact\n    author\nthumbnail_avatar_url : HttpUrl\n    Direct link to personal profile image\n    https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/appling_headshot.png\norganization : str\n    USGS organization\n    USGS Water Resources Mission Area\njob_title : str\n    Short job title\n    Data Scientist\nsciencebase_id : str\n    Sciencebase Directory link to profile (see https://www.sciencebase.gov/directory/person/68008)\n    68008\nusgs_staffprofile_url : HttpUrl\n    Direct link to USGS Staff Profile webpage\n    https://www.usgs.gov/staff-profiles/alison-appling\nusgs_gitlab_id: int\n    Internal gitlab user identifier\ngithub_profile: str\n    Public GitHub user profile\n    aappling-usgs\nusgs_employee: bool\n    USGS employee 1 = yes; 0 = no\n    1",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "author_type": {
+          "default": "author",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ContactTypeEnum"
+            }
+          ]
+        },
+        "usgs_employee": {
+          "title": "Usgs Employee",
+          "default": 0,
+          "type": "boolean"
+        },
+        "orcid": {
+          "title": "Orcid",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "email": {
+          "title": "Email",
+          "type": "string",
+          "format": "email"
+        },
+        "thumbnail_avatar_url": {
+          "title": "Thumbnail Avatar Url",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "organization": {
+          "title": "Organization",
+          "type": "string"
+        },
+        "job_title": {
+          "title": "Job Title",
+          "type": "string"
+        },
+        "sciencebase_id": {
+          "title": "Sciencebase Id",
+          "type": "string"
+        },
+        "usgs_staffprofile_url": {
+          "title": "Usgs Staffprofile Url",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "usgs_gitlab_id": {
+          "title": "Usgs Gitlab Id",
+          "type": "string"
+        },
+        "github_profile": {
+          "title": "Github Profile",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "IdentifierTypeEnum": {
+      "title": "IdentifierTypeEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "Digital Object Identifier",
+        "Custom",
+        "Persistent Identifier"
+      ],
+      "type": "string"
+    },
+    "Identifier": {
+      "title": "Identifier",
+      "description": "Identifier specification\n\nFields\n------\nname: str\nid: Optional[str]\nurl: Optional[HttpUrl]",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/definitions/IdentifierTypeEnum"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "Resources": {
+      "title": "Resources",
+      "description": "Resource extension for additional information\n\nHow to use the model: where to download it, manuals, user community pages, other webpages about the model (in other catalogs), USGS webpage, model project page, source code (organizational website or repository, if available).\n\nFields\n------\ndownload_url : Optional[HttpUrl]\n    Where users would download the model\nprimary_publications : Optional[str]\nweblinks : Optional[List[HttpUrl]]\nusgs_website : Optional[HttpUrl]\nusgs_software_gitlab_release_urls: Optional[List[HttpUrl]]\nexternal_software_repository_urls: Optional[List[HttpUrl]]\nquickstart_notebook: Optional[HttpUrl]\nruntime_image: Optional[HttpUrl]",
+      "type": "object",
+      "properties": {
+        "user_manual_url": {
+          "title": "User Manual Url",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "download_url": {
+          "title": "Download Url",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "primary_publications": {
+          "title": "Primary Publications",
+          "type": "string"
+        },
+        "weblink_url": {
+          "title": "Weblink Url",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "usgs_website_url": {
+          "title": "Usgs Website Url",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "usgs_software_gitlab_release_urls": {
+          "title": "Usgs Software Gitlab Release Urls",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "external_software_repository_urls": {
+          "title": "External Software Repository Urls",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "quickstart_notebook": {
+          "title": "Quickstart Notebook",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "runtime_image": {
+          "title": "Runtime Image",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        }
+      }
+    },
+    "References": {
+      "title": "References",
+      "description": "Where the model has been used: References to reports or publications where the model is used, or cited, outputs (data release), model archive, model application.\n\nFields\n------\nmodel_output : Optional[str]\n    Optional container for model output information.\nusgs_datarelease_links : Optional[List[HttpUrl]]\n    Data release landing page\nmodel_citations : Optional[List[str]]\n   References to reports or publications where the model is used, or cited\nmodel_archive : Optional[str]\nmodel_application : Optional[str]",
+      "type": "object",
+      "properties": {
+        "model_output": {
+          "title": "Model Output",
+          "type": "string"
+        },
+        "usgs_datarelease_links": {
+          "title": "Usgs Datarelease Links",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "model_citations": {
+          "title": "Model Citations",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "model_archive": {
+          "title": "Model Archive",
+          "type": "string"
+        },
+        "model_application": {
+          "title": "Model Application",
+          "type": "string"
+        }
+      }
+    },
+    "TypeKeywordEnum": {
+      "title": "TypeKeywordEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "Theoretical",
+        "Empirical",
+        "Physics-based",
+        "Process-based",
+        "Statistical",
+        "Geospatial"
+      ],
+      "type": "string"
+    },
+    "RelatedCatalogItemTypeEnum": {
+      "title": "RelatedCatalogItemTypeEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "related model",
+        "related framework",
+        "related tool",
+        "related testbed"
+      ],
+      "type": "string"
+    },
+    "RelatedCatalogItem": {
+      "title": "RelatedCatalogItem",
+      "description": "Fields\n------\nrelated_catalog_url: Optional[HttpUrl]\nrelated_catalog_id: Optional[str]\ncomponent_of: Optional[str]\ntype: Optional[RelatedCatalogItemTypeEnum]",
+      "type": "object",
+      "properties": {
+        "related_catalog_url": {
+          "title": "Related Catalog Url",
+          "minLength": 1,
+          "maxLength": 2083,
+          "format": "uri",
+          "type": "string"
+        },
+        "related_catalog_id": {
+          "title": "Related Catalog Id",
+          "type": "string"
+        },
+        "component_of": {
+          "title": "Component Of",
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/definitions/RelatedCatalogItemTypeEnum"
+        }
+      }
+    }
+  }
+}
