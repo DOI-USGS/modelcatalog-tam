@@ -32,53 +32,31 @@ class BasicProfile(BaseModel):
     ------
     item_type : ModelTypeEnum
         model, tool, framework, testbed
-        model
     name : str
         title
-        COAWST - Coupled-Ocean-Atmosphere-Waves-Sediment Transport
     description : str
         abstract or general description
-        The COAWST modeling system joins an ocean model, an atmosphere model, a wave model, and a sediment transport model for studies of coastal change...
     organization: bool = 1
         1 = usgs ; 0 = external
-        1
     external_organization_name: Optional[str]
     release_date : str
         Date
-        200810
     last_update : str
         Date
-        202009
     author : Optional[List[Person]]
         The author(s) or developer(s) of this content.
-        Person(
-                name="John C Warner",
-                orcid="https://orcid.org/0000-0003-4993-021X",
-                email="jcwarner@usgs.gov",
-                authortype="maintainer",
-            )
     contact : Optional[List[Person]]
         Person(s) responsible for maintenance of the model or item.
-        Person(
-                name="John C Warner",
-                orcid="https://orcid.org/0000-0003-4993-021X",
-                email="jcwarner@usgs.gov",
-                authortype="author",
-            )
     version : str
         Latest release version v1.0.0
-        3.4
     how_to_cite: Optional[str]
         Preferred citation format
-        Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System...
     usgs_missionarea: Optional[str]
         USGS mission area
-        Water Resources
     identifier: Optional[List[Identifier]]
         Identifiers related to the model
     programming_language: Optional[str]
         Primary programming language used for the modeling
-        Fortran, Roff, C++, C, MATLAB, PostScript
     license: Optional[str]
        CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode
     resources: Optional[Resources]
@@ -90,13 +68,18 @@ class BasicProfile(BaseModel):
     type_keywords: Optional[TypeKeywordEnum]
     other_keywords: Optional[str]
         For example, platform and mode (Jupyter, Graphical User Interface, etc).
-        Jupyter Notebook
     image: Optional[HttpUrl]
         Header image for the model profile page
-        https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b
     related_catalog_items: Optional[List[str]]
         coawst - wrf item
     related_catalog_item_types: Optional[str]
+
+    Example
+    -------
+    >>> BasicProfile(item_type="model",
+    ...              name="COAWST",
+    ...              description="sample description")
+    BasicProfile(item_type=<ModelTypeEnum.model: 'model'>, name='COAWST', description='sample description', organization=1, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)
     """
 
     _version: str = "v1.0.0"
