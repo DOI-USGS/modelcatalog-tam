@@ -1,5 +1,6 @@
 from PersonSchema import Person
 from pydantic import ValidationError
+from hypothesis import given, strategies as st
 
 
 def test_min_person():
@@ -41,3 +42,8 @@ def test_email():
         )
     except ValidationError as e:
         assert ppl is None
+
+
+@given(st.builds(Person))
+def test_property(instance):
+    assert isinstance(instance, Person)

@@ -4,6 +4,7 @@ from ResourceSchema import Resources
 from ReferenceSchema import References
 from IdentifierSchema import Identifier
 from pydantic import ValidationError
+from hypothesis import given, strategies as st
 
 
 def test_min_metadata():
@@ -57,3 +58,8 @@ def test_full_metadata():
         image="https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b",
     )
     assert mdata
+
+
+@given(st.builds(BasicProfile))
+def test_property(instance):
+    assert isinstance(instance, BasicProfile)

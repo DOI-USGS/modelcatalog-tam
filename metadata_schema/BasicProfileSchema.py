@@ -70,9 +70,7 @@ class BasicProfile(BaseModel):
         For example, platform and mode (Jupyter, Graphical User Interface, etc).
     image: Optional[HttpUrl]
         Header image for the model profile page
-    related_catalog_items: Optional[List[str]]
-        coawst - wrf item
-    related_catalog_item_types: Optional[str]
+    related_catalog_item: Optional[RelatedCatalogItem]
 
     Example
     -------
