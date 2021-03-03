@@ -9,7 +9,7 @@ from hypothesis import given, strategies as st
 
 def test_min_metadata():
     mdata = BasicProfile(
-        item_type="model",
+        item_type="Model",
         name="Modflow",
         description="Sample description",
         organization=True,
@@ -23,7 +23,7 @@ def test_full_metadata():
             name="John C Warner",
             orcid="https://orcid.org/0000-0003-4993-021X",
             email="jcwarner@usgs.gov",
-            authortype="author",
+            authortype="Author",
         )
     ppl = [per1]
 
@@ -37,7 +37,7 @@ def test_full_metadata():
     )
 
     mdata = BasicProfile(
-        item_type="model",
+        item_type="Model",
         name="COAWST - Coupled-Ocean-Atmosphere-Waves-Sediment Transport",
         description='"The COAWST modeling system joins an ocean model, an atmosphere model, a wave model, and a sediment transport model for studies of coastal change. COAWST is an open-source tool that combines many sophisticated systems that each provide relative earth-system components necessary to investigate the dynamics of coastal storm impacts. Specifically, the COAWST Modeling System includes an ocean component—Regional Ocean Modeling System (ROMS); atmosphere component—Weather Research and Forecast Model (WRF), hydrology component- WRF_Hydro; wave components—Simulating Waves Nearshore (SWAN), WAVEWATCHIII, and InWave; a sediment component—the USGS Community Sediment Models; and a sea ice model. We began with a coupled modeling system as described [...]',
         organization=True,
