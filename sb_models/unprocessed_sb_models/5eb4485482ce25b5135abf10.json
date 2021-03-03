@@ -1,0 +1,87 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485482ce25b5135abf10"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485482ce25b5135abf10",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485482ce25b5135abf10",
+    "title": "DR3M - Distributed Routing Rainfall-Runoff Model",
+    "subTitle": "Distributed Routing Rainfall-Runoff Model--version II",
+    "summary": "DR3M is a watershed model for routing storm runoff through a Branched system of pipes and (or) natural channels using rainfall as input. DR3M provides detailed simulation of storm-runoff periods selected by the user. There is daily soil-moisture accounting between storms. A drainage basin is represented as a set of overland-flow, channel, and reservoir segments, which jointly describe the drainage features of the basin. This model is usually used to simulate small urban basins. Interflow and base flow are not simulated. Snow accumulation and snowmelt are not simulated.",
+    "body": "DR3M is a watershed model for routing storm runoff through a Branched system of pipes and (or) natural channels using rainfall as input. DR3M provides detailed simulation of storm-runoff periods selected by the user. There is daily soil-moisture accounting between storms. A drainage basin is represented as a set of overland-flow, channel, and reservoir segments, which jointly describe the drainage features of the basin. This model is usually used to simulate small urban basins. Interflow and base flow are not simulated. Snow accumulation and snowmelt are not simulated.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:40Z",
+        "lastUpdated": "2021-01-06T21:26:06Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-W h2osoft",
+            "oldPartyId": 61967,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/61967",
+            "email": "gs-w_h2osoft@usgs.gov",
+            "firstName": "GS-W",
+            "lastName": "h2osoft",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/software/DR3M/",
+            "title": "Download DR3M",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/cgi-bin/man_wrdapp?dr3m",
+            "title": "USGS Webpage",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

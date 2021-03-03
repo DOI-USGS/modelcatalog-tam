@@ -1,0 +1,108 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486182ce25b5135abfb0"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486182ce25b5135abfb0",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486182ce25b5135abfb0",
+    "title": "WATEQ4F - A chemical speciation code for natural waters",
+    "summary": "\"A FORTRAN 77 version of the PL/1 computer program for the geochemical model WATEQ2, which computes major and trace element speciation and mineral saturation for natural waters, has been developed. The code WATEQ4F has been adapted to execute on an IBM PC1 or compatible microcomputer with or without an 8087, 80287 or 80387 numeric coprocessor and, if recompilation is desired, a full-featured microcomputer FORTRAN compiler. The calculation procedure is identical to WATEQ2, which has been installed on many mainframes and minicomputers. Several data base revisions have been made that include the addition of Se (-II, 0, IV, VI) and U (III, IV, V, VI) species as well as the recently published values of Nordstrom and others (1990). A new [...]",
+    "body": "<p>\"A FORTRAN 77 version of the PL/1 computer program for the geochemical model WATEQ2, which computes major and trace element speciation and mineral saturation for natural waters, has been developed. The code WATEQ4F has been adapted to execute on an IBM PC1 or compatible microcomputer with or without an 8087, 80287 or 80387 numeric coprocessor and, if recompilation is desired, a full-featured microcomputer FORTRAN compiler. The calculation procedure is identical to WATEQ2, which has been installed on many mainframes and minicomputers. Several data base revisions have been made that include the addition of Se (-II, 0, IV, VI) and U (III, IV, V, VI) species as well as the recently published values of Nordstrom and others (1990). A new set of redox options has been introduced so that all species that would exist in a disequilibrium system can be independently calculated, or selected species can be coupled, at the desire of the user. This report provides all the reactions and references for the complete data base, instructions for program operation, and an explanation of the input and output files. Attachments contain sample output from four water analyses used as test cases, and the complete source listings for WATEQ4F, its thermodynamic data base, input data preparation program WQ4FINPT, and a batch program to run WATEQ4F. The thermodynamic mass transfer program PHREEQE and the revised version of mass balance program BALANCE (BALN INPT) also have been adapted to execute on a personal microcomputer with the same specifications as those described above.\"</p>\n\n<p>See 'Abstract': <a href=\"https://doi.org/10.3133/ofr8750\">https://doi.org/10.3133/ofr8750</a></p>\n\n<p><strong>Model Name</strong> <em>(Name of the model, including acronyms)</em>:</p>\n\n<p>WATEQ4F - A chemical speciation code for natural waters</p>\n\n<p><strong>Model Version</strong> <em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p><strong>Abstract</strong> <em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>\"A FORTRAN 77 version of the PL/1 computer program for the geochemical model WATEQ2, which computes major and trace element speciation and mineral saturation for natural waters, has been developed. The code WATEQ4F has been adapted to execute on an IBM PC1 or compatible microcomputer with or without an 8087, 80287 or 80387 numeric coprocessor and, if recompilation is desired, a full-featured microcomputer FORTRAN compiler. The calculation procedure is identical to WATEQ2, which has been installed on many mainframes and minicomputers. Several data base revisions have been made that include the addition of Se (-II, 0, IV, VI) and U (III, IV, V, VI) species as well as the recently published values of Nordstrom and others (1990). A new set of redox options has been introduced so that all species that would exist in a disequilibrium system can be independently calculated, or selected species can be coupled, at the desire of the user. This report provides all the reactions and references for the complete data base, instructions for program operation, and an explanation of the input and output files. Attachments contain sample output from four water analyses used as test cases, and the complete source listings for WATEQ4F, its thermodynamic data base, input data preparation program WQ4FINPT, and a batch program to run WATEQ4F. The thermodynamic mass transfer program PHREEQE and the revised version of mass balance program BALANCE (BALN INPT) also have been adapted to execute on a personal microcomputer with the same specifications as those described above.\"</p>\n\n<p>See 'Abstract': <a href=\"https://doi.org/10.3133/ofr8750\">https://doi.org/10.3133/ofr8750</a></p>\n\n<p><strong>Originator(s)</strong> <em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p><strong>Contact Name(s) and Email Address(es)</strong> <em>(Names of person(s) responsible for maintenance of the model along with their email)</em>:</p>\n\n<p>D Kirk Nordstrom (<a href=\"mailto:dkn@usgs.gov\">dkn@usgs.gov</a>)</p>\n\n<p><strong>Release Date</strong> <em>(Date model was originally released (YYYYMMDD, YYYYMM, YYYY))</em>:</p>\n\n<p><strong>Last Update</strong> <em>(Date of last update (YYYYMMDD, YYYYMM, YYYY))</em>:</p>\n\n<p><strong>Organization(s)</strong> <em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>U.S. Geological Survey</p>\n\n<p><strong>Mission Area</strong> <em>(USGS mission area with which this model most clearly aligns. <a href=\"https://www.usgs.gov/science/mission-areas\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Water Resources</p>\n\n<p><strong>License</strong> <em>(OSI-approved (Open-Source Initiative) license (see <a href=\"https://opensource.org/licenses\">https://opensource.org/licenses</a>))</em>:</p>\n\n<p><strong>Model Citation</strong> <em>(How to cite the model&nbsp; (e.g., Software Release citation). For example, Doe, J.S., Sea Turtle Cuteness Model, 2020, U.S. Geological Survey, <a href=\"https://doi.org/xxxxx\">https://doi.org/xxxxx</a>))</em>:</p>\n\n<p><strong>Identifier</strong> <em>(Location where the model is posted or published (e.g. PID or DOI))</em>:</p>\n\n<p><strong>Language</strong> <em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>:</p>\n\n<p>Fortran 77</p>\n\n<p><strong>References</strong> <em>(References (where the model has been cited, outputs, data release)</em>:</p>\n\n<p>Ball, J.W., Nordstrom, D.K., 1991, User's manual for WATEQ4F, with revised thermodynamic data base and text cases for calculating speciation of major, trace, and redox elements in natural waters: U.S. Geological Survey, Open-File Report 91-183.</p>\n\n<p><strong>Resources</strong> <em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>Download WATEQ4F: <a href=\"https://wwwbrr.cr.usgs.gov/projects/GWC_chemtherm/software.htm\">https://wwwbrr.cr.usgs.gov/projects/GWC_chemtherm/software.htm</a></p>\n\n<p>Ball, J.W., Nordstrom, D.K., 1991, User's manual for WATEQ4F, with revised thermodynamic data base and text cases for calculating speciation of major, trace, and redox elements in natural waters: U.S. Geological Survey, Open-File Report 91-183. <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a>.</p>\n\n<p>Ball, J.W., Nordstrom, D.K., Zachmann, D.W., 1987, WATEQ4F - a personal computer Fortran translation of the geochemical model WATEQ2 with revised data base: U.S. Geological Survey, Open-File Report 87-50. <a href=\"https://doi.org/10.3133/ofr8750\">https://doi.org/10.3133/ofr8750</a>.</p>\n\n<p><strong>Image</strong> <em>(URL for an image that best represents the model, title of image, alternate text, URL of source)</em>:</p>\n\n<p><strong>Model Type</strong> <em>(theoretical model, empirical model, or list both)</em>:</p>\n\n<p><strong>Tags</strong> <em>(Keywords or tags that describe the model (i.e., \"groundwater, aquifer, Southwest\"))</em>:</p>\n\n<p>groundwater, water quality, hydrology</p>\n\n<p><strong>Requirements</strong> <em>(All software and/or hardware requirements needed to run the model and replicate any published results)</em>:</p>\n\n<p>\"Program WATEQ4F is written in FORTRAN 77, and requires a minimum configuration of an IBM PC or full compatible with at least 512 kilobytes (KB, 1KB=1024 bytes, or characters) of random access memory (RAM). The packed executable code and supporting files occupy about 350KB of disk storage. The FORTRAN source code occupies about 200KB of disk storage. The program described in this report has been compiled, linked, and executed correctly on an IBM PC/AT with 640KB of RAM, an 80287 numeric coprocessor, and a 20MB hard disk, using Microsoft FORTRAN, Version 4.00. It also has been compiled, linked, and executed correctly on several similarly configured 8088, 80286 and 80386 based IBM PC compatibles with and without numeric coprocessor, and using other full-featured microcomputer FORTRAN compilers. For linking of the object code, the linker supplied with the compiler should be used. It was found by experiment that substitute linkers produced object codes that would not execute. The test cases were solved on the PC/AT in an average time of less than 20 seconds each, including output of the results to a disk file. This should represent an upper limit of execution time for this class of computer with a numeric coprocessor, since the first test case in particular contains a fairly comprehensive array of constituents and output options. The size of the output file varies as a function of the complexity of the input and the print options selected, but will occupy approximately 25-50KB of disk storage per data set. The results obtained using the PC are virtually identical to those obtained using the U.S. Geological Survey Prime 850 minicomputer, exhibiting minor differences in the fifth or greater significant digit for less than one percent of the calculated results.\"</p>\n\n<p>See 'Program operation/System requirements': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p><strong>Dependencies</strong> <em>(All data dependencies needed to run the model and replicate any published results)</em>:</p>\n\n<p><strong>Installation</strong> <em>(Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions))</em>:</p>\n\n<p>See 'Installing WATEQ4F on your hard disk': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p><strong>Version Updates</strong> <em>(Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate)</em>:</p>\n\n<p><strong>Assumptions</strong> <em>(What are the key assumptions made that define the dynamics of the model?)</em>:</p>\n\n<p><strong>Structure</strong> <em>(Model structure: provide a flow diagram of the model. (e.g. [Growing Degree Days since Jan 1]+[Warm Spells]=[Leaf Out Day of Year] and [Growing Degree Days since Leaf Out Day of Year]+[Warm Spells]=[Bloom Day of Year]))</em>:</p>\n\n<p><strong>Equations</strong> (What are the equations of the model?):</p>\n\n<p>See 'SOLUTE SPECIATION CALCULATIONS': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p><strong>Temporal Information</strong> <em>(Temporal resolution, time stepping, and units)</em>:</p>\n\n<p><strong>Spatial Information</strong> <em>(Spatial dimensionality, resolution, extent, grid type if relevant)</em>:</p>\n\n<p><strong>Limitations</strong> <em>(Limitations, domain ranges: What is this model specifically NOT intended to do)</em>:</p>\n\n<p>See 'Limits': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p><strong>Input/Output and Variables</strong> <em>(Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate); control variables; Key output variables and domain ranges)</em>:</p>\n\n<p>See 'Program operation/Input', 'Program operation/Description of input variables', and 'Program operation/Output': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p><strong>Conditions</strong> <em>(Initial conditions)</em>:</p>\n\n<p><strong>Functions</strong> <em>(Forcing functions that affect the dynamics of the model)</em>:</p>\n\n<p><strong>Example</strong> <em>(Provide sample runs that illustrate the dynamics of the model)</em>:</p>\n\n<p>\"Attachment A contains a listing of the output from WATEQ4F of calculations for four test problems. The first two test cases appear in Ball and otheis (1980,1987), and are from Nordstrom and others (1979). The third test case is the analysis of a well water containing measurable concentrations of Se (IV), Se (VI) and total As. The fourth test case is the U test case of Ball and others (1981), taken from Potter and others (1979). Test case 1 is a seawater analysis, which contains concentrations for virtually every species available for consideration by WATEQ4F, and is of relatively high (0.7) ionic strength. Test case 2 is a surface I water analysis and is much more dilute, but also contains a fairly complete array of analytical values. These two test cases are described in more detail by Nordstrom and others (1979). Test case 2 demonstrates the capability of the model for computing independent Eh (pe) values based on analytical determinations of Fe (11/111), dissolved oxygen, NO3, NO^ NH3, and S (VI/-II). Test case 3 is a real analysis that demonstrates the model's capability for computing Eh (pe) values based on total As plus measured Eh, and on Se (IV/VI) determinations. These analyses were provided to us by Neil Dubrovsky of the California District Office, Water Resources Division, U.S. Geological Survey. Test case 4 is a real analysis of a Ucontaining water which demonstrates the capabilities of WATEQ4F for U speciation and mineral equilibrium calculations.</p>\n\n<p>Users are cautioned that the Davies and Debye-Hiickel equations are used in WATEQ4F to calculate the activity coefficients of all charged species except Ca, Mg, Na, K, Cl, SO4, HCO3, CO3, H2CO3 and Sr. The ion-association models on which these tv/o equations are based become less valid as ionic strengths increase above the seawater value of 0.7. Hence, results obtained for solutions of ionic strengths significantly higher than 0.7 always should be interpreted with caution.</p>\n\n<p>Attachment B gives a listing of the TABLE1 and TABLE2 permanent data base files used by WATEQ4F. Attachment C gives a listing of the Version 2.0 FORTRAN source code. Attachment D gives the interpreted BASIC source code for WQ4FINPT, and the source code for a FORTRAN version of this program is given in Attachment E. The listing for batch program WQ4F.BAT is found in Attachment F.\"</p>\n\n<p>See 'TEST CASES AND PROGRAME LISTINGS': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p><strong>Evaluation</strong> <em>(Model evaluation, uncertainty, and sensitivity)</em>:</p>\n\n<p><strong>Benchmarks</strong> <em>(Describe or provide benchmarks for validation of your model)</em>:</p>\n\n<p><strong>Usage</strong> <em>(Measure of use / community support (citations, forks, commits, members))</em>:</p>\n\n<p><strong>Model Components</strong> <em>(A subsection of the model that simulates a subset of processes (ex. COAWST))</em>:</p>\n\n<p>PHREEQE, BALN INPT</p>\n\n<p>See 'Summary': <a href=\"https://doi.org/10.3133/ofr91183\">https://doi.org/10.3133/ofr91183</a></p>\n\n<p>&nbsp;</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:53Z",
+        "lastUpdated": "2021-01-28T18:53:22Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "D Kirk Nordstrom",
+            "oldPartyId": 7543,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/7543",
+            "email": "dkn@usgs.gov",
+            "active": true,
+            "jobTitle": "Volunteer",
+            "firstName": "D Kirk",
+            "lastName": "Nordstrom",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-3283-5136"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "Related_Primary_Publication",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/ofr91183",
+            "title": "Ball, J.W., Nordstrom, D.K., 1991, User's manual for WATEQ4F, with revised thermodynamic data base and text cases for calculating speciation of major, trace, and redox elements in natural waters: U.S. Geological Survey, Open-File Report 91-183.",
+            "hidden": false
+        },
+        {
+            "type": "sourceCode",
+            "typeLabel": "Source Code",
+            "uri": "https://wwwbrr.cr.usgs.gov/projects/GWC_chemtherm/software.htm",
+            "rel": "related",
+            "title": "Download WATEQ4F",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.3133/ofr875",
+            "rel": "related",
+            "title": "Ball, J.W., Nordstrom, D.K., Zachmann, D.W., 1987, WATEQ4F - a personal computer Fortran translation of the geochemical model WATEQ2 with revised data base: U.S. Geological Survey, Open-File Report 87-50. https://doi.org/10.3133/ofr8750.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Legacy"
+        },
+        {
+            "type": "Label",
+            "name": "Fortran"
+        },
+        {
+            "type": "Science Topic",
+            "name": "hydrology"
+        },
+        {
+            "type": "Science Topic",
+            "name": "groundwater"
+        },
+        {
+            "type": "Science Topic",
+            "name": "water quality"
+        }
+    ],
+    "distributionLinks": []
+}

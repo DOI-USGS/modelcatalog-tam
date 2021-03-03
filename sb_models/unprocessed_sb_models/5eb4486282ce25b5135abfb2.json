@@ -1,0 +1,278 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486282ce25b5135abfb2"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486282ce25b5135abfb2",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486282ce25b5135abfb2",
+    "title": "WEBMOD - Water, Energy, and Biogeochemical Model",
+    "subTitle": "Water, Energy, and Biogeochemical Model",
+    "alternateTitles": [
+        ""
+    ],
+    "summary": "The Water, Energy, and Biogeochemical Model (WEBMOD) uses the framework of the U.S. Geological Survey (USGS) Modular Modeling System to simulate fluxes of water and solutes through watersheds. WEBMOD divides watersheds into model response units (MRU) where fluxes and reactions are simulated for the following eight hillslope reservoir types: canopy; snowpack; ponding on impervious surfaces; O-horizon; two reservoirs in the unsaturated zone, which represent preferential flow and matrix flow; and two reservoirs in the saturated zone, which also represent preferential flow and matrix flow. MRUs discharge to one or more stream reservoirs that flow to the outlet of the watershed. Hydrologic fluxes in the watershed are simulated by modules [...]",
+    "body": "The Water, Energy, and Biogeochemical Model (WEBMOD) uses the framework of the U.S. Geological Survey (USGS) Modular Modeling System to simulate fluxes of water and solutes through watersheds. WEBMOD divides watersheds into model response units (MRU) where fluxes and reactions are simulated for the following eight hillslope reservoir types: canopy; snowpack; ponding on impervious surfaces; O-horizon; two reservoirs in the unsaturated zone, which represent preferential flow and matrix flow; and two reservoirs in the saturated zone, which also represent preferential flow and matrix flow. MRUs discharge to one or more stream reservoirs that flow to the outlet of the watershed. Hydrologic fluxes in the watershed are simulated by modules derived from the USGS Precipitation Runoff Modeling System; the National Weather Service Hydro-17 snow model; and a topography-driven hydrologic model (TOPMODEL). Modifications to the standard TOPMODEL include the addition of heterogeneous vertical infiltration rates; irrigation; lateral and vertical preferential flows through the unsaturated zone; pipe flow draining the saturated zone; gains and losses to regional aquifer systems; and the option to simulate baseflow discharge by using an exponential, parabolic, or linear decrease in transmissivity. PHREEQC, an aqueous geochemical model, is incorporated to simulate chemical reactions as waters evaporate, mix, and react within the various reservoirs of the model. The reactions that can be specified for a reservoir include equilibrium reactions among water; minerals; surfaces; exchangers; and kinetic reactions such as kinetic mineral dissolution or precipitation, biologically mediated reactions, and radioactive decay. WEBMOD also simulates variations in the concentrations of the stable isotopes deuterium and oxygen-18 as a result of varying inputs, mixing, and evaporation.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:54Z",
+        "lastUpdated": "2020-10-05T15:50:56Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Richard M Webb",
+            "oldPartyId": 11018,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/11018",
+            "email": "rmwebb@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "firstName": "Richard",
+            "lastName": "Webb",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0001-9531-2207"
+        },
+        {
+            "name": "David L Parkhurst",
+            "oldPartyId": 7870,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "dlpark@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "firstName": "David",
+            "middleName": "L",
+            "lastName": "Parkhurst",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "David L Parkhurst/WRD/USGS/DOI - Primary Location",
+                "building": "DFC Bldg 53",
+                "buildingCode": "KAH",
+                "faxPhone": "3032365034",
+                "streetAddress": {
+                    "line1": "W 6th Ave Kipling St",
+                    "city": "Lakewood",
+                    "state": "CO",
+                    "zip": "80225",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "Box 25046",
+                    "line2": "Denver Federal Center",
+                    "mailStopCode": "413",
+                    "city": "Denver",
+                    "state": "CO",
+                    "zip": "80225-0046",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0003-3348-1544"
+        },
+        {
+            "name": "Scott R Charlton",
+            "oldPartyId": 1722,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "charlton@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Scott",
+            "middleName": "R",
+            "lastName": "Charlton",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "Scott R Charlton/WRD/USGS/DOI - Primary Location",
+                "building": "Kittridge Business Center",
+                "buildingCode": "KZW",
+                "officePhone": "3032787935",
+                "faxPhone": "3032794165",
+                "streetAddress": {
+                    "line1": "4620 Technology Dr",
+                    "city": "Golden",
+                    "state": "CO",
+                    "zip": "80403",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "4620 Technology Drive",
+                    "city": "Golden",
+                    "state": "CO",
+                    "zip": "80401",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0001-7332-3394"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/water-energy-and-biogeochemical-model-webmod",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "Related_Primary_Publication",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/tm6B35",
+            "title": "Webb, R.M.T., and Parkhurst, D.L., 2017, Water, Energy, and Biogeochemical Model (WEBMOD), user\u2019s manual, version 1: U.S. Geological Survey Techniques and Methods, book 6, chap. B35, 171 p., https://doi.org/10.3133/tm6B35.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Subject",
+            "name": "Water Quality"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Geochemistry"
+        },
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "Screen Shot 2020-07-02 at 8.53.04 AM.png",
+            "title": "WEBMOD",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__df/9e/12/df9e120eee9f77ffb1aaafe2436d4b9c0a8de441",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 1410,
+            "imageHeight": 1058,
+            "size": 554966,
+            "dateUploaded": "2020-07-02T14:53:28Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=1410&height=1058",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=150&height=113",
+                    "width": 150,
+                    "height": 113
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=350&height=263",
+                    "width": 350,
+                    "height": 263
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=580&height=435",
+                    "width": 580,
+                    "height": 435
+                },
+                "large": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=1000&height=750",
+                    "width": 1000,
+                    "height": 750
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "WEBMOD_Water_En.zip",
+            "files": [
+                {
+                    "name": "Screen Shot 2020-07-02 at 8.53.04 AM.png",
+                    "title": "WEBMOD",
+                    "contentType": "image/png",
+                    "size": 554966
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=1410&height=1058",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?deprecated=__use__viewUri__instead__&f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=1410&height=1058",
+            "width": 1410,
+            "height": 1058,
+            "size": 554966,
+            "title": "WEBMOD"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=150&height=113",
+            "width": 150,
+            "height": 113
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=350&height=263",
+            "width": 350,
+            "height": 263
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=580&height=435",
+            "width": 580,
+            "height": 435
+        },
+        "large": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486282ce25b5135abfb2?f=__disk__df%2F9e%2F12%2Fdf9e120eee9f77ffb1aaafe2436d4b9c0a8de441&width=1000&height=750",
+            "width": 1000,
+            "height": 750
+        }
+    }
+}

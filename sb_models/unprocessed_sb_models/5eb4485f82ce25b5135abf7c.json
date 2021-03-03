@@ -1,0 +1,305 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485f82ce25b5135abf7c"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485f82ce25b5135abf7c",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485f82ce25b5135abf7c",
+    "title": "PROSPER - PRObability of Streamflow PERmanence",
+    "subTitle": "PRObability of Streamflow PERmanence",
+    "summary": "PROSPER is an empirical model developed to predict if and where streams in the Pacific Northwest will cease to flow in any given year. The model was calibrated with thousands of observations across the Pacific Northwest indicating whether a site had flow or not during the low-flow season. The contributing basins for the wet and dry observations were then characterized using annual or monthly climate data, such as precipitation and temperature, and physiographic characteristics, such as soil types. The model was then used to make predictions of the annual probability of year-round flow at 30-meter resolution for every stream in the Pacific Northwest for 2004-2016. Classification error was about 21 percent.",
+    "body": "PROSPER is an empirical model developed to predict if and where streams in the Pacific Northwest will cease to flow in any given year. The model was calibrated with thousands of observations across the Pacific Northwest indicating whether a site had flow or not during the low-flow season. The contributing basins for the wet and dry observations were then characterized using annual or monthly climate data, such as precipitation and temperature, and physiographic characteristics, such as soil types. The model was then used to make predictions of the annual probability of year-round flow at 30-meter resolution for every stream in the Pacific Northwest for 2004-2016. Classification error was about 21 percent.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:51Z",
+        "lastUpdated": "2020-10-14T03:37:33Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Thomas R Sando",
+            "oldPartyId": 23247,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/23247",
+            "email": "tsando@usgs.gov",
+            "active": true,
+            "jobTitle": "Physical Scientist (GIS)",
+            "firstName": "Roy",
+            "lastName": "Sando",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-0704-6258"
+        },
+        {
+            "name": "Kristin L Jaeger",
+            "oldPartyId": 69865,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "kjaeger@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "firstName": "Kristin",
+            "middleName": "L",
+            "lastName": "Jaeger",
+            "organization": {
+                "displayText": "Washington Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "CN=Kristin L Jaeger,OU=Tacoma,OU=Users,OU=TacomaWA-W,OU=WR,DC=gs,DC=doi,DC=net - Primary Location",
+                "building": "Kress/PAyless Building",
+                "buildingCode": "WWT",
+                "officePhone": "2535521617",
+                "streetAddress": {
+                    "line1": "934 Broadway",
+                    "city": "Tacoma",
+                    "state": "WA",
+                    "zip": "98402",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "934 Broadway",
+                    "line2": "Suite 300",
+                    "city": "Tacoma",
+                    "state": "WA",
+                    "zip": "98402",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0002-1209-8506"
+        },
+        {
+            "name": "Kyle W Blasch",
+            "oldPartyId": 893,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "kblasch@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist, Director IdWSC",
+            "firstName": "Kyle",
+            "middleName": "W",
+            "lastName": "Blasch",
+            "organization": {
+                "displayText": "Idaho Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "Kyle W Blasch/WRD/USGS/DOI - Primary Location",
+                "building": "Boise - Bldg 1 Newell Building",
+                "buildingCode": "WIA",
+                "officePhone": "2083871321",
+                "faxPhone": "2083871372",
+                "streetAddress": {
+                    "line1": "230 Collins Road",
+                    "city": "Boise",
+                    "state": "ID",
+                    "zip": "83702"
+                },
+                "mailAddress": {
+                    "line1": "230 Collins Road",
+                    "city": "Boise",
+                    "state": "ID",
+                    "zip": "83702",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0002-0590-0724"
+        },
+        {
+            "name": "Jason Dunham",
+            "oldPartyId": 2751,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "jdunham@usgs.gov",
+            "active": true,
+            "jobTitle": "Supervisory Research Aquatic Ecologist",
+            "firstName": "Jason",
+            "lastName": "Dunham",
+            "organization": {
+                "displayText": "Forest and Rangeland Ecosystem Science Center"
+            },
+            "primaryLocation": {
+                "name": "Jason Dunham/BRD/USGS/DOI - Primary Location",
+                "building": "Corvallis Res Group - OR St Univ Coopagr",
+                "buildingCode": "WGG",
+                "officePhone": "5417500990",
+                "streetAddress": {
+                    "line1": "3731 SW Jefferson Way",
+                    "city": "Corvallis",
+                    "state": "OR",
+                    "zip": "97333",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "3731 SW Jefferson Way",
+                    "city": "Corvallis",
+                    "state": "OR",
+                    "zip": "97333",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0002-6268-0633"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/centers/wy-mt-water/science/probability-streamflow-permanence-prosper?qt-science_center_objects=0#qt-science_center_objects",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1016/j.hydroa.2018.100005",
+            "title": "Jaeger, K.L., Sando, R., McShane, R.R., Dunham, J.B., Hockman-Wert, D.P., Kaiser, K.E., Hafen, K., Risley, J.C. and Blasch, K.W., 2019. Probability of Streamflow Permanence Model (PROSPER): A spatially continuous model of annual streamflow permanence throughout the Pacific Northwest. Journal of Hydrology X, 2, p.100005",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "dates": [
+        {
+            "type": "Release",
+            "dateString": "2018",
+            "label": "Release Date"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "prosper.jpg",
+            "title": "Stream observation points and focal basins for PROSPER project",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__f4/79/54/f47954714a152c718367e0f0d629cb1eb3bf489d",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 1140,
+            "imageHeight": 896,
+            "size": 200394,
+            "dateUploaded": "2020-07-22T20:19:34Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "e82e2e14bb3e3db29de094b74418f602",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=1140&height=896",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=150&height=118",
+                    "width": 150,
+                    "height": 118
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=350&height=275",
+                    "width": 350,
+                    "height": 275
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=580&height=456",
+                    "width": 580,
+                    "height": 456
+                },
+                "large": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=1000&height=786",
+                    "width": 1000,
+                    "height": 786
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "PROSPER_PRObabi.zip",
+            "files": [
+                {
+                    "name": "prosper.jpg",
+                    "title": "Stream observation points and focal basins for PROSPER project",
+                    "contentType": "image/jpeg",
+                    "size": 200394
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=1140&height=896",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?deprecated=__use__viewUri__instead__&f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=1140&height=896",
+            "width": 1140,
+            "height": 896,
+            "size": 200394,
+            "title": "Stream observation points and focal basins for PROSPER project"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=150&height=118",
+            "width": 150,
+            "height": 118
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=350&height=275",
+            "width": 350,
+            "height": 275
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=580&height=456",
+            "width": 580,
+            "height": 456
+        },
+        "large": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf7c?f=__disk__f4%2F79%2F54%2Ff47954714a152c718367e0f0d629cb1eb3bf489d&width=1000&height=786",
+            "width": 1000,
+            "height": 786
+        }
+    }
+}

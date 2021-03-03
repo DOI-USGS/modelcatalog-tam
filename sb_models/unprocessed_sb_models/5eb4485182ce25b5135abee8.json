@@ -1,0 +1,267 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485182ce25b5135abee8"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485182ce25b5135abee8",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485182ce25b5135abee8",
+    "title": "Ash3d - Volcanic ash dispersion model",
+    "subTitle": "Volcanic ash dispersion model",
+    "summary": "Ash3d is a three-dimensional Eulerian atmospheric model for tephra transport, dispersal, and deposition, written by the authors to study and forecast hazards of volcanic ash clouds and tephra fall. In this report, we explain how to set up simulations using both a web interface and an ASCII input file, and how to view and interpret model output.  Model Name (Name of the model, including acronyms): Ash3d Model Version (Version of the model, (i.e., 2.0)): Abstract (Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords): Ash3d is a three-dimensional Eulerian atmospheric model for [...]",
+    "body": "<p>Ash3d is a three-dimensional Eulerian atmospheric model for tephra transport, dispersal, and deposition, written by the authors to study and forecast hazards of volcanic ash clouds and tephra fall. In this report, we explain how to set up simulations using both a web interface and an ASCII input file, and how to view and interpret model output.<br>\n<br>\n<strong>Model Name</strong> <em>(Name of the model, including acronyms)</em>:</p>\n\n<p>Ash3d</p>\n\n<p><strong>Model Version</strong> <em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p><strong>Abstract</strong> <em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>Ash3d is a three-dimensional Eulerian atmospheric model for tephra transport, dispersal, and deposition, written by the authors to study and forecast hazards of volcanic ash clouds and tephra fall. In this report, we explain how to set up simulations using both a web interface and an ASCII input file, and how to view and interpret model output.</p>\n\n<p><strong>Originator(s)</strong> <em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p>Hans F Schwaiger (USGS), Roger P Denlinger (USGS), and Larry G Mastin (USGS)</p>\n\n<p><strong>Contact Name(s)</strong> <em>(Person(s) responsible for maintenance of the model)</em>:</p>\n\n<p>Hans F Schwaiger (USGS), Roger P Denlinger (USGS), and Larry G Mastin (USGS)</p>\n\n<p><strong>Contact Email(s)</strong>:</p>\n\n<p><a href=\"mailto:hschwaiger@usgs.gov\">hschwaiger@usgs.gov</a>; <a href=\"mailto:roger@usgs.gov\">roger@usgs.gov</a>; <a href=\"mailto:lgmastin@usgs.gov\">lgmastin@usgs.gov</a>; <a href=\"mailto:ash3d-admin@usgs.gov\">ash3d-admin@usgs.gov</a></p>\n\n<p><strong>Release Date</strong> <em>(Date model was originally released (MM, YYYY))</em>:</p>\n\n<p>2013</p>\n\n<p><strong>Last Update</strong> <em>(Date of last update (MM, YYYY))</em>:</p>\n\n<p><strong>Organization(s)</strong> <em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>USGS</p>\n\n<p><strong>Mission Area</strong> <em>(USGS mission area with which this model most clearly aligns. <a href=\"https://www.usgs.gov/science/mission-areas\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Natural Hazards</p>\n\n<p><strong>Language</strong> <em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>:</p>\n\n<p>Linux</p>\n\n<p><strong>References</strong> <em>(References (where the model has been cited, outputs, data release)</em>:</p>\n\n<p>Public run results: <a href=\"https://vsc-ash.wr.usgs.gov/ashgui/#!/publicruns\">https://vsc-ash.wr.usgs.gov/ashgui/#!/publicruns</a></p>\n\n<p><strong>Resources</strong> <em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>Resources Webpage: <a href=\"https://vsc-ash.wr.usgs.gov/ashgui/#!/resources\">https://vsc-ash.wr.usgs.gov/ashgui/#!/resources</a></p>\n\n<p><strong>Conditions</strong> <em>(Initial conditions)</em>:</p>\n\n<p>Ash3d does not calculate the dynamics of a rising plume. Instead, it injects tephra into a column of cells above the volcano. Users may specify that the ash be concentrated in a single cell, distributed evenly throughout the column, or distributed vertically following the Suzuki equation (Suzuki, 1983; Carey, 1996),(see link below for equation).</p>\n\n<p>During an eruption, Ash3d injects tephra into these cells at a constant rate. The grain-size distribution inserted into each cell in the column is the same at each elevation and for each eruptive pulse. Default values are described in section, \u201cWeb Interface.\u201d</p>\n\n<p>See: <a href=\"http://pubs.usgs.gov/of/2013/1122/\">http://pubs.usgs.gov/of/2013/1122/</a></p>\n\n<p><strong>Example</strong> <em>(Provide sample runs that illustrate the dynamics of the model)</em>:</p>\n\n<p><a href=\"http://pubs.usgs.gov/of/2013/1122/\">http://pubs.usgs.gov/of/2013/1122/</a></p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:37Z",
+        "lastUpdated": "2020-12-23T21:50:06Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Hans F Schwaiger",
+            "oldPartyId": 16193,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "hschwaiger@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Geophysicist",
+            "firstName": "Hans",
+            "middleName": "F",
+            "lastName": "Schwaiger",
+            "organization": {
+                "displayText": "Volcano Science Center"
+            },
+            "primaryLocation": {
+                "name": "Hans F Schwaiger/GD/USGS/DOI - Primary Location",
+                "building": "Alaska Pacific Univ.Grace Hall",
+                "buildingCode": "WAA",
+                "officePhone": "9077867164",
+                "faxPhone": "9077867425",
+                "streetAddress": {
+                    "line1": "4230 University Drive",
+                    "city": "Anchorage",
+                    "state": "AK",
+                    "zip": "99508",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "4230 University Drive",
+                    "city": "Anchorage",
+                    "state": "AK",
+                    "zip": "99508-4626",
+                    "country": "US"
+                }
+            }
+        },
+        {
+            "name": "Roger P Denlinger",
+            "oldPartyId": 2458,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "roger@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Geophysicist",
+            "personalTitle": "Dr.",
+            "firstName": "Roger",
+            "middleName": "P",
+            "lastName": "Denlinger",
+            "organization": {
+                "displayText": "Volcano Science Center"
+            },
+            "primaryLocation": {
+                "name": "Roger P Denlinger/GD/USGS/DOI - Primary Location",
+                "building": "Columbia Tech Center",
+                "buildingCode": "WWA",
+                "officePhone": "3609938904",
+                "faxPhone": "3609938080",
+                "streetAddress": {
+                    "line1": "1300 SE Cardinal Court Bldg. 10",
+                    "city": "Vancouver",
+                    "state": "WA",
+                    "zip": "98683",
+                    "country": "US"
+                },
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Larry G Mastin",
+            "oldPartyId": 6582,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "lgmastin@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "personalTitle": "Dr.",
+            "firstName": "Larry",
+            "middleName": "G",
+            "lastName": "Mastin",
+            "organization": {
+                "displayText": "Volcano Science Center"
+            },
+            "primaryLocation": {
+                "name": "Larry G Mastin/GD/USGS/DOI - Primary Location",
+                "building": "Columbia Tech Center",
+                "buildingCode": "WWA",
+                "officePhone": "3609938925",
+                "faxPhone": "3609938980",
+                "streetAddress": {
+                    "line1": "1300 SE Cardinal Court Bldg. 10",
+                    "city": "Vancouver",
+                    "state": "WA",
+                    "zip": "98683",
+                    "country": "US"
+                },
+                "mailAddress": {}
+            },
+            "orcId": "0000-0002-4795-1992"
+        },
+        {
+            "name": "Natural Hazards",
+            "oldPartyId": 64240,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "organization": {},
+            "primaryLocation": {
+                "name": "Natural Hazards Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1029/2011JB008968",
+            "rel": "related",
+            "title": "Schwaiger, H.F., Denlinger, R.P., and Mastin, L.G., 2012, Ash3d: A finite-volume, conservative numerical model for ash transport and tephra deposition: Journal of Geophysical Research, 117, 20 p.; B04204",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://vsc-ash.wr.usgs.gov/ashgui/#!/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://pubs.er.usgs.gov/publication/ofr20131122",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://pubs.usgs.gov/of/2013/1122/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Volcanology"
+        },
+        {
+            "type": "Label",
+            "name": "Linux"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "ash3d.jpg",
+            "title": "Daily simulations for volcanoes in Alaska",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__65/0f/c5/650fc58268521be3bbc35b43b5ebef0f5702d3df",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 560,
+            "imageHeight": 257,
+            "size": 69719,
+            "dateUploaded": "2020-06-12T14:21:53Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=560&height=257",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=150&height=69",
+                    "width": 150,
+                    "height": 69
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=350&height=161",
+                    "width": 350,
+                    "height": 161
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "Ash3d_Volcanica.zip",
+            "files": [
+                {
+                    "name": "ash3d.jpg",
+                    "title": "Daily simulations for volcanoes in Alaska",
+                    "contentType": "image/jpeg",
+                    "size": 69719
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=560&height=257",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?deprecated=__use__viewUri__instead__&f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=560&height=257",
+            "width": 560,
+            "height": 257,
+            "size": 69719,
+            "title": "Daily simulations for volcanoes in Alaska"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=150&height=69",
+            "width": 150,
+            "height": 69
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abee8?f=__disk__65%2F0f%2Fc5%2F650fc58268521be3bbc35b43b5ebef0f5702d3df&width=350&height=161",
+            "width": 350,
+            "height": 161
+        }
+    }
+}

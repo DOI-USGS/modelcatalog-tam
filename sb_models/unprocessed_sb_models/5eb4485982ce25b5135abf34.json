@@ -1,0 +1,153 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485982ce25b5135abf34"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485982ce25b5135abf34",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485982ce25b5135abf34",
+    "title": "GWM - Groundwater Management Process for the U.S. Geological Survey modular three-dimensional groundwater model, MODFLOW",
+    "subTitle": "Groundwater Management Process for the U.S. Geological Survey modular three-dimensional groundwater model, MODFLOW",
+    "summary": "GWM uses a response-matrix approach to solve several types of linear, nonlinear, and mixed-binary linear groundwater management formulations. Each management formulation consists of a set of decision variables, an objective function, and a set of constraints. There are two different versions of GWM that are actively supported and available for use:GWM-2005: This is currently the standard version of GWM and is based on MODFLOW-2005. GWM-2005 was first released in 2009.GWM-VI (Version Independent): This version of GWM can be used with any version of MODFLOW that meets certain requirements on input and output. This version also allows parallel processing of the MODFLOW runs required to solve an optimization problem. This version was first [...]",
+    "body": "GWM uses a response-matrix approach to solve several types of linear, nonlinear, and mixed-binary linear groundwater management formulations. Each management formulation consists of a set of decision variables, an objective function, and a set of constraints. There are two different versions of GWM that are actively supported and available for use:GWM-2005: This is currently the standard version of GWM and is based on MODFLOW-2005. GWM-2005 was first released in 2009.GWM-VI (Version Independent): This version of GWM can be used with any version of MODFLOW that meets certain requirements on input and output. This version also allows parallel processing of the MODFLOW runs required to solve an optimization problem. This version was first released in 2013.A third version of the software, GWM-2000, has been superseded but is provided below for historical reference and for those still using MODFLOW-2000.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:45Z",
+        "lastUpdated": "2020-09-25T18:50:01Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "modflow@usgs.gov",
+            "type": "Contact",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/66925",
+            "email": "modflow_owhm@usgs.gov",
+            "firstName": "GS-CAWSC",
+            "lastName": "MODFLOW OWHM",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/gwm-groundwater-management-process-modflow-using-optimization",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "sourceCode",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/GWM/",
+            "rel": "related",
+            "title": "Download GWM",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "GWM-manual-cover.jpg",
+            "title": "GWM",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__ef/6c/38/ef6c3843f66c999d832c10a061ab824d648140dd",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 340,
+            "imageHeight": 340,
+            "size": 49480,
+            "dateUploaded": "2020-07-22T18:07:07Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "bea0c0dedc7ff2901465fbef570232d1",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd&width=340&height=340",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd&width=150&height=150",
+                    "width": 150,
+                    "height": 150
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "GWM_Groundwater.zip",
+            "files": [
+                {
+                    "name": "GWM-manual-cover.jpg",
+                    "title": "GWM",
+                    "contentType": "image/jpeg",
+                    "size": 49480
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd&width=340&height=340",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?deprecated=__use__viewUri__instead__&f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd&width=340&height=340",
+            "width": 340,
+            "height": 340,
+            "size": 49480,
+            "title": "GWM"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485982ce25b5135abf34?f=__disk__ef%2F6c%2F38%2Fef6c3843f66c999d832c10a061ab824d648140dd&width=150&height=150",
+            "width": 150,
+            "height": 150
+        }
+    }
+}

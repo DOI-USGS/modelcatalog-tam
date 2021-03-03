@@ -1,0 +1,172 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485d82ce25b5135abf66"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485d82ce25b5135abf66",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485d82ce25b5135abf66",
+    "title": "MODPATH - A Particle-Tracking Model for MODFLOW",
+    "subTitle": "A Particle-Tracking Model for MODFLOW",
+    "summary": "MODPATH version 7 is the fourth major release since its original publication. Previous versions were documented in USGS Open-File Reports 89-381 and 94-464 and in USGS Techniques and Methods 6-A41. The current release of MODPATH version 7 (7.2.001) works with MODFLOW-2005, MODFLOW-USG, and MODFLOW-6. Support for unstructured grids in MODFLOW-USG and MODFLOW-6 is limited to smoothed, rectangular-based quadtree and quadpatch grids. In addition to unstructured grid support, input and output formats for MODPATH also have been modified to minimize the difference between MODPATH simulations based on the different versions of MODFLOW.",
+    "body": "MODPATH version 7 is the fourth major release since its original publication. Previous versions were documented in USGS Open-File Reports&nbsp;<a href=\"https://pubs.er.usgs.gov/publication/ofr89381\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">89-381</a>&nbsp;and&nbsp;<a href=\"https://pubs.er.usgs.gov/publication/ofr94464\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">94-464</a>&nbsp;and in&nbsp;<a href=\"https://pubs.usgs.gov/tm/6a41/\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">USGS Techniques and Methods 6-A41</a>. The current release of MODPATH version 7 (7.2.001) works with&nbsp;<a href=\"https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">MODFLOW-2005</a>,&nbsp;<a href=\"https://www.usgs.gov/software/modflow-usg\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">MODFLOW-USG</a>, and&nbsp;<a href=\"https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">MODFLOW-6</a>. Support for unstructured grids in MODFLOW-USG and MODFLOW-6 is limited to smoothed, rectangular-based quadtree and quadpatch grids. In addition to unstructured grid support, input and output formats for MODPATH also have been modified to minimize the difference between MODPATH simulations based on the different versions of MODFLOW.",
+    "citation": "Pollock, D.W., 2017, MODPATH v7.2.01: A particle-tracking model for MODFLOW: U.S. Geological Survey Software Release, 15 December 2017, http://dx.doi.org/10.5066/F70P0X5X.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:49Z",
+        "lastUpdated": "2020-07-22T21:38:56Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "modflow@usgs.gov",
+            "type": "Contact",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/66925",
+            "email": "modflow_owhm@usgs.gov",
+            "firstName": "GS-CAWSC",
+            "lastName": "MODFLOW OWHM",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/modpath-a-particle-tracking-model-modflow",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/MODPATH/",
+            "title": "Download MODPATH",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/ofr20161086",
+            "title": "Pollock, D.W., 2016, User guide for MODPATH Version 7\u2014A particle-tracking model for MODFLOW: U.S. Geological Survey Open-File Report 2016\u20131086, 35 p.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "modpath-pathlines-no-text.jpg",
+            "title": "MODPATH three-dimensional perspective view of pathlines and time points",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__33/1a/6f/331a6f0916f5033bbd9bc60eaa7b4a6ad605c932",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 727,
+            "imageHeight": 379,
+            "size": 218514,
+            "dateUploaded": "2020-07-22T21:33:51Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "71966c9ba267d6edb6058a3a6ed7bd45",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=727&height=379",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=150&height=78",
+                    "width": 150,
+                    "height": 78
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=350&height=182",
+                    "width": 350,
+                    "height": 182
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MODPATH_APartic.zip",
+            "files": [
+                {
+                    "name": "modpath-pathlines-no-text.jpg",
+                    "title": "MODPATH three-dimensional perspective view of pathlines and time points",
+                    "contentType": "image/jpeg",
+                    "size": 218514
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=727&height=379",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?deprecated=__use__viewUri__instead__&f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=727&height=379",
+            "width": 727,
+            "height": 379,
+            "size": 218514,
+            "title": "MODPATH three-dimensional perspective view of pathlines and time points"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=150&height=78",
+            "width": 150,
+            "height": 78
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf66?f=__disk__33%2F1a%2F6f%2F331a6f0916f5033bbd9bc60eaa7b4a6ad605c932&width=350&height=182",
+            "width": 350,
+            "height": 182
+        }
+    }
+}

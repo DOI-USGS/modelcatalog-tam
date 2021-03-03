@@ -1,0 +1,208 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485f82ce25b5135abf8c"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485f82ce25b5135abf8c",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485f82ce25b5135abf8c",
+    "title": "SELDM - Stochastic Empirical Loading and Dilution Model",
+    "subTitle": "Stochastic Empirical Loading and Dilution Model",
+    "summary": "The Stochastic Empirical Loading and Dilution Model (SELDM) is designed to transform complex scientific data into meaningful information about the risk of adverse effects of runoff on receiving waters, the potential need for mitigation measures, and the potential effectiveness of such management measures for reducing these risks. The U.S. Geological Survey developed SELDM in cooperation with the Federal Highway Administration to help develop planning-level estimates of event mean concentrations, flows, and loads in stormwater from a site of interest and from an upstream basin. Planning-level estimates are defined as the results of analyses used to evaluate alternative management measures; planning-level estimates are recognized to [...]",
+    "body": "The Stochastic Empirical Loading and Dilution Model (SELDM) is designed to transform complex scientific data into meaningful information about the risk of adverse effects of runoff on receiving waters, the potential need for mitigation measures, and the potential effectiveness of such management measures for reducing these risks. The U.S. Geological Survey developed SELDM in cooperation with the Federal Highway Administration to help develop planning-level estimates of event mean concentrations, flows, and loads in stormwater from a site of interest and from an upstream basin. Planning-level estimates are defined as the results of analyses used to evaluate alternative management measures; planning-level estimates are recognized to include substantial uncertainties (commonly orders of magnitude).",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:51Z",
+        "lastUpdated": "2020-10-05T16:10:22Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Gregory E Granato",
+            "oldPartyId": 3849,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/3849",
+            "email": "ggranato@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Gregory",
+            "lastName": "Granato",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0002-2561-9913"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/centers/new-england-water/science/seldm-stochastic-empirical-loading-and-dilution-model-project-page?qt-science_center_objects=0#qt-science_center_objects",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1177/0361198118822821",
+            "rel": "related",
+            "title": "Granato, G.E., and Jones, S.C., 2019, Simulating runoff quality with the Highway-Runoff Database and the Stochastic Empirical Loading and Dilution Model: Transportation Research Record, Journal of the Transportation Research Board, v. 2673, no. 1, p. 136-142",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://www.usgs.gov/software/seldm-stochastic-empirical-loading-and-dilution-model-software-page",
+            "title": "Download SELDM",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://pubs.usgs.gov/tm/04/c03",
+            "title": "Granato, G.E., 2013, Stochastic empirical loading and dilution model (SELDM) version 1.0.0: U.S. Geological Survey Techniques and Methods, book 4, chap. C3, 112 p., on CD-ROM",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Water Quality"
+        },
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "SchematicStochasticMassBalanceDiagram.png",
+            "title": "Granato, 2013",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__bc/53/16/bc5316f802d69aa8e382751ce685bc2b50df9949",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 1419,
+            "imageHeight": 927,
+            "size": 145402,
+            "dateUploaded": "2020-07-20T16:35:29Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "6125f42326bd6b64c4a920fe941afe83",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=1419&height=927",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=150&height=98",
+                    "width": 150,
+                    "height": 98
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=350&height=229",
+                    "width": 350,
+                    "height": 229
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=580&height=379",
+                    "width": 580,
+                    "height": 379
+                },
+                "large": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=1000&height=653",
+                    "width": 1000,
+                    "height": 653
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "SELDM_Stochasti.zip",
+            "files": [
+                {
+                    "name": "SchematicStochasticMassBalanceDiagram.png",
+                    "title": "Granato, 2013",
+                    "contentType": "image/png",
+                    "size": 145402
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=1419&height=927",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?deprecated=__use__viewUri__instead__&f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=1419&height=927",
+            "width": 1419,
+            "height": 927,
+            "size": 145402,
+            "title": "Granato, 2013"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=150&height=98",
+            "width": 150,
+            "height": 98
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=350&height=229",
+            "width": 350,
+            "height": 229
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=580&height=379",
+            "width": 580,
+            "height": 379
+        },
+        "large": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8c?f=__disk__bc%2F53%2F16%2Fbc5316f802d69aa8e382751ce685bc2b50df9949&width=1000&height=653",
+            "width": 1000,
+            "height": 653
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485b82ce25b5135abf50"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485b82ce25b5135abf50",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485b82ce25b5135abf50",
+    "title": "MODFE - Modular finite-element model for areal and axisymmetric ground-water flow problems",
+    "subTitle": "Modular finite-element model for areal and axisymmetric ground-water flow problems",
+    "summary": "This MODular, Finite-Element digital-computer program (MODFE) was developed to provide solutions to ground-water-flow problems based on the governing equations that describe two-dimensional and axisymmetric-radial flow in porous media.",
+    "body": "This MODular, Finite-Element digital-computer program (MODFE) was developed to provide solutions to ground-water-flow problems based on the governing equations that describe two-dimensional and axisymmetric-radial flow in porous media.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:47Z",
+        "lastUpdated": "2021-01-06T21:32:18Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Lynn J Torak",
+            "oldPartyId": 10469,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/10469",
+            "email": "ljtorak@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Lynn",
+            "lastName": "Torak",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0002-6658-0648"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/software/MODFE/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/twri06A3",
+            "title": "Torak, L.J., 1993, A modular finite-element model (MODFE) for areal and axisymmetric ground-water-flow problems, Part 1: Model Description and User's Manual: Techniques of Water-Resources Investigations 06-A3",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "UNIX"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "modfe.jpg",
+            "title": "Torak, 1993",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__2d/e3/d2/2de3d2b96f3c2e60dffe1d22187a3b7cd9845130",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 697,
+            "imageHeight": 772,
+            "size": 202210,
+            "dateUploaded": "2020-07-22T20:13:13Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "7786f10132796fca6c3bb2d219bbb7d3",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=697&height=772",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=102&height=113",
+                    "width": 102,
+                    "height": 113
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=237&height=263",
+                    "width": 237,
+                    "height": 263
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=393&height=435",
+                    "width": 393,
+                    "height": 435
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MODFE_Modularfi.zip",
+            "files": [
+                {
+                    "name": "modfe.jpg",
+                    "title": "Torak, 1993",
+                    "contentType": "image/jpeg",
+                    "size": 202210
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=697&height=772",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?deprecated=__use__viewUri__instead__&f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=697&height=772",
+            "width": 697,
+            "height": 772,
+            "size": 202210,
+            "title": "Torak, 1993"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=102&height=113",
+            "width": 102,
+            "height": 113
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=237&height=263",
+            "width": 237,
+            "height": 263
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf50?f=__disk__2d%2Fe3%2Fd2%2F2de3d2b96f3c2e60dffe1d22187a3b7cd9845130&width=393&height=435",
+            "width": 393,
+            "height": 435
+        }
+    }
+}

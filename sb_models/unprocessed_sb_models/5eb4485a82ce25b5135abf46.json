@@ -1,0 +1,86 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485a82ce25b5135abf46"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485a82ce25b5135abf46",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485a82ce25b5135abf46",
+    "title": "LOADEST - Load Estimator",
+    "subTitle": "A Program for Estimating Constituent Loads in Streams and Rivers",
+    "summary": "LOAD ESTimator (LOADEST) is a FORTRAN program for estimating constituent loads in streams and rivers. Given a time series of streamflow, additional data variables, and constituent concentration, LOADEST assists the user in developing a regression model for the estimation of constituent load (calibration). Explanatory variables within the regression model include various functions of streamflow, decimal time, and additional user-specified data variables. The formulated regression model then is used to estimate loads over a user-specified time interval (estimation). Mean load estimates, standard errors, and 95 percent confidence intervals are developed on a monthly and(or) seasonal basis.The calibration and estimation procedures within [...]",
+    "body": "LOAD ESTimator (LOADEST) is a FORTRAN program for estimating constituent loads in streams and rivers. Given a time series of streamflow, additional data variables, and constituent concentration, LOADEST assists the user in developing a regression model for the estimation of constituent load (calibration). Explanatory variables within the regression model include various functions of streamflow, decimal time, and additional user-specified data variables. The formulated regression model then is used to estimate loads over a user-specified time interval (estimation). Mean load estimates, standard errors, and 95 percent confidence intervals are developed on a monthly and(or) seasonal basis.The calibration and estimation procedures within LOADEST are based on three statistical estimation methods. The first two methods, Adjusted Maximum Likelihood Estimation (AMLE) and Maximum Likelihood Estimation (MLE), are appropriate when the calibration model errors (residuals) are normally distributed. Of the two, AMLE is the method of choice when the calibration data set (time series of streamflow, additional data variables, and concentration) contains censored data. The third method, Least Absolute Deviation (LAD), is an alternative to maximum likelihood estimation when the residuals are not normally distributed. LOADEST output includes diagnostic tests and warnings to assist the user in determining the appropriate estimation method and in interpreting the estimated loads.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:46Z",
+        "lastUpdated": "2021-01-06T21:32:47Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Robert L Runkel",
+            "oldPartyId": 8883,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/8883",
+            "email": "runkel@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist (Res)",
+            "firstName": "Robert",
+            "lastName": "Runkel",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-3220-481X"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "Publication",
+            "uri": "https://water.usgs.gov/software/loadest/doc/",
+            "title": "Runkel, R.L., Crawford, C.G., and Cohn, T.A., 2004, Load Estimator (LOADEST): A FORTRAN Program for Estimating Constituent Loads in Streams and Rivers: U.S. Geological Survey Techniques and Methods Book 4, Chapter A5, 69 p.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/software/loadest/",
+            "title": "Download LOADEST",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

@@ -1,0 +1,247 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5efb79ba82ced62aaaf05856"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5efb79ba82ced62aaaf05856",
+            "rel": "related"
+        }
+    },
+    "id": "5efb79ba82ced62aaaf05856",
+    "title": "VegET - Vegetation ET",
+    "subTitle": "VegET 2.0",
+    "summary": "Summary: Vegetation ET (VegET) integrates commonly used water balance algorithms with remotely sensed Land Surface Phenology (LSP) parameter to conduct operational vegetation water balance modeling of rainfed systems at the LSP\u2019s spatial scale using readily available global data sets. Evaluation of the VegET model was conducted using Flux Tower data and two-year simulation for the conterminous US. The VegET model is capable of estimating actual evapotranspiration (ETa) of rainfed crops and other vegetation types at the spatial resolution of the LSP on a daily basis, replacing the need to estimate crop- and region-specific crop coefficients.  Version Updates: Since the last published version in 2008 following features where added: - [...]",
+    "body": "<div>\n<div>\n<div>\n<div><strong>Summary</strong>: Vegetation ET (VegET) integrates commonly used water balance algorithms with remotely sensed Land Surface Phenology (LSP) parameter to conduct operational vegetation water balance modeling of rainfed systems at the LSP\u2019s spatial scale using readily available global data sets. Evaluation of the VegET model was conducted using Flux Tower data and two-year simulation for the conterminous US. The VegET model is capable of estimating actual evapotranspiration (ETa) of rainfed crops and other vegetation types at the spatial resolution of the LSP on a daily basis, replacing the need to estimate crop- and region-specific crop coefficients.<br>\n<br>\n<strong>Version Updates</strong>:&nbsp;Since the last published version in 2008 following features where added:<br>\n- included snow water equivalent and snow pack parameters<br>\n- added deep drainage component ( runoff = surface runoff + deep drainage)<br>\n- added ATWI: actual topographic wetness index<br>\n- added Irrigation requirement component (netET)<br>\n- water mask (water ET is presented as 70% of potential ET)<br>\n<br>\n<strong>Requirements</strong>:&nbsp;Python 3 install, Supported platforms: Windows.<br>\n<br>\n<strong>Dependencies</strong>:&nbsp;The model is scripted using Python 3. The set up supports the input data being located on a local system or in a AWS bucket.<br>\nModules used are rasterio, numpy, boto3, fiona, yaml.<br>\n<br>\n<strong>Installation:</strong>&nbsp;Install Python 3; Use pip/anaconda to install dependencies; Run the model.<br>\n<br>\n<br>\n<strong>Assumptions</strong>:&nbsp;Daily precipiation, potential ET and Land Surface Phenology data are key input to estimate ET. The Land Surface Phenology data replaces the need for the Crop coefficient by using the seasonal progression of vegetation growth and development.<br>\n<br>\n<strong>Input/Output and Variables</strong>:&nbsp;<br>\nInput variables:<br>\nDaily precipitation in mm (data source: Gridmet, Precipitation is key driver), daily air temperature in Kelvin (data source: Gridmet), MODIS NDVI daily climatology (data source: MODIS), daily potential ET in mm (data source: Gridmet), soil condition grids: water holding capacity, field capacity, available soil water at 100cm (data source: gNATSGO), DEM<br>\n<br>\nOutput variables:<br>\nRunoff consisting of Surface Runoff and Deep Drainage (in mm);&nbsp;<br>\ncrop ET, actual ET and net ET (in mm)&nbsp;<br>\nsoil moisture (in mm)<br>\nATWI: actual topographic wetness index<br>\n<br>\nTreshold parameters (adjusted for data sources described here):&nbsp;<br>\ndefining low and high temperature values (in \u00b0C) to determine what is snow, sleet, rain:<br>\nrf_low_thresh_temp: 0 \u00b0C, rf_high_thresh_temp: 6 \u00b0C, rf_value: 0.167, melt_factor: 0.06<br>\ndrainage coefficient: 0.65 = 1 - runoff coefficient: 0.35<br>\nvalues to adjust Land Surface Phenology in the ET calculation:<br>\nk factor: 1.25, ndvi_factor: 0.2<br>\nwater adjustment factor: 0.7&nbsp;<br>\nreference ET bias correction (for Gridmet data source): 0.85<br>\ngrass to alfa correction factor: 1.25<br>\n<br>\n<strong>Temporal Information</strong>:<br>\nThe model is run on a daily time step and the output parameters are presented in mm/daily.<br>\n<br>\n<strong>Spatial Information</strong>:&nbsp;The input data sets are the determining factor for spatial resolution and extent of output data.<br>\n<br>\n<strong>Limitations</strong>: Only estimates \u201crainfed\u201d ET.<br>\n<br>\n<strong>Conditions</strong>:&nbsp;Since it\u2019s a water budget model, a minimum of 3 month spin-up period is recommended. Valid data for January 2020 would needed the model to start on 1th of October, 2019.<br>\n<br>\n<strong>Functions</strong>:&nbsp;Forcing variables are: Precipitation, Air Temperature, and potential ET.<br>\n<br>\n<strong>Benchmarks</strong>:&nbsp;In situ soil moisture and Eddy Covariance station data.<br>\n<br>\n<strong>Usage</strong>:&nbsp;The paper Senay 2008 had so far over <strong>4500 article reviews and over 35 citations</strong>. The model itself is not publicly available yet.<br>\n<br>\n<strong>References:</strong><br>\nMaselli, F., Angeli, L., Battista, P., Fibbi, L., Gardin, L., Magno, R., Rapi, B., and Chiesi, M., 2020, Evaluation of Terra/Aqua MODIS and Sentinel-2 MSI NDVI data for predicting actual evapotranspiration in Mediterranean regions: International Journal of Remote Sensing, v. 41, no. 14, p. 5186-5205, at https://doi.org/10.1080/01431161.2020.1731000.<br>\n<br>\nMaselli, F., Chiesi, M., Angeli, L., Fibbi, L., Rapi, B., Romani, M., Sabatini, F., and Battista, P., 2020, An improved NDVI-based method to predict actual evapotranspiration of irrigated grasses and crops: Agricultural Water Management, v. 233, at https://doi.org/10.1016/j.agwat.2020.106077.<br>\n<br>\nMasupha, T.E., and Moeletsi, M.E., 2020, The use of Water Requirement Satisfaction Index for assessing agricultural drought on rain-fed maize, in the Luvuvhu River catchment, South Africa: Agricultural Water Management, v. 237, at https://doi.org/10.1016/j.agwat.2020.106142.<br>\n<br>\nSenay, G.B., Kagone, S., and Velpuri, N.M., 2020, Operational global actual evapotranspiration: Development, evaluation, and dissemination: Sensors (Switzerland), v. 20, no. 7, at https://doi.org/10.3390/s20071915.<br>\n<br>\nTao, Z., Huang, W., and Wang, H., 2020, Soil moisture outweighs temperature for triggering the green-up date in temperate grasslands: Theoretical and Applied Climatology, v. 140, no. 3-4, p. 1093-1105, at https://doi.org/10.1007/s00704-020-03145-z.<br>\n<br>\nYin, L., Feng, X., Fu, B., Chen, Y., Wang, X., and Tao, F., 2020, Irrigation water consumption of irrigated cropland and its dominant factor in China from 1982 to 2015: Advances in Water Resources, v. 143, at https://doi.org/10.1016/j.advwatres.2020.103661.<br>\n<br>\nSenay, G.B., Schauer, M., Velpuri, N.M., Singh, R.K., Kagone, S., Friedrichs, M., Litvak, M.E., and Douglas-Mankin, K.R., 2019, Long-term (1986-2015) crop water use characterization over the Upper Rio Grande Basin of United States and Mexico using Landsat-based evapotranspiration: Remote Sensing, v. 11, no. 13, at https://doi.org/10.3390/rs11131587.<br>\n<br>\nWang, Z., Song, W., Yuan, X., and Yin, L., 2019, Spatio-temporal variations in farmland water conditions in the Yanhe River Basin: Water (Switzerland), v. 11, no. 11, at https://doi.org/10.3390/w11112234.<br>\n<br>\nGallant, A.L., Sadinski, W., Brown, J.F., Senay, G.B., and Roth, M.F., 2018, Challenges in complementing data from ground-based sensors with satellite-derived products to measure ecological changes in relation to climate\u2014lessons from temperate wetland-upland landscapes: Sensors (Switzerland), v. 18, no. 3, at https://doi.org/10.3390/s18030880.<br>\n<br>\nLi, S., Wang, G., Sun, S., Chen, H., Bai, P., Zhou, S., Huang, Y., Wang, J., and Deng, P., 2018, Assessment of multi-source evapotranspiration products over China using eddy covariance observations: Remote Sensing, v. 10, no. 11, at https://doi.org/10.3390/rs10111692.<br>\n<br>\nPoon, P.K., and Kinoshita, A.M., 2018, Spatial and temporal evapotranspiration trends after wildfire in semi-arid landscapes: Journal of Hydrology, v. 559, p. 71-83, at https://doi.org/10.1016/j.jhydrol.2018.02.023.<br>\n<br>\nTarnavsky, E., Chavez, E., and Boogaard, H., 2018, Agro-meteorological risks to maize production in Tanzania: Sensitivity of an adapted Water Requirements Satisfaction Index (WRSI) model to rainfall: International Journal of Applied Earth Observation and Geoinformation, v. 73, p. 77-87, at https://doi.org/10.1016/j.jag.2018.04.008.<br>\n<br>\nLeng, P., Li, Z.L., Duan, S.B., Tang, R., and Gao, M.F., 2017, A Method for Deriving All-Sky Evapotranspiration From the Synergistic Use of Remotely Sensed Images and Meteorological Data: Journal of Geophysical Research: Atmospheres, v. 122, no. 24, p. 13,263-13,277, at https://doi.org/10.1002/2017JD027880.<br>\n<br>\nLiu, Y., Hill, M.J., Zhang, X., Wang, Z., Richardson, A.D., Hufkens, K., Filippa, G., Baldocchi, D.D., Ma, S., Verfaillie, J., and Schaaf, C.B., 2017, Using data from Landsat, MODIS, VIIRS and PhenoCams to monitor the phenology of California oak/grass savanna and open grassland across spatial scales: Agricultural and Forest Meteorology, v. 237-238, p. 311-325, at https://doi.org/10.1016/j.agrformet.2017.02.026.<br>\n<br>\nVelpuri, N.M., and Senay, G.B., 2017, Partitioning Evapotranspiration into Green and Blue Water Sources in the Conterminous United States: Scientific Reports, v. 7, no. 1, at https://doi.org/10.1038/s41598-017-06359-w.<br>\n<br>\nWagle, P., Xiao, X., Gowda, P., Basara, J., Brunsell, N., Steiner, J., and Anup, K.C., 2017, Analysis and estimation of tallgrass prairie evapotranspiration in the central United States: Agricultural and Forest Meteorology, v. 232, p. 35-47, at https://doi.org/10.1016/j.agrformet.2016.08.005.<br>\n<br>\nYang, X., Yong, B., Ren, L., Zhang, Y., and Long, D., 2017, Multi-scale validation of GLEAM evapotranspiration products over China via ChinaFLUX ET measurements: International Journal of Remote Sensing, v. 38, no. 20, p. 5688-5709, at https://doi.org/10.1080/01431161.2017.1346400.<br>\n<br>\nBelachew, D.L., Leavesley, G., David, O., Patterson, D., Aggarwal, P., Araguas, L., Terzer, S., and Carlson, J., 2016, IAEA Isotope-enabled coupled catchment-lake water balance model, IWBMIso: description and validation: Isotopes in Environmental and Health Studies, v. 52, no. 4-5, p. 427-442, at https://doi.org/10.1080/10256016.2015.1113959.<br>\n<br>\nChen, M., Senay, G.B., Singh, R.K., and Verdin, J.P., 2016, Uncertainty analysis of the Operational Simplified Surface Energy Balance (SSEBop) model at multiple flux tower sites: Journal of Hydrology, v. 536, p. 384-399, at https://doi.org/10.1016/j.jhydrol.2016.02.026.<br>\n<br>\nDiouf, A.A., Hiernaux, P., Brandt, M., Faye, G., Djaby, B., Diop, M.B., Ndione, J.A., and Tychon, B., 2016, Do agrometeorological data improve optical satellite-based estimations of the herbaceous yield in Sahelian semi-arid ecosystems?: Remote Sensing, v. 8, no. 8, at https://doi.org/10.3390/rs8080668.<br>\n<br>\nAghaKouchak, A., Farahmand, A., Melton, F.S., Teixeira, J., Anderson, M.C., Wardlow, B.D., and Hain, C.R., 2015, Remote sensing of drought: Progress, challenges and opportunities: Reviews of Geophysics, v. 53, no. 2, p. 452-480, at https://doi.org/10.1002/2014RG000456.<br>\n<br>\nVelpuri, N.M., Senay, G.B., and Morisette, J.T., 2015, Evaluating New SMAP Soil Moisture for Drought Monitoring in the Rangelands of the US High Plains: Rangelands, v. 38, no. 4, p. 183-190, at https://doi.org/10.1016/j.rala.2016.06.002.<br>\n<br>\nGardin, L., Battista, P., Bottai, L., Chiesi, M., Fibbi, L., Rapi, B., Romani, M., Gozzini, B., and Maselli, F., 2014, Improved simulation of soil water content by the combination of ground and remote sensing data: European Journal of Remote Sensing, v. 47, no. 1, p. 739-751, at https://doi.org/10.5721/EuJRS20144742.<br>\n<br>\nMaselli, F., Papale, D., Chiesi, M., Matteucci, G., Angeli, L., Raschi, A., and Seufert, G., 2014, Operational monitoring of daily evapotranspiration by the combination of MODIS NDVI and ground meteorological data: Application and evaluation in Central Italy: Remote Sensing of Environment, v. 152, p. 279-290, at https://doi.org/10.1016/j.rse.2014.06.021.<br>\n<br>\nSenay, G.B., Velpuri, N.M., Bohms, S., Budde, M., Young, C., Rowland, J., and Verdin, J.P., 2014, Drought Monitoring and Assessment: Remote Sensing and Modeling Approaches for the Famine Early Warning Systems Network. Remote Sensing and Modeling Approaches for the Famine Early Warning Systems Network, Hydro-Meteorological Hazards, Risks, and Disasters, p. 233-362, at https://doi.org/10.1016/B978-0-12-394846-5.00009-6.<br>\n<br>\nKovalskyy, V., Henebry, G.M., Roy, D.P., Adusei, B., Hansen, M., Senay, G., and Mocko, D.M., 2013, Evaluation of a coupled event-driven phenology and northern Great Plains: Journal of Geophysical Research Atmospheres, v. 118, no. 11, p. 5065-5081, at https://doi.org/10.1002/jgrd.50387.<br>\n<br>\nSavage, K.E., Parton, W.J., Davidson, E.A., Trumbore, S.E., and Frey, S.D., 2013, Long-term changes in forest carbon under temperature and nitrogen amendments in a temperate northern hardwood forest: Global Change Biology, v. 19, no. 8, p. 2389-2400, at https://doi.org/10.1111/gcb.12224.<br>\n<br>\nVelpuri, N.M., Senay, G.B., Singh, R.K., Bohms, S., and Verdin, J.P., 2013, A comprehensive evaluation of two MODIS evapotranspiration products over the conterminous United States: Using point and gridded FLUXNET and water balance ET: Remote Sensing of Environment, v. 139, p. 35-49, at https://doi.org/10.1016/j.rse.2013.07.013.<br>\n<br>\nKovalskyy, V., and Henebry, G.M., 2012, Alternative methods to predict actual evapotranspiration illustrate the importance of accounting for phenology-Part 2: The event driven phenology model: Biogeosciences, v. 9, no. 1, p. 161-177, at https://doi.org/10.5194/bg-9-161-2012.<br>\n<br>\nSenay, G.B., Bohms, S., and Verdin, J.P., 2012, Remote sensing of evapotranspiration for operational drought monitoring using principles of water and energy balance, Remote Sensing of Drought: Innovative Monitoring Approaches, p. 123-144, at https://doi.org/10.1201/b11863.<br>\n<br>\nVelpuri, N.M., and Senay, G.B., 2012, Assessing the potential hydrological impact of the Gibe III Dam on Lake Turkana water level using multi-source satellite data: Hydrology and Earth System Sciences, v. 16, no. 10, p. 3561-3578, at https://doi.org/10.5194/hess-16-3561-2012.<br>\n<br>\nVelpuri, N.M., Senay, G.B., and Asante, K.O., 2012, A multi-source satellite data approach for modelling Lake Turkana water level: Calibration and validation using satellite altimetry data: Hydrology and Earth System Sciences, v. 16, no. 1, p. 1-18, at https://doi.org/10.5194/hess-16-1-2012.<br>\n<br>\nMcNider, R.T., Christy, J.R., Moss, D., Doty, K., Handyside, C., Limaye, A., Garcia, A.G.Y., and Hoogenboom, G., 2011, A real-time gridded crop model for assessing spatial drought stress on crops in the Southeastern United States: Journal of Applied Meteorology and Climatology, v. 50, no. 7, p. 1459-1475, at https://doi.org/10.1175/2011JAMC2476.1.<br>\n<br>\nSenay, G.B., Leake, S., Nagler, P.L., Artan, G., Dickinson, J., Cordova, J.T., and Glenn, E.P., 2011, Estimating basin scale evapotranspiration (ET) by water balance and remote sensing methods: Hydrological Processes, v. 25, no. 26, p. 4037-4049, at https://doi.org/10.1002/hyp.8379.<br>\n<br>\nZhang, L., Wylie, B.K., Ji, L., Gilmanov, T.G., and Tieszen, L.L., 2010, Climate-driven interannual variability in net ecosystem exchange in the Northern Great Plains grasslands: Rangeland Ecology and Management, v. 63, no. 1, p. 40-50, at https://doi.org/10.2111/08-232.1.<br>\n<br>\nSenay, G.B., Asante, K., and Artan, G., 2009, Water balance dynamics in the Nile Basin: Hydrological Processes, v. 23, no. 26, p. 3675-3681, at https://doi.org/10.1002/hyp.7364.</div>\n</div>\n</div>\n</div>\n",
+    "citation": "Senay, G.B., 2008, Modeling landscape evapotranspiration by integrating land surface phenology and a water balance algorithm: Algorithms, https://doi.org/10.3390/a1020052.",
+    "provenance": {
+        "dataSource": "Input directly",
+        "dateCreated": "2020-06-30T17:43:22Z",
+        "lastUpdated": "2020-10-05T15:58:57Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "aliford@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Gabriel Senay",
+            "oldPartyId": 9305,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "senay@usgs.gov",
+            "active": true,
+            "jobTitle": "RESEARCH PHYSICAL SCIENTIST",
+            "firstName": "Gabriel",
+            "lastName": "Senay",
+            "organization": {
+                "displayText": "Geographic Science Team, EROS"
+            },
+            "primaryLocation": {
+                "name": "Gabriel Senay/GEOG/USGS/DOI - Primary Location",
+                "building": "EROS - Mundt Federal Building",
+                "buildingCode": "KMN",
+                "officePhone": "6055942758",
+                "streetAddress": {
+                    "line1": "47914 252Nd Street",
+                    "city": "Sioux Falls",
+                    "state": "SD",
+                    "zip": "57198",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "47914 252nd Street",
+                    "city": "Sioux Falls",
+                    "state": "SD",
+                    "zip": "57198-9801",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0002-8810-8539"
+        },
+        {
+            "name": "Ecosystems",
+            "oldPartyId": 17044,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "onlineResource": "http://biology.usgs.gov/ecosystems/",
+            "note": "We need to figure out what part of the new Ecosystems Mission Area this FBMS code belongs to.",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"ECOSYSTEMS\"}"
+            ],
+            "fbmsCodes": [
+                "GGHEBB0200"
+            ],
+            "logoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosMed/USGSLogo.gif",
+            "smallLogoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosSmall/USGSLogo.gif",
+            "organization": {},
+            "primaryLocation": {
+                "name": "National Center - John W Powell [AAA]",
+                "building": "John W Powell",
+                "buildingCode": "AAA",
+                "streetAddress": {
+                    "line1": "12201 Sunrise Valley Dr",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192-0002",
+                    "country": "USA"
+                },
+                "mailAddress": {
+                    "line1": "12201 Sunrise Valley Drive",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192-0002",
+                    "country": "USA"
+                }
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3390/a1020052",
+            "title": "Senay, G.B., 2008, Modeling landscape evapotranspiration by integrating land surface phenology and a water balance algorithm: Algorithms",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1038/s41598-017-06359-w",
+            "rel": "related",
+            "title": "Velpuri, N.M., Senay, G.B. Partitioning Evapotranspiration into Green and Blue Water Sources in the Conterminous United States. Sci Rep 7, 6191 (2017). https://doi.org/10.1038/s41598-017-06359-w.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Remote Sensing"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Land Use Change"
+        },
+        {
+            "type": "Label",
+            "name": "Python"
+        }
+    ],
+    "dates": [
+        {
+            "type": "Release",
+            "dateString": "2008",
+            "label": "Release Date"
+        },
+        {
+            "type": "lastUpdate",
+            "dateString": "2020",
+            "label": "Last Update"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "algorithms-01-00052-g004.png",
+            "title": "Seasonal VegETa ETa (May\u2013September) maps for 2005 and 2006 (Senay, G.B., 2008)",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__23/04/25/23042587e05e2d4be11372eef209ed2b584f04c2",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 3375,
+            "imageHeight": 4081,
+            "size": 4930281,
+            "dateUploaded": "2020-06-30T17:54:46Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=3375&height=4081",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=93&height=113",
+                    "width": 93,
+                    "height": 113
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=218&height=263",
+                    "width": 218,
+                    "height": 263
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=360&height=435",
+                    "width": 360,
+                    "height": 435
+                },
+                "large": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=620&height=750",
+                    "width": 620,
+                    "height": 750
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "VegET_Vegetatio.zip",
+            "files": [
+                {
+                    "name": "algorithms-01-00052-g004.png",
+                    "title": "Seasonal VegETa ETa (May\u2013September) maps for 2005 and 2006 (Senay, G.B., 2008)",
+                    "contentType": "image/png",
+                    "size": 4930281
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=3375&height=4081",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?deprecated=__use__viewUri__instead__&f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=3375&height=4081",
+            "width": 3375,
+            "height": 4081,
+            "size": 4930281,
+            "title": "Seasonal VegETa ETa (May\u2013September) maps for 2005 and 2006 (Senay, G.B., 2008)"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=93&height=113",
+            "width": 93,
+            "height": 113
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=218&height=263",
+            "width": 218,
+            "height": 263
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=360&height=435",
+            "width": 360,
+            "height": 435
+        },
+        "large": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5efb79ba82ced62aaaf05856?f=__disk__23%2F04%2F25%2F23042587e05e2d4be11372eef209ed2b584f04c2&width=620&height=750",
+            "width": 620,
+            "height": 750
+        }
+    }
+}

@@ -1,0 +1,237 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485e82ce25b5135abf7a"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485e82ce25b5135abf7a",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485e82ce25b5135abf7a",
+    "title": "PRMS - Precipitation Runoff Modeling System",
+    "summary": "\"The need to assess the effects of variability in climate, biota, geology, and human activities on water availability and flow can be assessed with computer models that simulate the hydrologic cycle at a watershed scale. The Precipitation-Runoff Modeling System (PRMS) is a deterministic, distributed parameter, physical process based modeling system developed to evaluate the response of various combinations of climate and land use on streamflow and general watershed hydrology. The primary objectives of PRMS are: (1) simulate hydrologic processes including evaporation, transpiration, runoff, infiltration, and interflow as determined by the energy and water budgets of the plant canopy, soil zone, and snowpack on the basis of distributed [...]",
+    "body": "<p>\"The need to assess the effects of variability in climate, biota, geology, and human activities on water availability and flow can be assessed with computer models that simulate the hydrologic cycle at a watershed scale. The Precipitation-Runoff Modeling System (PRMS) is a deterministic, distributed parameter, physical process based modeling system developed to evaluate the response of various combinations of climate and land use on streamflow and general watershed hydrology. The primary objectives of PRMS are: (1) simulate hydrologic processes including evaporation, transpiration, runoff, infiltration, and interflow as determined by the energy and water budgets of the plant canopy, soil zone, and snowpack on the basis of distributed climate information (temperature, precipitation, and solar radiation); (2) simulate hydrologic water budgets at the watershed scale for temporal scales ranging from days to centuries; (3) integrate PRMS with other models used for natural-resource management or with models from other scientific disciplines; and (4) provide a modular design that allows for selection of alternative hydrologic-process algorithms from the standard PRMS module library.\"</p>\n\n<p>See \"Abstract':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf</a></p>\n\n<p><strong>Model Name</strong>&nbsp;<em>(Name of the model, including acronyms)</em>:</p>\n\n<p>PRMS - Precipitation-Runoff Modeling System</p>\n\n<p><strong>Model Version</strong>&nbsp;<em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p>5.1.0</p>\n\n<p><strong>Abstract</strong>&nbsp;<em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>\"The need to assess the effects of variability in climate, biota, geology, and human activities on water availability and flow can be assessed with computer models that simulate the hydrologic cycle at a watershed scale. The Precipitation-Runoff Modeling System (PRMS) is a deterministic, distributed parameter, physical process based modeling system developed to evaluate the response of various combinations of climate and land use on streamflow and general watershed hydrology. The primary objectives of PRMS are: (1) simulate hydrologic processes including evaporation, transpiration, runoff, infiltration, and interflow as determined by the energy and water budgets of the plant canopy, soil zone, and snowpack on the basis of distributed climate information (temperature, precipitation, and solar radiation); (2) simulate hydrologic water budgets at the watershed scale for temporal scales ranging from days to centuries; (3) integrate PRMS with other models used for natural-resource management or with models from other scientific disciplines; and (4) provide a modular design that allows for selection of alternative hydrologic-process algorithms from the standard PRMS module library.\"</p>\n\n<p>See \"Abstract':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf</a></p>\n\n<p><strong>Originator(s)</strong>&nbsp;<em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p><strong>Contact Name(s) and Email Address(es)</strong>&nbsp;<em>(Names of person(s) responsible for maintenance of the model along with their email)</em>:</p>\n\n<p>Steven L Markstrom (<a href=\"mailto:markstro@usgs.gov\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">markstro@usgs.gov</a>), Robert S Regan (<a href=\"mailto:rsregan@usgs.gov\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">rsregan@usgs.gov</a>)</p>\n\n<p><strong>Release Date</strong>&nbsp;<em>(Date model was originally released (YYYYMMDD, YYYYMM, YYYY))</em>:</p>\n\n<p>198301</p>\n\n<p><strong>Last Update</strong>&nbsp;<em>(Date of last update (YYYYMMDD, YYYYMM, YYYY))</em>:</p>\n\n<p>202005</p>\n\n<p><strong>Organization(s)</strong>&nbsp;<em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>U.S. Geological Survey</p>\n\n<p><strong>Mission Area</strong>&nbsp;<em>(USGS mission area with which this model most clearly aligns.&nbsp;<a href=\"https://www.usgs.gov/science/mission-areas\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Water Resources</p>\n\n<p><strong>License</strong>&nbsp;<em>(OSI-approved (Open-Source Initiative) license (see&nbsp;<a href=\"https://opensource.org/licenses\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://opensource.org/licenses</a>))</em>:</p>\n\n<p>\"Users do not need a license or permission from the USGS to use this software. Users can download and install as many copies of the software as they need.\"</p>\n\n<p>See 'Software License and Purchase Information/License':&nbsp;<a href=\"https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms</a></p>\n\n<p><strong>Model Citation</strong>&nbsp;<em>(How to cite the model&nbsp; (e.g., Software Release citation). For example, Doe, J.S., Sea Turtle Cuteness Model, 2020, U.S. Geological Survey,&nbsp;<a href=\"https://doi.org/xxxxx\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://doi.org/xxxxx</a>))</em>:</p>\n\n<p>Regan, R.S., Markstrom, S.L., LaFontaine, J.H., 2020 PRMS version 5.1.0: Precipitation-Runoff Modeling System (PRMS): U.S. Geological Survey Software Release, 05/01/2020.</p>\n\n<p><strong>Identifier</strong>&nbsp;<em>(Location where the model is posted or published (e.g. PID or DOI))</em>:</p>\n\n<p>DOI:10.5066/P9EMVKHC</p>\n\n<p><strong>Language</strong>&nbsp;<em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>:</p>\n\n<p>Fortran, C++</p>\n\n<p><strong>References</strong>&nbsp;<em>(References (where the model has been cited, outputs, data release)</em>:</p>\n\n<p>LaFontaine, J.H., Hay, L.E., Viger, R.J., Markstrom, S.L., Regan, R.S., Elliott, C.M. and Jones, J.W., 2013, Application of the Precipitation-Runoff Modeling System (PRMS) in the Apalachicola-Chattahoochee-Flint River Basin in the southeastern United States: U.S. Geological Survey Scientific Investigations Report, 5162, pp.1-118</p>\n\n<p>Henson, W.R., Medina, R.L., Mayers, C.J., Niswonger, R.G., and Regan, R.S., 2013, CRT\u2014Cascade routing tool to define and visualize flow paths for grid-based watershed models: U.S. Geological Survey Techniques and Methods, book 6, chap. D2, 28 p.,&nbsp;<a href=\"http://pubs.usgs.gov/tm/tm6d2/\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">http://pubs.usgs.gov/tm/tm6d2/</a>. File tm6d2_CRT.pdf.</p>\n\n<p>Regan, R.S., Niswonger, R.G., Markstrom, S.L., and Barlow, P.M., 2015, Documentation of a restart option for the U.S. Geological Survey coupled groundwater and surface-water flow (GSFLOW) model: U.S. Geological Survey Techniques and Methods, book 6, chap. D3, 19 p.,&nbsp;<a href=\"http://dx.doi.org/10.3133/tm6D3/\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">http://dx.doi.org/10.3133/tm6D3/</a>. File tm6d3_Restart.pdf.</p>\n\n<p>Sanders, M.J., Markstrom, S.L., Regan, R.S., and Atkinson, R.D., 2017, Documentation of a daily mean stream temperature module\u2014An enhancement to the Precipitation-Runoff Modeling System: U.S. Geological Survey Techniques and Methods, book 6, chap. D4, 18 p.,&nbsp;<a href=\"https://doi.org/10.3133/tm6D4\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://doi.org/10.3133/tm6D4</a>. File tm6d4_stream_temp.pdf.</p>\n\n<p><strong>Resources</strong>&nbsp;<em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>USGS Webpage:&nbsp;<a href=\"https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms</a></p>\n\n<p>Download PRMS:&nbsp;<a href=\"https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms</a></p>\n\n<p>Markstrom, S.L., Regan, R.S., Hay, L.E., Viger, R.J., Webb, R.M.T., Payn, R.A., and LaFontaine, J.H., 2015, PRMS-IV, the precipitation-runoff modeling system, version 4: U.S. Geological Survey Techniques and Methods, book 6, chap. B7, 158 p.</p>\n\n<p>Regan, R.S., and LaFontaine, J.H., 2017, Documentation of the dynamic parameter, water-use, stream and lake flow routing, and two summary output modules and updates to surface-depression storage simulation and initial conditions specification options with the Precipitation-Runoff Modeling System (PRMS): U.S. Geological Survey Techniques and Methods, book 6, chap. B8, 60 p.,&nbsp;<a href=\"https://doi.org/10.3133/tm6B8\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://doi.org/10.3133/tm6B8</a>.</p>\n\n<p>Regan, R.S., Markstrom, S.L., Hay, L.E., Viger, R.J., Norton, P.A., Driscoll, J.M., LaFontaine, J.H., 2018, Description of the National Hydrologic Model for use with the Precipitation-Runoff Modeling System (PRMS): U.S. Geological Survey Techniques and Methods, book 6, chap B9, 38 p.,&nbsp;<a href=\"https://doi.org/10.3133/tm6B9\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://doi.org/10.3133/tm6B9</a>.</p>\n\n<p><strong>Image</strong>&nbsp;<em>(URL for an image that best represents the model, title of image, alternate text, URL of source)</em>:</p>\n\n<p>\"Precipitation-Runoff Modeling System Soil Zones\"</p>\n\n<p>\"Details of the Precipitation-Runoff Modeling System Soil Zone.\"</p>\n\n<p><a href=\"https://www.usgs.gov/media/images/precipitation-runoff-modeling-system-soil-zones\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/media/images/precipitation-runoff-modeling-system-soil-zones</a></p>\n\n<p><strong>Model Type</strong>&nbsp;<em>(theoretical model, empirical model, or list both)</em>:</p>\n\n<p>Process-based model</p>\n\n<p><strong>Tags</strong>&nbsp;<em>(Keywords or tags that describe the model (i.e., \"groundwater, aquifer, Southwest\"))</em>:<br>\n<br>\nhydrology, surface water</p>\n\n<p><strong>Requirements</strong>&nbsp;<em>(All software and/or hardware requirements needed to run the model and replicate any published results)</em>:</p>\n\n<p>\"PRMS is written in the Fortran 95 and C programming languages. The code has been used on personal computers running various versions of the Microsoft Windows operating system and Linux based computers. A typically small model, i.e., around 100 HRUs can be executed on almost all computers. Large models, i.e., greater than 100,000 HRUs may need at least 8 GB of RAM to run effectively. Executables provided in releases are built to run on 64-bit computers.\"</p>\n\n<p>See 'SYSTEM REQUIREMENTS':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf</a></p>\n\n<p><strong>Dependencies</strong>&nbsp;<em>(All data dependencies needed to run the model and replicate any published results)</em>:</p>\n\n<p><strong>Installation</strong>&nbsp;<em>(Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions))</em>:</p>\n\n<p>See ' B. Installing':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Readme_prms_5.1.0.txt\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Readme_prms_5.1.0.txt</a></p>\n\n<p><strong>Version Updates</strong>&nbsp;<em>(Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate)</em>:</p>\n\n<p>See 'History':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf</a></p>\n\n<p><strong>Assumptions</strong>&nbsp;<em>(What are the key assumptions made that define the dynamics of the model?)</em>:</p>\n\n<p><strong>Structure</strong>&nbsp;<em>(Model structure: provide a flow diagram of the model. (e.g. [Growing Degree Days since Jan 1]+[Warm Spells]=[Leaf Out Day of Year] and [Growing Degree Days since Leaf Out Day of Year]+[Warm Spells]=[Bloom Day of Year]))</em>:</p>\n\n<p><strong>Equations</strong>&nbsp;(What are the equations of the model?):</p>\n\n<p><strong>Temporal Information</strong>&nbsp;<em>(Temporal resolution, time stepping, and units)</em>:</p>\n\n<p><strong>Spatial Information</strong>&nbsp;<em>(Spatial dimensionality, resolution, extent, grid type if relevant)</em>:</p>\n\n<p><strong>Limitations</strong>&nbsp;<em>(Limitations, domain ranges: What is this model specifically NOT intended to do)</em>:</p>\n\n<p><strong>Input/Output and Variables</strong>&nbsp;<em>(Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate); control variables; Key output variables and domain ranges)</em>:</p>\n\n<p><strong>Conditions</strong>&nbsp;<em>(Initial conditions)</em>:</p>\n\n<p>\"The Initial Conditions File is read whenever control parameter init_vars_from_file is specified &gt; 0. Various initial states can be updated for a restart simulation using initial value parameters as specified in the Parameter File depending on the value of init_vars_from_file (0 = do not read Initial Conditions File and use all initial value parameters as read from PRMS Parameter File; 1 = read all initial value parameters; 2 = read dprst_frac_init, snowpack_init, segment_flow_init, elevlake_init, gwstor_init, (soil_rechr_init, soil_moist_init, ssstor_init for model_mode = PRMS or PRMS4) or (soil_rechr_init_frac, soil_moist_init_frac, ssstor_init_frac for model_mode = PRMS5), and stream_tave_init; 3 = read snowpack_init; 4 = read elevlake_init; 5 = read (soil_rechr_init_frac, soil_moist_init_frac, ssstor_init_frac for model_mode = PRMS5); 6 = read gwstor_init; 7 = read dprst_frac_init; 8 = read stream_tave_init). Options 2 and 3 could be used, for example, to update the snowpack in a restart simulation by specifying values for snowpack_init to reflect an observed or model snow water equivalent data set. Option 8 could be used, for example, to update the stream temperature in each segment in a restart simulation by specifying values for stream_tave_init to reflect an observed or model stream temperature data set. Options that cannot change for a restart simulation include: a) surface depression storage simulation option; b) cascading flow simulation option; c) dimensions nhru, nssr, ngw, nsegment, nhrucell, nlake; and d) use of modules temp_1sta, temp_laps, temp_dist2, potet_pan, transp_tindex.\"</p>\n\n<p>See 'INITIAL CONDITIONS FILES':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Release_notes_prms_5.1.0.pdf</a></p>\n\n<p><strong>Functions</strong>&nbsp;<em>(Forcing functions that affect the dynamics of the model)</em>:</p>\n\n<p><strong>Example</strong>&nbsp;<em>(Provide sample runs that illustrate the dynamics of the model)</em>:</p>\n\n<p>See \"D. Testing':&nbsp;<a href=\"https://water.usgs.gov/water-resources/software/PRMS/Readme_prms_5.1.0.txt\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://water.usgs.gov/water-resources/software/PRMS/Readme_prms_5.1.0.txt</a></p>\n\n<p><strong>Evaluation</strong>&nbsp;<em>(Model evaluation, uncertainty, and sensitivity)</em>:</p>\n\n<p><strong>Benchmarks</strong>&nbsp;<em>(Describe or provide benchmarks for validation of your model)</em>:</p>\n\n<p><strong>Usage</strong>&nbsp;<em>(Measure of use / community support (citations, forks, commits, members))</em>:</p>\n\n<p><strong>Model Components</strong>&nbsp;<em>(A subsection of the model that simulates a subset of processes (ex. COAWST))</em>:</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:50Z",
+        "lastUpdated": "2021-01-26T18:42:21Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Steven L Markstrom",
+            "oldPartyId": 6505,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "markstro@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "firstName": "Steven",
+            "middleName": "L",
+            "lastName": "Markstrom",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "Steven L Markstrom/WRD/USGS/DOI - Primary Location",
+                "building": "DFC Bldg 53",
+                "buildingCode": "KAH",
+                "officePhone": "3032363330",
+                "faxPhone": "3032365034",
+                "streetAddress": {
+                    "line1": "W 6th Ave Kipling St",
+                    "city": "Lakewood",
+                    "state": "CO",
+                    "zip": "80225"
+                },
+                "mailAddress": {
+                    "line1": "Box 25046",
+                    "line2": "Denver Federal Center",
+                    "mailStopCode": "412",
+                    "city": "Denver",
+                    "state": "CO",
+                    "zip": "80225-0046",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0001-7630-9547"
+        },
+        {
+            "name": "Robert S Regan",
+            "oldPartyId": 8489,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "rsregan@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Robert",
+            "middleName": "S",
+            "lastName": "Regan",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "Robert S Regan/WRD/USGS/DOI - Primary Location",
+                "building": "DFC Bldg 53",
+                "buildingCode": "KAH",
+                "officePhone": "3032365008",
+                "streetAddress": {
+                    "line1": "W 6th Ave Kipling St",
+                    "city": "Lakewood",
+                    "state": "CO",
+                    "zip": "80225",
+                    "country": "US"
+                },
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-4803-8596"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/sir20135162",
+            "rel": "related",
+            "title": "LaFontaine, J.H., Hay, L.E., Viger, R.J., Markstrom, S.L., Regan, R.S., Elliott, C.M. and Jones, J.W., 2013, Application of the Precipitation-Runoff Modeling System (PRMS) in the Apalachicola-Chattahoochee-Flint River Basin in the southeastern United States: U.S. Geological Survey Scientific Investigations Report, 5162, pp.1-118",
+            "hidden": false
+        },
+        {
+            "type": "download",
+            "typeLabel": "Source Code",
+            "uri": "https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms",
+            "rel": "alternate",
+            "title": "Download PRMS",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.3133/tm6B7",
+            "rel": "related",
+            "title": "Markstrom, S.L., Regan, R.S., Hay, L.E., Viger, R.J., Webb, R.M.T., Payn, R.A., and LaFontaine, J.H., 2015, PRMS-IV, the precipitation-runoff modeling system, version 4: U.S. Geological Survey Techniques and Methods, book 6, chap. B7, 158 p., http://dx.doi.org/10.3133/tm6B7",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Science Topic",
+            "name": "hydrology"
+        },
+        {
+            "type": "Subject",
+            "name": "surface water"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "PRMS-soil-zone-diagram.jpg",
+            "title": "\"Precipitation-Runoff Modeling System Soil Zones\"",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__61/44/2c/61442ccda6ace3e3cc985e5d980cf7bc10b61e2f",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 604,
+            "imageHeight": 445,
+            "size": 49107,
+            "dateUploaded": "2021-01-26T18:38:32Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "b6c9c3c877e7608dd4652281161553fe",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=604&height=445",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=150&height=111",
+                    "width": 150,
+                    "height": 111
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=350&height=258",
+                    "width": 350,
+                    "height": 258
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "PRMS_Precipitat.zip",
+            "files": [
+                {
+                    "name": "PRMS-soil-zone-diagram.jpg",
+                    "title": "\"Precipitation-Runoff Modeling System Soil Zones\"",
+                    "contentType": "image/jpeg",
+                    "size": 49107
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=604&height=445",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?deprecated=__use__viewUri__instead__&f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=604&height=445",
+            "width": 604,
+            "height": 445,
+            "size": 49107,
+            "title": "\"Precipitation-Runoff Modeling System Soil Zones\""
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=150&height=111",
+            "width": 150,
+            "height": 111
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf7a?f=__disk__61%2F44%2F2c%2F61442ccda6ace3e3cc985e5d980cf7bc10b61e2f&width=350&height=258",
+            "width": 350,
+            "height": 258
+        }
+    }
+}

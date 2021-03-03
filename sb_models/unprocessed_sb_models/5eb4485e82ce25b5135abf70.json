@@ -1,0 +1,190 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485e82ce25b5135abf70"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485e82ce25b5135abf70",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485e82ce25b5135abf70",
+    "title": "OTEQ - One-Dimensional Transport with Equilibrium Chemistry",
+    "subTitle": "One-Dimensional Transport with Equilibrium Chemistry",
+    "summary": "OTEQ is a mathematical simulation model used to characterize the fate and transport of waterborne solutes in streams and rivers. The model is formed by coupling a solute transport model with a chemical equilibrium submodel. The solute transport model is based on OTIS, a model that considers the physical processes of advection, dispersion, lateral inflow, and transient storage. The equilibrium submodel is based on MINTEQ, a model that considers the speciation and complexation of aqueous species, acid-base reactions, precipitation/dissolution, and sorption.",
+    "body": "OTEQ is a mathematical simulation model used to characterize the fate and transport of waterborne solutes in streams and rivers. The model is formed by coupling a solute transport model with a chemical equilibrium submodel. The solute transport model is based on OTIS, a model that considers the physical processes of advection, dispersion, lateral inflow, and transient storage. The equilibrium submodel is based on MINTEQ, a model that considers the speciation and complexation of aqueous species, acid-base reactions, precipitation/dissolution, and sorption.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:50Z",
+        "lastUpdated": "2021-01-06T21:35:33Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Robert L Runkel",
+            "oldPartyId": 8883,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/8883",
+            "email": "runkel@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist (Res)",
+            "firstName": "Robert",
+            "lastName": "Runkel",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-3220-481X"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/software/OTEQ/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/software/OTEQ/download/",
+            "title": "Download OTEQ",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://pubs.usgs.gov/tm/06b06/pdf/TM6ChB6.pdf",
+            "title": "Runkel, R.L., 2010, One-Dimensional Transport with Equilibrium Chemistry (OTEQ): A Reactive Transport Model for Streams and Rivers: U.S. Geological Survey Techniques and Methods Book 6, Chapter B6, 101 p",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "oteq.jpg",
+            "title": "Runkel, 2010",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__ad/fe/da/adfeda8e0bd9d5876b06f0c0201403db2fe4edd9",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 610,
+            "imageHeight": 802,
+            "size": 151223,
+            "dateUploaded": "2020-08-10T16:12:55Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "65732d570c362f5213d5efc6d584df03",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=610&height=802",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=86&height=113",
+                    "width": 86,
+                    "height": 113
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=200&height=263",
+                    "width": 200,
+                    "height": 263
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=331&height=435",
+                    "width": 331,
+                    "height": 435
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "OTEQ_One_Dimens.zip",
+            "files": [
+                {
+                    "name": "oteq.jpg",
+                    "title": "Runkel, 2010",
+                    "contentType": "image/jpeg",
+                    "size": 151223
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=610&height=802",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?deprecated=__use__viewUri__instead__&f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=610&height=802",
+            "width": 610,
+            "height": 802,
+            "size": 151223,
+            "title": "Runkel, 2010"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=86&height=113",
+            "width": 86,
+            "height": 113
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=200&height=263",
+            "width": 200,
+            "height": 263
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf70?f=__disk__ad%2Ffe%2Fda%2Fadfeda8e0bd9d5876b06f0c0201403db2fe4edd9&width=331&height=435",
+            "width": 331,
+            "height": 435
+        }
+    }
+}

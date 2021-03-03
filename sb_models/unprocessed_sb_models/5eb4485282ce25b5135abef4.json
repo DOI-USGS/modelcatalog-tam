@@ -1,0 +1,207 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485282ce25b5135abef4"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485282ce25b5135abef4",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485282ce25b5135abef4",
+    "title": "BishopGS, FelleniusGS, and JanbuGS - Programs for limit-equilibrium slope-stability analyses",
+    "subTitle": "Programs for limit-equilibrium slope-stability analyses",
+    "summary": "Simple Fortran 77 programs implement three published methods of limit-equilibrium slope-stability analysis that have been used in post-landslide investigations.  Model Name (Name of the model, including acronyms): BishopGS, FelleniusGS, and JanbuGS Model Version (Version of the model, (i.e., 2.0)): 1.0 Abstract (Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords): Simple Fortran 77 programs implement three published methods of limit-equilibrium slope-stability analysis that have been used in post-landslide investigations. Originator(s) (Name(s) of the model developer(s)/author(s)): [...]",
+    "body": "<p>Simple Fortran 77 programs implement three published methods of limit-equilibrium slope-stability analysis that have been used in post-landslide investigations.<br>\n<br>\n<strong>Model Name</strong> <em>(Name of the model, including acronyms)</em>:</p>\n\n<p>BishopGS, FelleniusGS, and JanbuGS</p>\n\n<p><strong>Model Version</strong> <em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p>1.0</p>\n\n<p><strong>Abstract</strong> <em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>Simple Fortran 77 programs implement three published methods of limit-equilibrium slope-stability analysis that have been used in post-landslide investigations.</p>\n\n<p><strong>Originator(s)</strong> <em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p>Rex L Baum</p>\n\n<p><strong>Contact Name(s)</strong> <em>(Person(s) responsible for maintenance of the model)</em>:</p>\n\n<p>Rex L Baum, Emeritus</p>\n\n<p><strong>Contact Email(s)</strong>:</p>\n\n<p><a href=\"mailto:baum@usgs.gov\">baum@usgs.gov</a></p>\n\n<p><strong>Release Date</strong> <em>(Date model was originally released (MM, YYYY))</em>:</p>\n\n<p>2000</p>\n\n<p><strong>Last Update</strong> <em>(Date of last update (MM, YYYY))</em>:</p>\n\n<p>2000</p>\n\n<p><strong>Organization(s)</strong> <em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>USGS</p>\n\n<p><strong>Mission Area</strong> <em>(USGS mission area with which this model most clearly aligns. <a href=\"https://www.usgs.gov/science/mission-areas\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Natural Hazards</p>\n\n<p><strong>Language</strong> <em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>\u2195</p>\n\n<p>Fortran 77</p>\n\n<p><strong>Resources</strong> <em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>Baum, R.L., 2000, Computer programs for limit-equilibrium slope-stability analyses FelleniusGS, BishopGS, and JanbuGS: U.S. Geological Survey Open File Report, 2000-107, <a href=\"https://pubs.er.usgs.gov/publication/ofr00107\">https://pubs.er.usgs.gov/publication/ofr00107</a></p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:38Z",
+        "lastUpdated": "2021-01-07T17:38:42Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Rex L Baum",
+            "oldPartyId": 590,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "baum@usgs.gov",
+            "active": true,
+            "jobTitle": "Supervisory Research Geologist",
+            "personalTitle": "Mr.",
+            "firstName": "Rex",
+            "middleName": "L",
+            "lastName": "Baum",
+            "organization": {
+                "displayText": "Geologic Hazards Science Center"
+            },
+            "primaryLocation": {
+                "name": "Rex L Baum/GD/USGS/DOI - Primary Location",
+                "building": "1711 Illinois St",
+                "buildingCode": "KCI",
+                "officePhone": "3032738610",
+                "faxPhone": "3032738600",
+                "streetAddress": {
+                    "line1": "1711 Illinois St",
+                    "city": "Golden",
+                    "state": "CO",
+                    "zip": "80401"
+                },
+                "mailAddress": {
+                    "line1": "P.O. Box 25046",
+                    "line2": "Mail Stop 966",
+                    "mailStopCode": "MS 966",
+                    "city": "Denver",
+                    "state": "CO",
+                    "zip": "80225-0046",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0001-5337-1970"
+        },
+        {
+            "name": "Natural Hazards",
+            "oldPartyId": 64240,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "organization": {},
+            "primaryLocation": {
+                "name": "Natural Hazards Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Publication",
+            "uri": "https://pubs.er.usgs.gov/publication/ofr00107",
+            "rel": "related",
+            "title": "Baum, R.L., 2000, Computer programs for limit-equilibrium slope-stability analyses FelleniusGS, BishopGS, and JanbuGS: U.S. Geological Survey Open File Report, 2000-107",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Seismology"
+        },
+        {
+            "type": "Label",
+            "name": "Fortran"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "JanbuGS.png",
+            "title": "Conceptual drawing of JanbuGS, BishopGS and FelleniusGS",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__75/f9/f1/75f9f1650f349d74a438bd54cd9795cf797b391e",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 1901,
+            "imageHeight": 758,
+            "size": 92669,
+            "dateUploaded": "2020-06-12T20:23:26Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=1901&height=758",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=150&height=60",
+                    "width": 150,
+                    "height": 60
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=350&height=140",
+                    "width": 350,
+                    "height": 140
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=580&height=231",
+                    "width": 580,
+                    "height": 231
+                },
+                "large": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=1000&height=399",
+                    "width": 1000,
+                    "height": 399
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "BishopGS_Fellen.zip",
+            "files": [
+                {
+                    "name": "JanbuGS.png",
+                    "title": "Conceptual drawing of JanbuGS, BishopGS and FelleniusGS",
+                    "contentType": "image/png",
+                    "size": 92669
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=1901&height=758",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?deprecated=__use__viewUri__instead__&f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=1901&height=758",
+            "width": 1901,
+            "height": 758,
+            "size": 92669,
+            "title": "Conceptual drawing of JanbuGS, BishopGS and FelleniusGS"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=150&height=60",
+            "width": 150,
+            "height": 60
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=350&height=140",
+            "width": 350,
+            "height": 140
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=580&height=231",
+            "width": 580,
+            "height": 231
+        },
+        "large": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485282ce25b5135abef4?f=__disk__75%2Ff9%2Ff1%2F75f9f1650f349d74a438bd54cd9795cf797b391e&width=1000&height=399",
+            "width": 1000,
+            "height": 399
+        }
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485f82ce25b5135abf8a"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485f82ce25b5135abf8a",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485f82ce25b5135abf8a",
+    "title": "SEAWAT - MODFLOW/MT3DMS-based groundwater flow program",
+    "subTitle": "a MODFLOW/MT3DMS-based groundwater flow program",
+    "summary": "SEAWAT is a generic MODFLOW/MT3DMS-based computer program designed to simulate three-dimensional variable-density groundwater flow coupled with multi-species solute and heat transport. The program has been used for a wide variety of groundwater studies including those focused on brine migration in continental aquifers as well as those focused on saltwater intrusion in coastal aquifers. SEAWAT Version 4 is a replacement for SEAWAT-2000.   Model Name (Name of the model, including acronyms): SEAWAT - MODFLOW/MT3DMS-based groundwater flow program Model Version (Version of the model, (i.e., 2.0)): 4.00.05 Abstract (Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, [...]",
+    "body": "SEAWAT is a generic MODFLOW/MT3DMS-based computer program designed to simulate three-dimensional variable-density groundwater flow coupled with multi-species solute and heat transport. The program has been used for a wide variety of groundwater studies including those focused on brine migration in continental aquifers as well as those focused on saltwater intrusion in coastal aquifers. SEAWAT Version 4 is a replacement for SEAWAT-2000.<br>\n&nbsp;\n<p><strong>Model Name</strong> <em>(Name of the model, including acronyms)</em>:</p>\n\n<p>SEAWAT - MODFLOW/MT3DMS-based groundwater flow program</p>\n\n<p><strong>Model Version</strong> <em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p>4.00.05</p>\n\n<p><strong>Abstract</strong> <em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>SEAWAT is a generic MODFLOW/MT3DMS-based computer program designed to simulate three-dimensional variable-density groundwater flow coupled with multi-species solute and heat transport. The program has been used for a wide variety of groundwater studies including those focused on brine migration in continental aquifers as well as those focused on saltwater intrusion in coastal aquifers. SEAWAT Version 4 is a replacement for SEAWAT-2000.</p>\n\n<p><strong>Originator(s)</strong> <em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p>Christian D. Langevin (USGS), Daniel T. Thorne, Jr. (Georgetown College), Alyssa M. Dausman (USGS), Michael C. Sukop (Florida International University), and Weixing Guo (Schlumberger Water Services)</p>\n\n<p><strong>Contact Name(s)</strong> <em>(Person(s) responsible for maintenance of the model)</em>:</p>\n\n<p>MODFLOW Team</p>\n\n<p><strong>Contact Email(s)</strong>:</p>\n\n<p><a href=\"mailto:modflow@usgs.gov\">modflow@usgs.gov</a></p>\n\n<p><strong>Release Date</strong> <em>(Date model was originally released (MM, YYYY))</em>:</p>\n\n<p>05, 1998</p>\n\n<p><strong>Last Update</strong> <em>(Date of last update (MM, YYYY))</em>:</p>\n\n<p>10, 2012</p>\n\n<p><strong>Organization(s)</strong> <em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>USGS</p>\n\n<p><strong>Mission Area</strong> <em>(USGS mission area with which this model most clearly aligns. <a href=\"https://www.usgs.gov/science/mission-areas\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Water Resources</p>\n\n<p><strong>License</strong> <em>(OSI-approved (Open-Source Initiative) license (see <a href=\"https://opensource.org/licenses\">https://opensource.org/licenses</a>))</em>:</p>\n\n<p>Please refer to the USGS Software User Rights Notice for complete use, copyright, and distribution information. The USGS provides no warranty, expressed or implied, as to the correctness of the furnished software or the suitability for any purpose. The software has been tested, but as with any complex software, there could be undetected errors. Users who find errors are requested to report them to the USGS.</p>\n\n<p><strong>Language</strong> <em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>:</p>\n\n<p>Fortran 77</p>\n\n<p><strong>References</strong> <em>(References (where the model has been cited, outputs, data release)</em>:</p>\n\n<p>Megan J. Haserodt, Daniel T. Feinstein, Charles P. Dunning, Cheryl Buchwald, Randall J. Hunt, 2017, GWM-2005, MODFLOW-2005, MODFLOW-NWT, and SEAWAT-2000 groundwater flow models of the Bedrock Aquifers at the Kettle Moraine Springs State Fish Hatchery, Sheboygan County, Wisconsin: U.S. Geological Survey data release, <a href=\"https://dx.doi.org/10.5066/F77S7KW2\">https://dx.doi.org/10.5066/F77S7KW2</a>.</p>\n\n<p>Heywood, C.E., 2019, SEAWAT Model of Flow and Chloride Transport in the \u201c1,500-Foot\u201d, \u201c2,400-Foot\u201d, and \u201c2,800-Foot\u201d Sands of the Baton Rouge Area, Louisiana: U.S. Geological Survey data release, <a href=\"https://doi.org/10.5066/P9URJ38Q\">https://doi.org/10.5066/P9URJ38Q</a>.</p>\n\n<p>Hughes, J.D., Sifuentes, D.F., and White, J.T., 2016, SEAWAT model used to evaluate the potential effects of alterations to the hydrologic system on the distribution of salinity in the Biscayne aquifer in Broward County, Florida: U.S. Geological Survey Data Release, <a href=\"https://doi.org/10.5066/F7PV6HFR\">https://doi.org/10.5066/F7PV6HFR</a></p>\n\n<p><strong>Resources</strong> <em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>USGS Webpage: <a href=\"https://www.usgs.gov/software/seawat-a-computer-program-simulation-three-dimensional-variable-density-ground-water-flow\">https://www.usgs.gov/software/seawat-a-computer-program-simulation-three-dimensional-variable-density-ground-water-flow</a></p>\n\n<p>Download SEAWAT: <a href=\"https://water.usgs.gov/water-resources/software/SEAWAT/\">https://water.usgs.gov/water-resources/software/SEAWAT/</a></p>\n\n<p>Langevin, C.D., 2009, SEAWAT: A Computer Program for Simulation of Variable-Density Groundwater Flow and Multi-Species Solute and Heat Transport: U.S. Geological Survey Fact Sheet 2009-3047, 2 p., <a href=\"https://pubs.usgs.gov/fs/2009/3047/\">https://pubs.usgs.gov/fs/2009/3047/</a></p>\n\n<p><strong>Requirements</strong> <em>(All software and/or hardware requirements needed to run the model and replicate any published results)</em>:</p>\n\n<p>SEAWAT is written in Fortran 77 with the following extensions: use of variable names longer than 6 characters, Fortran 90 statements for dynamic memory allocation, a call to SUBROUTINE GETARG to retrieve command-line arguments, and two calls to DATE_AND_TIME, which is a Fortran 90 intrinsic subroutine. Generally, the program is easily installed on most computer systems. The code has been used on DOS-based 386 or greater computers having a math coprocessor and 4 mb of memory.</p>\n\n<p><strong>Version Updates</strong> <em>(Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate)</em>:</p>\n\n<p>Corrected programming errors in the variable density parts of the CHD and GHB packages. Added a routine to deallocate memory for VDF variables. Corrected an MT3DMS programming error related to changes in water storage. Added suppport for MT3DMS recirculation wells.</p>\n\n<p><strong>Input/Output and Variables</strong> <em>(Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate); control variables; Key output variables and domain ranges)</em>:</p>\n\n<p>In order to use SEAWAT, initial conditions, hydraulic properties, and stresses must be specified for every model cell in the finite-difference grid.</p>\n\n<p>Primary output is head and concentration, which can be written to the listing file or to separate binary files. Other output includes the complete listing of all input data, drawdown, flow budget, and transport budget data. Flow budget data are printed as a summary in the listing file, and detailed budget data for all model cells can be written into a separate file. All binary output is written to files that are opened with the FORM='BINARY' option. This means that some pre- and post-processors may not be able to read the output unless the open statements are modified, the program is recompiled, and the model is rerun.</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:51Z",
+        "lastUpdated": "2020-12-02T16:53:19Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-CAWSC MODFLOW OWHM",
+            "oldPartyId": 66925,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/66925",
+            "email": "modflow_owhm@usgs.gov",
+            "firstName": "GS-CAWSC",
+            "lastName": "MODFLOW OWHM",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/seawat-a-computer-program-simulation-three-dimensional-variable-density-ground-water-flow",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "https://dx.doi.org/10.5066/F77S7KW2",
+            "rel": "related",
+            "title": "Megan J. Haserodt, Daniel T. Feinstein, Charles P. Dunning, Cheryl Buchwald, Randall J. Hunt, 2017, GWM-2005, MODFLOW-2005, MODFLOW-NWT, and SEAWAT-2000 groundwater flow models of the Bedrock Aquifers at the Kettle Moraine Springs State Fish Hatchery, Sheboygan County, Wisconsin: U.S. Geological Survey data release, https://dx.doi.org/10.5066/F77S7KW2.",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9URJ38Q",
+            "rel": "related",
+            "title": "Heywood, C.E., 2019, SEAWAT Model of Flow and Chloride Transport in the \u201c1,500-Foot\u201d, \u201c2,400-Foot\u201d, and \u201c2,800-Foot\u201d Sands of the Baton Rouge Area, Louisiana: U.S. Geological Survey data release, https://doi.org/10.5066/P9URJ38Q.",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/F7PV6HFR",
+            "rel": "related",
+            "title": "Hughes, J.D., Sifuentes, D.F., and White, J.T., 2016, SEAWAT model used to evaluate the potential effects of alterations to the hydrologic system on the distribution of salinity in the Biscayne aquifer in Broward County, Florida: U.S. Geological Survey Data Release, https://doi.org/10.5066/F7PV6HFR",
+            "hidden": false
+        },
+        {
+            "type": "download",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/SEAWAT/",
+            "rel": "alternate",
+            "title": "Download SEAWAT",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Fortran-77"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "SEAWAT-transport-visualization.jpg",
+            "title": "SEAWAT used to simulate the rising thermal plumes original Elder problem",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__3a/bc/f1/3abcf12f09b4a37938dcb9ea66a61011794fb4c1",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 340,
+            "imageHeight": 294,
+            "size": 74890,
+            "dateUploaded": "2020-06-04T16:40:15Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1&width=340&height=294",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1&width=150&height=130",
+                    "width": 150,
+                    "height": 130
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "SEAWAT_MODFLOW_.zip",
+            "files": [
+                {
+                    "name": "SEAWAT-transport-visualization.jpg",
+                    "title": "SEAWAT used to simulate the rising thermal plumes original Elder problem",
+                    "contentType": "image/jpeg",
+                    "size": 74890
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1&width=340&height=294",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?deprecated=__use__viewUri__instead__&f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1&width=340&height=294",
+            "width": 340,
+            "height": 294,
+            "size": 74890,
+            "title": "SEAWAT used to simulate the rising thermal plumes original Elder problem"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf8a?f=__disk__3a%2Fbc%2Ff1%2F3abcf12f09b4a37938dcb9ea66a61011794fb4c1&width=150&height=130",
+            "width": 150,
+            "height": 130
+        }
+    }
+}

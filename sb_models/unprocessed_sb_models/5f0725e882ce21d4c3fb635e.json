@@ -1,0 +1,366 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5f0725e882ce21d4c3fb635e"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5f0725e882ce21d4c3fb635e",
+            "rel": "related"
+        }
+    },
+    "id": "5f0725e882ce21d4c3fb635e",
+    "title": "SI-x - Extended Spring Indices",
+    "subTitle": "SI-x - Extended Spring Indices",
+    "summary": "Abstract: The Extended Spring Indices are mathematical models that predict the \u201cstart of spring\u201d (timing of first leaf or first bloom) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in a cloned lilac cultivar (Syringa X chinensis \u2018Red Rothomagensis\u2019) and two cloned honeysuckle cultivars (Lonicera tatarica L. \u2018Arnold Red\u2019 and Lonicera korolkowii Stapf, also known as \u2018Zabelii\u2019). Primary inputs to the model are temperature and weather events, beginning January 1 of each year. The model outputs are first leaf and first bloom date for a given location. The Extended Spring Indices support understanding of spatial patterns in the timing of spring, including [...]",
+    "body": "<strong>Abstract</strong>: The Extended Spring Indices are mathematical models that predict the \u201cstart of spring\u201d (timing of first leaf or first bloom) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in a cloned lilac cultivar (Syringa X chinensis \u2018Red Rothomagensis\u2019) and two cloned honeysuckle cultivars (Lonicera tatarica L. \u2018Arnold Red\u2019 and Lonicera korolkowii Stapf, also known as \u2018Zabelii\u2019). Primary inputs to the model are temperature and weather events, beginning January 1 of each year. The model outputs are first leaf and first bloom date for a given location. The Extended Spring Indices support understanding of spatial patterns in the timing of spring, including short-term forecasts to support resource management. They have also been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment.&nbsp; Keywords: Spring, Phenology, Climate Change, Leaf Out, Bloom, Natural Resource Management.<br>\n<br>\n<strong>Data Dependencies</strong>:&nbsp;Daily minimum and maximum air temperatures are needed to run the model - these could be at any scale of interest - from an individual weather station, to a 100 year gridded climate dataset.<br>\n<br>\n<strong>Assumptions:</strong><br>\n1.&nbsp; Phenological observations from a few key indicator species can be used to characterize spring onset in a way that is relevant to a wide range of ecological and climatic transitions at the start of spring.<br>\n2.&nbsp; Where moisture&nbsp; availability&nbsp; is&nbsp; not a&nbsp; factor,&nbsp; plant&nbsp; phenological responses&nbsp; &nbsp;re\ufb02ect&nbsp; &nbsp;the&nbsp; &nbsp;accumulated&nbsp; &nbsp;effects&nbsp; &nbsp;of&nbsp; &nbsp;temperature \ufb02uctuations in conjunction with increasing day length.<br>\n3.&nbsp; Near surface temperatures in temperate regions do not increase monotonically&nbsp; during&nbsp; springtime,&nbsp; but&nbsp; instead&nbsp; \ufb02uctuate&nbsp; as&nbsp; a consequence of large-scale (e.g., \u223d1000 km) physical processes. These&nbsp; phenomena&nbsp; are&nbsp; typically&nbsp; synoptic-scale&nbsp; weather&nbsp; patterns&nbsp; that&nbsp; drive&nbsp; multi-day&nbsp; warm&nbsp; episodes&nbsp; by advecting&nbsp; warm air masses in from the south.<br>\n4.&nbsp; Synoptic-scale&nbsp; weather&nbsp; events&nbsp; can&nbsp; be&nbsp; detected&nbsp; from&nbsp; meteorological observations of daily Tmin and Tmax.<br>\n<br>\n<strong>Model Structure:</strong>&nbsp;[Growing Degree Days since Jan 1]+[Warm Spells]=[Leaf Out Day of Year]&nbsp; and&nbsp; &nbsp;[Growing Degree Days since Leaf Out Day of Year]+[Warm Spells]=[Bloom Day of Year]<br>\n<br>\n<strong>Equations</strong>:&nbsp;See Ault et al 2015 - https://doi.org/10.1016/j.cageo.2015.06.015 - Section 2.2 for the equations<br>\n<br>\n<strong>Temporal Information</strong>:&nbsp;Model outputs are day of year, timestep is daily.<br>\n<br>\n<strong>Spatial Information</strong>:&nbsp;See Crimmins et al 2017 for several gridded implementations at different spatial scales that the USA-NPN has created. https://pubs.usgs.gov/of/2017/1003/ofr20171003.pdf<br>\n<br>\n<strong>Limitations</strong>: The model does not incorporate moisture, so it is of limited utility in precipitation driven systems.&nbsp;<br>\n<br>\n<strong>Input/Output and Variables</strong>:&nbsp;Daily minimum and maximum air temperatures are the model inputs. Day of year (1-365) are the model ouput.<br>\n<br>\n<strong>Conditions</strong>:&nbsp;The Leaf Out model is initiated on January 1st, assuming plant dormancy. The Bloom model takes Leaf Out date as the initial condition.<br>\n<br>\n<strong>Evaluation</strong>:&nbsp;Detailed in Crimmins et al 2017; we compare observed to predicted lilac and honeysuckle leaf and bloom dates with this dashboard https://www.usanpn.org/data/si-x_plausibility. Gerst et al 2019&nbsp; provides an evaluation of model performance.<br>\n<br>\n<strong>Usage</strong>:&nbsp;Schwartz, Ault, and Betancourt, 2013 has 58 citations; the USA-NPN raster layers of the Spring Indices get ~500,000 downloads/year.<br>\n&nbsp;",
+    "citation": "Schwartz, M.D., Ault, T.R., and Betancourt, J.L., 2013, Spring onset variations and trends in the continental United States : past and regional assessment using temperature\u2010based indices: International Journal of Climatology, 33:13, 2917-2922, https://doi.org/10.1002/joc.3625.",
+    "provenance": {
+        "dataSource": "Input directly",
+        "dateCreated": "2020-07-09T14:12:56Z",
+        "lastUpdated": "2021-01-07T18:07:20Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "aliford@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Mark D Schwartz - mds@uwm.edu",
+            "type": "Contact",
+            "email": "mds@uwm.edu",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Alyssa Rosemartin - alyssa@usanpn.org",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "University of Arizona",
+            "oldPartyId": 22797,
+            "type": "Cooperator/Partner",
+            "contactType": "organization",
+            "onlineResource": "http://www.arizona.edu/",
+            "description": "As a public research university serving the diverse citizens of Arizona and beyond, the mission of the University of Arizona is to provide a comprehensive, high-quality education that engages our students in discovery through research and broad-based scholarship. We aim to empower our graduates to be leaders in solving complex societal programs. Whether in teaching, research, outreach or student engagement, access and quality are the defining attributes of the University of Arizona\u2019s mission.",
+            "active": true,
+            "logoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosMed/U_of_Arizona_logo_med.png",
+            "smallLogoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosSmall/U_of_Arizona_logo_small.png",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Ecosystems",
+            "oldPartyId": 17044,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "onlineResource": "http://biology.usgs.gov/ecosystems/",
+            "note": "We need to figure out what part of the new Ecosystems Mission Area this FBMS code belongs to.",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"ECOSYSTEMS\"}"
+            ],
+            "fbmsCodes": [
+                "GGHEBB0200"
+            ],
+            "logoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosMed/USGSLogo.gif",
+            "smallLogoUrl": "http://my.usgs.gov/static-cache/images/dataOwner/v1/logosSmall/USGSLogo.gif",
+            "organization": {},
+            "primaryLocation": {
+                "name": "National Center - John W Powell [AAA]",
+                "building": "John W Powell",
+                "buildingCode": "AAA",
+                "streetAddress": {
+                    "line1": "12201 Sunrise Valley Dr",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192-0002",
+                    "country": "USA"
+                },
+                "mailAddress": {
+                    "line1": "12201 Sunrise Valley Drive",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192-0002",
+                    "country": "USA"
+                }
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usanpn.org/data/spring_indices",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1002/joc.3625",
+            "title": "Schwartz, M.D., Ault, T.R., and Betancourt, J.L., 2013, Spring onset variations and trends in the continental United States : past and regional assessment using temperature\u2010based indices: International Journal of Climatology, 33:13, 2917-2922",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "http://dx.doi.org/10.1088/1748-9326/10/10/104008",
+            "rel": "related",
+            "title": "Allstadt, A.J., Vavrus, S.J., Heglund, P.J., Pidgeon, A.M., Thogmartin, W.E., and Radeloff, V.C., 2015, Spring plant phenology and false springs in the conterminous US during the 21st century: Environmental Research Letters, v. 10, no. 10, letter 104008, 24 p., accessed October 14, 2015",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "http://dx.doi.org/10.1175/JCLI-D-14-00736.1",
+            "rel": "related",
+            "title": "Ault, T.R., Schwartz, M.D., Zurita-Milla, Raul, Weltzin, J.F., and Betancourt, J.L., 2015, Trends and natural variability of spring onset in the coterminous United States as evaluated by a new gridded dataset of spring indices: Journal of Climate, v. 28, no. 21, p. 8363\u20138378, accessed February 28, 2016, at http://dx.doi.org/10.1175/JCLI-D-14-00736.1",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "http://dx.doi.org/10.1016/j.cageo.2015.06.015",
+            "rel": "related",
+            "title": "Ault, T.R., Zurita-Milla, Raul, and Schwartz, M.D., 2015, A Matlab\u00a9 toolbox for calculating spring indices from daily meteorological data: Computers & Geosciences, v. 83, p. 46\u201353, accessed November 15, 2016",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1029/2018JD028597",
+            "rel": "related",
+            "title": "Carrillo, C.M., Ault, T., Wilks, D.S. 2018. Spring onset predictability in the North American Multi\u2010Model Ensemble. Journal of Geophysical Research - Atmospheres",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.3133/ofr20171003",
+            "rel": "related",
+            "title": "Crimmins, T.M., Marsh, R.L., Switzer, J.R., Crimmins, M.A., Gerst, K.L., Rosemartin, A.H., and Weltzin, J.F., 2017, USA National Phenology Network gridded products documentation: U.S. Geological Survey Open-File Report 2017\u20131003, 27 p.",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1007/s00484-020-01879-z",
+            "rel": "related",
+            "title": "Gerst, K.L., Crimmins, T.M., Posthumus, E.E., Rosemartin, A. Schwartz, M.D. 2020. How well do the spring indices predict phenological activity across plant species? International Journal of Biometeorology",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1007/s00484-019-01826-7",
+            "rel": "related",
+            "title": "Mehdipoor, H., Zurita-Milla, R., Augustijn, E.W., Izquierdo-Verdiguier, E. 2019. Exploring differences in spatial patterns and temporal trends of phenological models at continental scale using gridded temperature time-series. International Journal of Biometeorology",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1002/ecs2.1465",
+            "rel": "related",
+            "title": "Monahan, W. B., Rosemartin, A., Gerst, K. L., Fisichelli, N. A., Ault, T., Schwartz, M. D., Gross, J. E., & Weltzin, J. F. (2017). Climate change is advancing spring onset across the U.S. national park system. Ecosphere , e01465",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1111/j.1469-8137.1998.262-1.x",
+            "rel": "related",
+            "title": "Schwartz, M.D., 1997, Spring index models; An approach to connecting satellite and surface phenology, in Lieth, H., and Schwartz, M.D., eds., Phenology in Seasonal Climates I: Leiden, The Netherlands, Backhuys Publishers, p. 23\u201338",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "http://dx.doi.org/10.1111/j.1365-2486.2005.01097.x.",
+            "rel": "related",
+            "title": "Schwartz, M.D., Ahas, Rein, and Aasa, Anto, 2006, Onset of spring starting earlier across the Northern Hemisphere: Global Change Biology, v. 12, no. 2, p. 343\u2013351",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "http://dx.doi.org/10.1002/joc.3625",
+            "rel": "related",
+            "title": "Schwartz, M.D., Ault, T.R., and Betancourt, J.L., 2013, Spring onset variations and trends in the continental United States; Past and regional assessment using temperature-based indices: International Journal of Climatology, v. 33, no. 13, p. 2917\u20132922, accessed September 15, 2015",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1371/journal.pone.0202495",
+            "rel": "related",
+            "title": "Waller, E. K., Crimmins, T. M., Walker, J. J., Posthumus, E. E., & Weltzin, J. F. (2018). Differential changes in the onset of spring across US National Wildlife Refuges and North American migratory bird flyways. In PLOS ONE (Vol. 13, Issue 9, p. e0202495)",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Spring"
+        },
+        {
+            "type": "Subject",
+            "name": "Climate Change"
+        },
+        {
+            "type": "Subject",
+            "name": "Leaf Out"
+        },
+        {
+            "type": "Subject",
+            "name": "Bloom"
+        },
+        {
+            "type": "Subject",
+            "name": "Natural Resource Management"
+        },
+        {
+            "type": "Label",
+            "name": "Python"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Climatology"
+        },
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Phenology"
+        }
+    ],
+    "dates": [
+        {
+            "type": "Release",
+            "dateString": "2013",
+            "label": "Release Date"
+        },
+        {
+            "type": "lastUpdate",
+            "dateString": "2013",
+            "label": "Last Update"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "six-leaf-index.png",
+            "title": "Spring Leaf Index anomaly static map",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__da/17/25/da17257af9c3aef847c4dab87b80bcd6cce81b19",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 1500,
+            "imageHeight": 800,
+            "size": 1289723,
+            "dateUploaded": "2020-07-23T21:25:12Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "8ad34c1c29f7c85bed07df1f80cca10c",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=1500&height=800",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=150&height=80",
+                    "width": 150,
+                    "height": 80
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=350&height=187",
+                    "width": 350,
+                    "height": 187
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=580&height=309",
+                    "width": 580,
+                    "height": 309
+                },
+                "large": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=1000&height=533",
+                    "width": 1000,
+                    "height": 533
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "SI_x_ExtendedSp.zip",
+            "files": [
+                {
+                    "name": "six-leaf-index.png",
+                    "title": "Spring Leaf Index anomaly static map",
+                    "contentType": "image/png",
+                    "size": 1289723
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=1500&height=800",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?deprecated=__use__viewUri__instead__&f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=1500&height=800",
+            "width": 1500,
+            "height": 800,
+            "size": 1289723,
+            "title": "Spring Leaf Index anomaly static map"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=150&height=80",
+            "width": 150,
+            "height": 80
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=350&height=187",
+            "width": 350,
+            "height": 187
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=580&height=309",
+            "width": 580,
+            "height": 309
+        },
+        "large": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5f0725e882ce21d4c3fb635e?f=__disk__da%2F17%2F25%2Fda17257af9c3aef847c4dab87b80bcd6cce81b19&width=1000&height=533",
+            "width": 1000,
+            "height": 533
+        }
+    }
+}

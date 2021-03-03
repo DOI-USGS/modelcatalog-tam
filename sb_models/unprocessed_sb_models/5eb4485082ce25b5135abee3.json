@@ -1,0 +1,177 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485082ce25b5135abee3"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485082ce25b5135abee3",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485082ce25b5135abee3",
+    "title": "1DTempPro - A computer program for analysis of vertical one-dimensional (1D) temperature profiles",
+    "subTitle": "A computer program for analysis of vertical one-dimensional (1D) temperature profiles",
+    "summary": "1DTempPro is a computer program for the analysis of one-dimensional vertical temperature profiles. The program is a graphical user interface (GUI) to the previously published USGS code VS2DH, which numerically solves the flow and heat-transport equations. The program allows users to visually calibrate VS2DH models against measured data to estimate vertical groundwater/surface-water exchange and also hydraulic conductivity for cases where hydraulic head is known. 1DTempPro is written in C# for execution in a MS Windows .NET environment.",
+    "body": "<p>1DTempPro is a computer program for the analysis of one-dimensional vertical temperature profiles. The program is a graphical user interface (GUI) to the previously published USGS code VS2DH, which numerically solves the flow and heat-transport equations. The program allows users to visually calibrate VS2DH models against measured data to estimate vertical groundwater/surface-water exchange and also hydraulic conductivity for cases where hydraulic head is known. 1DTempPro is written in C# for execution in a MS Windows .NET environment.</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:36Z",
+        "lastUpdated": "2020-09-25T21:31:41Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Eric D Swain",
+            "oldPartyId": 10133,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/10133",
+            "email": "edswain@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist (RGE)",
+            "firstName": "Eric",
+            "lastName": "Swain",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0001-7168-708X"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "sourceCode",
+            "uri": "https://doi.org/10.5066/F76T0JQS",
+            "rel": "related",
+            "title": "Code Repository",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://doi.org/10.5066/P9Q8JGAO",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1111/gwat.12369",
+            "rel": "related",
+            "title": "Koch, F.W., Voytek, E.B., Day\u2010Lewis, F.D., Healy, R., Briggs, M.A., Lane Jr, J.W. and Werkema, D., 2016. 1DTempPro V2: New features for inferring groundwater/surface\u2010water exchange. Groundwater, 54(3), pp.434-439",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "1dtemppro-Figure1.jpg",
+            "title": "1DTempPro example figure",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__d5/ad/85/d5ad85311d90079f6b702747601c6df98e99a1b0",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 600,
+            "imageHeight": 394,
+            "size": 131732,
+            "dateUploaded": "2020-06-29T16:19:46Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=600&height=394",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=150&height=99",
+                    "width": 150,
+                    "height": 99
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=350&height=230",
+                    "width": 350,
+                    "height": 230
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "1DTempPro_Acomp.zip",
+            "files": [
+                {
+                    "name": "1dtemppro-Figure1.jpg",
+                    "title": "1DTempPro example figure",
+                    "contentType": "image/jpeg",
+                    "size": 131732
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=600&height=394",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?deprecated=__use__viewUri__instead__&f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=600&height=394",
+            "width": 600,
+            "height": 394,
+            "size": 131732,
+            "title": "1DTempPro example figure"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=150&height=99",
+            "width": 150,
+            "height": 99
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485082ce25b5135abee3?f=__disk__d5%2Fad%2F85%2Fd5ad85311d90079f6b702747601c6df98e99a1b0&width=350&height=230",
+            "width": 350,
+            "height": 230
+        }
+    }
+}

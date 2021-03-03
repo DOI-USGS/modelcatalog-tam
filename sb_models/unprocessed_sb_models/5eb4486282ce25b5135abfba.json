@@ -1,0 +1,91 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486282ce25b5135abfba"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486282ce25b5135abfba",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486282ce25b5135abfba",
+    "title": "WSPRO - Computer model for Water-Surface PROfile computations",
+    "subTitle": "Computer model for Water-Surface PROfile computations",
+    "summary": "WSPRO computes water-surface profiles for subcritical, critical, or supercritical flow as long as the flow can be reasonably classified as one-dimensional, gradually-varied, steady flow.  WSPRO can be used to analyze:  (1) open-channel flow; (2) flow through bridges; (3) flow through culverts; (4) embankment overflow; and (5) multiple-opening (two or more separate bridge and (or) culvert structures) stream crossings.  WSPRO is designated HY-7 in the Federal Highway Administration (FHWA) hydraulics computer program series.  A primary objective in developing WSPRO was to provide bridge designers with a highly flexible tool for analyses of alternative bridge openings and (or) embankment configurations. However, WSPRO is equally flexible [...]",
+    "body": "WSPRO computes water-surface profiles for subcritical, critical, or supercritical flow as long as the flow can be reasonably classified as one-dimensional, gradually-varied, steady flow.&nbsp; WSPRO can be used to analyze:&nbsp; (1) open-channel flow; (2) flow through bridges; (3) flow through culverts; (4) embankment overflow; and (5) multiple-opening (two or more separate bridge and (or) culvert structures) stream crossings.&nbsp; WSPRO is designated HY-7 in the Federal Highway Administration (FHWA) hydraulics computer program series.&nbsp; A primary objective in developing WSPRO was to provide bridge designers with a highly flexible tool for analyses of alternative bridge openings and (or) embankment configurations. However, WSPRO is equally flexible and suitable for analyses of existing stream crossings.&nbsp; Much of the model's flexibility can be attributed to the data input scheme which, to a great extent, is designed for unformatted, order-independent data.&nbsp; Additional flexibility is provided by propagation of constant data and limited capabilities for synthesizing cross sections.&nbsp; Also, many desirable features from other models were incorporated into WSPRO.&nbsp; The type and quantity of output is to a large extent user-specifiable.&nbsp; Thus WSPRO is a very easy-to-use model, which is generally applicable to water-surface profile analyses for highway design as well as for problems related to flood plain mapping, flood insurance studies, and estimating stage-discharge relationships.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:54Z",
+        "lastUpdated": "2021-01-06T21:26:40Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-W h2osoft",
+            "oldPartyId": 61967,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/61967",
+            "email": "gs-w_h2osoft@usgs.gov",
+            "firstName": "GS-W",
+            "lastName": "h2osoft",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "sourceCode",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/software/WSPRO/",
+            "rel": "related",
+            "title": "Download WSPRO",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/cgi-bin/man_wrdapp?wspro88",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

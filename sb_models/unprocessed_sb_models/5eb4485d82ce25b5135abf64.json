@@ -1,0 +1,147 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485d82ce25b5135abf64"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485d82ce25b5135abf64",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485d82ce25b5135abf64",
+    "title": "MODFLOW-USG - UnStructured Grid",
+    "subTitle": "MODFLOW UnStructured Grid",
+    "summary": "A version of MODFLOW, called MODFLOW-USG (for UnStructured Grid), was developed to support a wide variety of structured and unstructured grid types, including nested grids and grids based on prismatic triangles, rectangles, hexagons, and other cell shapes. Flexibility in grid design can be used to focus resolution along rivers and around wells, for example, or to subdiscretize individual layers to better represent hydrostratigraphic units.MODFLOW-USG is based on an underlying control volume finite difference (CVFD) formulation in which a cell can be connected to an arbitrary number of adjacent cells. To improve accuracy of the CVFD formulation for irregular grid-cell geometries or nested grids, a generalized Ghost Node Correction (GNC) [...]",
+    "body": "A version of MODFLOW, called MODFLOW-USG (for UnStructured Grid), was developed to support a wide variety of structured and unstructured grid types, including nested grids and grids based on prismatic triangles, rectangles, hexagons, and other cell shapes. Flexibility in grid design can be used to focus resolution along rivers and around wells, for example, or to subdiscretize individual layers to better represent hydrostratigraphic units.MODFLOW-USG is based on an underlying control volume finite difference (CVFD) formulation in which a cell can be connected to an arbitrary number of adjacent cells. To improve accuracy of the CVFD formulation for irregular grid-cell geometries or nested grids, a generalized Ghost Node Correction (GNC) Package was developed, which uses interpolated heads in the flow calculation between adjacent connected cells.MODFLOW-USG includes a Groundwater Flow (GWF) Process, based on the GWF Process in MODFLOW-2005, as well as a new Connected Linear Network (CLN) Process to simulate the effects of multi-node wells, karst conduits, and tile drains, for example. The CLN Process is tightly coupled with the GWF Process in that the equations from both processes are formulated into one matrix equation and solved simultaneously. This robustness results from using an unstructured grid with unstructured matrix storage and solution schemes.MODFLOW-USG also contains an optional Newton-Raphson formulation, based on the formulation in MODFLOW-NWT, for improving solution convergence and avoiding problems with the drying and rewetting of cells. Because the existing MODFLOW solvers were developed for structured and symmetric matrices, they were replaced with a new Sparse Matrix Solver (SMS) Package developed specifically for MODFLOW-USG. The SMS Package provides several methods for resolving nonlinearities and multiple symmetric and asymmetric linear solution schemes to solve the matrix arising from the flow equations and the Newton-Raphson formulation, respectively.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:49Z",
+        "lastUpdated": "2020-10-05T16:27:07Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "modflow@usgs.gov",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/modflow-usg-unstructured-grid-version-modflow-simulating-groundwater-flow-and-tightly",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://pubs.usgs.gov/tm/06/a45/",
+            "title": "Panday, Sorab, Langevin, C.D., Niswonger, R.G., Ibaraki, Motomu, and Hughes, J.D., 2013, MODFLOW-USG version 1: An unstructured grid version of MODFLOW for simulating groundwater flow and tightly coupled processes using a control volume finite-difference formulation: U.S. Geological Survey Techniques and Methods, book 6, chap. A45, 66 p.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/MODFLOW-USG/",
+            "title": "Download MODFLOW-USG",
+            "hidden": false
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "MODFLOW-USG-head-errors.jpg",
+            "title": "MODFLOW-USG",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__e8/15/16/e8151698d12995089f7bf381e48f6fc32cad0049",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 340,
+            "imageHeight": 340,
+            "size": 42994,
+            "dateUploaded": "2020-07-22T18:36:54Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "84016a253450f80a198fd0ea348a5419",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049&width=340&height=340",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049&width=150&height=150",
+                    "width": 150,
+                    "height": 150
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MODFLOW_USG_UnS.zip",
+            "files": [
+                {
+                    "name": "MODFLOW-USG-head-errors.jpg",
+                    "title": "MODFLOW-USG",
+                    "contentType": "image/jpeg",
+                    "size": 42994
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049&width=340&height=340",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?deprecated=__use__viewUri__instead__&f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049&width=340&height=340",
+            "width": 340,
+            "height": 340,
+            "size": 42994,
+            "title": "MODFLOW-USG"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf64?f=__disk__e8%2F15%2F16%2Fe8151698d12995089f7bf381e48f6fc32cad0049&width=150&height=150",
+            "width": 150,
+            "height": 150
+        }
+    }
+}

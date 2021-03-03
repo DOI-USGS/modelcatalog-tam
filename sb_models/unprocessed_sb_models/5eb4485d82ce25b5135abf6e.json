@@ -1,0 +1,248 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485d82ce25b5135abf6e"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485d82ce25b5135abf6e",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485d82ce25b5135abf6e",
+    "title": "NSHMP - National Seismic Hazard Model Project",
+    "subTitle": "National Seismic Hazard Model Project",
+    "summary": "NSHMP combines state-of-the-art work in earthquake source seismology, ground motion seismology, paleoseismology, geology, geodesy, and engineering. This information is integrated into the national seismic hazard models for the U.S. and its territories, as well as associated products such as probabilistic seismic hazard maps, hazard curves at more than 600,00 sites, uncertainty analyses for selected cities, and loss estimation. The national seismic hazard maps are the basis for seismic provisions in building codes, risk models used in insurance rate structures, the financial sector, FEMA's Hazus software, and many other government agencies.  Model Name (Name of the model, including acronyms): National Seismic Hazard Model Project (NSHMP) [...]",
+    "body": "<p>NSHMP combines state-of-the-art work in earthquake source seismology, ground motion seismology, paleoseismology, geology, geodesy, and engineering. This information is integrated into the national seismic hazard models for the U.S. and its territories, as well as associated products such as probabilistic seismic hazard maps, hazard curves at more than 600,00 sites, uncertainty analyses for selected cities, and loss estimation. The national seismic hazard maps are the basis for seismic provisions in building codes, risk models used in insurance rate structures, the financial sector, FEMA's Hazus software, and many other government agencies.<br>\n<br>\n<strong>Model Name</strong>&nbsp;<em>(Name of the model, including acronyms)</em>:</p>\n\n<p>National Seismic Hazard Model Project (NSHMP)</p>\n\n<p><strong>Model Version</strong>&nbsp;<em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p>1.3.0</p>\n\n<p><strong>Abstract</strong>&nbsp;<em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>NSHMP combines state-of-the-art work in earthquake source seismology, ground motion seismology, paleoseismology, geology, geodesy, and engineering. This information is integrated into the national seismic hazard models for the U.S. and its territories, as well as associated products such as probabilistic seismic hazard maps, hazard curves at more than 600,00 sites, uncertainty analyses for selected cities, and loss estimation. The national seismic hazard maps are the basis for seismic provisions in building codes, risk models used in insurance rate structures, the financial sector, FEMA's Hazus software, and many other government agencies.</p>\n\n<p><strong>Originator(s)</strong>&nbsp;<em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p>Mark D Petersen (USGS), Allison M Shumway (USGS)</p>\n\n<p><strong>Contact Name(s)</strong>&nbsp;<em>(Person(s) responsible for maintenance of the model)</em>:</p>\n\n<p>Mark D Petersen (USGS), Allison M Shumway (USGS)</p>\n\n<p><strong>Contact Email(s)</strong>:</p>\n\n<p><a href=\"mailto:mpetersen@usgs.gov\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">mpetersen@usgs.gov</a>,&nbsp;<a href=\"mailto:ashumway@usgs.gov\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">ashumway@usgs.gov</a></p>\n\n<p><strong>Release Date</strong>&nbsp;<em>(Date model was originally released (MM, YYYY))</em>:</p>\n\n<p>03, 2017</p>\n\n<p><strong>Last Update</strong>&nbsp;<em>(Date of last update (MM, YYYY))</em>:</p>\n\n<p>09, 2019</p>\n\n<p><strong>Organization(s)</strong>&nbsp;<em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>USGS</p>\n\n<p><strong>Mission Area</strong>&nbsp;<em>(USGS mission area with which this model most clearly aligns.&nbsp;<a href=\"https://www.usgs.gov/science/mission-areas\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Natural Hazards</p>\n\n<p><strong>License</strong>&nbsp;<em>(OSI-approved (Open-Source Initiative) license (see&nbsp;<a href=\"https://opensource.org/licenses\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://opensource.org/licenses</a>))</em>:</p>\n\n<p><a href=\"https://github.com/usgs/nshmp-haz/blob/master/LICENSE.md\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/blob/master/LICENSE.md</a></p>\n\n<p><strong>Model Citation</strong>&nbsp;<em>(How to cite the model&nbsp; (e.g., Software Release citation). For example, Doe, J.S., Sea Turtle Cuteness Model, 2020, U.S. Geological Survey,&nbsp;<a href=\"https://doi.org/xxxxx\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://doi.org/xxxxx</a>))</em>:</p>\n\n<p><strong>Identifier</strong>&nbsp;<em>(Location where the model is posted or published (e.g. PID or DOI))</em>:</p>\n\n<p><strong>Language</strong>&nbsp;<em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>\u2195</p>\n\n<p>Java</p>\n\n<p><strong>References</strong>&nbsp;<em>(References (where the model has been cited, outputs, data release)</em>:</p>\n\n<p>Model Output: Rukstales, K.S., and Petersen, M.D., 2019, Data Release for 2018 Update of the U.S. National Seismic Hazard Model: U.S. Geological Survey data release,&nbsp;<a href=\"https://doi.org/10.5066/P9WT5OVB\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://doi.org/10.5066/P9WT5OVB</a>.</p>\n\n<p><strong>Resources</strong>&nbsp;<em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>User Documentation:&nbsp;<a href=\"https://github.com/usgs/nshmp-haz/wiki\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/wiki</a></p>\n\n<p>USGS Webpage:&nbsp;<a href=\"https://www.usgs.gov/natural-hazards/earthquake-hazards/hazards\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://www.usgs.gov/natural-hazards/earthquake-hazards/hazards</a></p>\n\n<p>Publication: Petersen, M. D., Shumway, A. M., Powers, P. M., Mueller, C. S., Moschetti, M. P., Frankel, A. D., \u2026 Zeng, Y. (2020). The 2018 update of the US National Seismic Hazard Model: Overview of model and implications. Earthquake Spectra, 36(1), 5\u201341.</p>\n\n<p><strong>Tags</strong>&nbsp;<em>(Keywords or tags that describe the model (i.e., \"groundwater, aquifer, Southwest\"))</em>:</p>\n\n<p>Seismic Hazard</p>\n\n<p><strong>Requirements</strong>&nbsp;<em>(All software and/or hardware requirements needed to run the model and replicate any published results)</em>:</p>\n\n<p><a href=\"https://github.com/usgs/nshmp-haz/wiki/building-&amp;-running\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/wiki/building-&amp;-running</a></p>\n\n<p><strong>Dependencies</strong>&nbsp;<em>(All data dependencies needed to run the model and replicate any published results)</em>:</p>\n\n<p><a href=\"https://github.com/usgs/nshmp-haz/wiki/dependencies-&amp;-development\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/wiki/dependencies-&amp;-development</a></p>\n\n<p><strong>Version Updates</strong>&nbsp;<em>(Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate)</em>:</p>\n\n<p><a href=\"https://github.com/usgs/nshmp-haz/releases\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/releases</a></p>\n\n<p><strong>Input/Output and Variables</strong>&nbsp;<em>(Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate); control variables; Key output variables and domain ranges)</em>:</p>\n\n<p><a href=\"https://github.com/usgs/nshmp-haz/wiki/configuration\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/wiki/configuration</a></p>\n\n<p><strong>Model Components</strong>&nbsp;<em>(A subsection of the model that simulates a subset of processes (ex. COAWST))</em>:</p>\n\n<p><a href=\"https://github.com/usgs/nshmp-haz/wiki/source-models\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);\">https://github.com/usgs/nshmp-haz/wiki/source-models</a></p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:49Z",
+        "lastUpdated": "2021-01-06T22:24:55Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Mark D Petersen",
+            "oldPartyId": 8045,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/8045",
+            "email": "mpetersen@usgs.gov",
+            "active": true,
+            "jobTitle": "Supervisory Research Geophysicist",
+            "firstName": "Mark",
+            "lastName": "Petersen",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0001-8542-3990"
+        },
+        {
+            "name": "Allison M Shumway",
+            "oldPartyId": 67941,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "ashumway@usgs.gov",
+            "active": true,
+            "jobTitle": "Geophysicist",
+            "firstName": "Allison",
+            "middleName": "M",
+            "lastName": "Shumway",
+            "organization": {},
+            "primaryLocation": {
+                "name": "CN=Allison M Shumway,OU=Users,OU=GoldenCO-G,OU=CR,DC=gs,DC=doi,DC=net - Primary Location",
+                "building": "1711 Illinois St",
+                "buildingCode": "KCI",
+                "officePhone": "3032738402",
+                "streetAddress": {
+                    "line1": "1711 Illinois St",
+                    "city": "Golden",
+                    "state": "CO",
+                    "zip": "80401"
+                },
+                "mailAddress": {
+                    "line1": "P.O. Box 25046",
+                    "mailStopCode": "MS 966",
+                    "city": "Denver",
+                    "state": "CO",
+                    "zip": "80225-0046",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0003-1142-7141"
+        },
+        {
+            "name": "Natural Hazards",
+            "oldPartyId": 64240,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "organization": {},
+            "primaryLocation": {
+                "name": "Natural Hazards Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://github.com/usgs/nshmp-haz/wiki",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        },
+        {
+            "type": "download",
+            "typeLabel": "sourceCode",
+            "uri": "https://github.com/usgs/nshmp-haz",
+            "rel": "alternate",
+            "title": "Code Repository",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1177/8755293019878199",
+            "title": "Petersen, M. D., Shumway, A. M., Powers, P. M., Mueller, C. S., Moschetti, M. P., Frankel, A. D., \u2026 Zeng, Y. (2020). The 2018 update of the US National Seismic Hazard Model: Overview of model and implications. Earthquake Spectra, 36(1), 5\u201341. https://doi.org/10.1177/8755293019878199",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/natural-hazards/earthquake-hazards/hazards",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9WT5OVB",
+            "title": "Rukstales, K.S., and Petersen, M.D., 2019, Data Release for 2018 Update of the U.S. National Seismic Hazard Model: U.S. Geological Survey data release, https://doi.org/10.5066/P9WT5OVB.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Seismology"
+        },
+        {
+            "type": "Label",
+            "name": "Java"
+        },
+        {
+            "type": "Label",
+            "name": "Seismic Hazard"
+        }
+    ],
+    "dates": [
+        {
+            "type": "Release",
+            "dateString": "2017-03-16",
+            "label": "Release Date"
+        },
+        {
+            "type": "lastUpdate",
+            "dateString": "2019-09-24",
+            "label": "Last Update"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "2018 NSHM Cover Image.jpg",
+            "title": "2018 chance-of-damage map for 100 years with population density superimposed",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__f3/2e/22/f32e22096af522643ae292a961ff408cecfc12e6",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 1140,
+            "imageHeight": 734,
+            "size": 207348,
+            "dateUploaded": "2020-06-05T17:47:33Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=1140&height=734",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=150&height=97",
+                    "width": 150,
+                    "height": 97
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=350&height=225",
+                    "width": 350,
+                    "height": 225
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=580&height=373",
+                    "width": 580,
+                    "height": 373
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "NSHMP_NationalS.zip",
+            "files": [
+                {
+                    "name": "2018 NSHM Cover Image.jpg",
+                    "title": "2018 chance-of-damage map for 100 years with population density superimposed",
+                    "contentType": "image/jpeg",
+                    "size": 207348
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=1140&height=734",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?deprecated=__use__viewUri__instead__&f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=1140&height=734",
+            "width": 1140,
+            "height": 734,
+            "size": 207348,
+            "title": "2018 chance-of-damage map for 100 years with population density superimposed"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=150&height=97",
+            "width": 150,
+            "height": 97
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=350&height=225",
+            "width": 350,
+            "height": 225
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6e?f=__disk__f3%2F2e%2F22%2Ff32e22096af522643ae292a961ff408cecfc12e6&width=580&height=373",
+            "width": 580,
+            "height": 373
+        }
+    }
+}

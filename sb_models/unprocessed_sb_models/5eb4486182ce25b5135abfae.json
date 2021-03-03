@@ -1,0 +1,183 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486182ce25b5135abfae"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486182ce25b5135abfae",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486182ce25b5135abfae",
+    "title": "MODFLOW-VSF - Variably Saturated Flow",
+    "subTitle": "Variably Saturated Flow",
+    "summary": "The Variably Saturated Flow (VSF) Process enables MODFLOW (MF2K v15) to simulate threedimensional variably saturated flow in porous media. The VSF Process includes five packages unique to unsaturated flow; the Richards' Equation Flow (REF1) Package, the Seepage Face (SPF1) Package, the Surface Ponding (PND1) Package, the Surface Evaporation (SEV1) Package, and the Root Zone Evapotranspiration (RZE1) Package. Additionally a new Adaptive Time-Stepping (ATS1) Package is introduced for use by both the Ground-Water Flow (GWF) Process and VSF. Processes may be active or inactive, depending on simulation objectives; however, not all processes are compatible. For example, the Observation, Sensitivity and Parameter Estimation Processes are [...]",
+    "body": "<div>The Variably Saturated Flow (VSF) Process enables MODFLOW (MF2K v15) to simulate threedimensional variably saturated flow in porous media. The VSF Process includes five packages unique to unsaturated flow; the Richards' Equation Flow (REF1) Package, the Seepage Face (SPF1) Package, the Surface Ponding (PND1) Package, the Surface Evaporation (SEV1) Package, and the Root Zone Evapotranspiration (RZE1) Package. Additionally a new Adaptive Time-Stepping (ATS1) Package is introduced for use by both the Ground-Water Flow (GWF) Process and VSF. Processes may be active or inactive, depending on simulation objectives; however, not all processes are compatible. For example, the Observation, Sensitivity and Parameter Estimation Processes are not compatible with VSF. The VSF computer code was tested against two published one-dimensional simulations, two published two-dimensional simulations and against an existingtwo-dimensional model (VS2DT).</div>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:53Z",
+        "lastUpdated": "2021-01-06T21:24:25Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Richard B Winston",
+            "oldPartyId": 11359,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/11359",
+            "email": "rbwinst@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Richard",
+            "lastName": "Winston",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0002-6287-8834"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "download",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/nrp/gwsoftware/mf2k_vsf/vsf.html",
+            "rel": "alternate",
+            "title": "Download VSF",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://pubs.usgs.gov/tm/2006/tm6a18/",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://pubs.usgs.gov/tm/2006/tm6a18/pdf/TM6A18.pdf",
+            "title": "Thoms, R.B., Johnson, R.L., and Healy, R.W., 2006, User\u2019s guide to the Variably Saturated Flow (VSF) Process for MODFLOW: U.S. Geological Survey Techniques and Methods 6\u2013A18, 58 p.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "Screen Shot 2020-06-29 at 11.28.20 AM.png",
+            "title": "VSF",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__ff/34/b2/ff34b2edbc3fd296843ce0014b1c2ca9ba467070",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 531,
+            "imageHeight": 267,
+            "size": 139820,
+            "dateUploaded": "2020-06-29T17:28:32Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=531&height=267",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=150&height=75",
+                    "width": 150,
+                    "height": 75
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=350&height=176",
+                    "width": 350,
+                    "height": 176
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MODFLOW_VSF_Var.zip",
+            "files": [
+                {
+                    "name": "Screen Shot 2020-06-29 at 11.28.20 AM.png",
+                    "title": "VSF",
+                    "contentType": "image/png",
+                    "size": 139820
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=531&height=267",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?deprecated=__use__viewUri__instead__&f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=531&height=267",
+            "width": 531,
+            "height": 267,
+            "size": 139820,
+            "title": "VSF"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=150&height=75",
+            "width": 150,
+            "height": 75
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486182ce25b5135abfae?f=__disk__ff%2F34%2Fb2%2Fff34b2edbc3fd296843ce0014b1c2ca9ba467070&width=350&height=176",
+            "width": 350,
+            "height": 176
+        }
+    }
+}

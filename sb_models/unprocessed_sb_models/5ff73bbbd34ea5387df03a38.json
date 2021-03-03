@@ -1,0 +1,94 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5ff73bbbd34ea5387df03a38"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5ff73bbbd34ea5387df03a38",
+            "rel": "related"
+        }
+    },
+    "id": "5ff73bbbd34ea5387df03a38",
+    "title": "WATEQF - A FORTRAN IV VERSION OF WATEQ, A COMPUTER PROGRAM FOR CALCULATING CHEMICAL EQUILIBRIUM OF NATURAL WATERS",
+    "subTitle": "A FORTRAN IV VERSION OF WATEQ, A COMPUTER PROGRAM FOR CALCULATING CHEMICAL EQUILIBRIUM OF NATURAL WATERS",
+    "summary": "WATEQF is a FORTRAN IV computer program that models the thermodynamic speciation of inorganic ions and complex species in solution for a given water analysis. The original version (WATEQ) was written in 1973 by A. H. Truesdell and B. F. Jones in Programming Language/one (PL/1). With but a few exceptions, the thermochemical data, speciation, activity coefficients, and general calculation procedure of WATEQF is identical to the PL/1 version. This report notes the differences between WATEQF and WATEQ, demonstrates how to set up the input data to execute WATEQF, provides a test case for comparison, and makes available a listing of WATEQF.",
+    "body": "WATEQF is a FORTRAN IV computer program that models the thermodynamic speciation of inorganic ions and complex species in solution for a given water analysis. The original version (WATEQ) was written in 1973 by A. H. Truesdell and B. F. Jones in Programming Language/one (PL/1). With but a few exceptions, the thermochemical data, speciation, activity coefficients, and general calculation procedure of WATEQF is identical to the PL/1 version. This report notes the differences between WATEQF and WATEQ, demonstrates how to set up the input data to execute WATEQF, provides a test case for comparison, and makes available a listing of WATEQF.",
+    "provenance": {
+        "dataSource": "Input directly",
+        "dateCreated": "2021-01-07T16:50:03Z",
+        "lastUpdated": "2021-01-07T16:59:02Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "gdonovan@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Niel Plummer",
+            "oldPartyId": 8161,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "nplummer@usgs.gov",
+            "jobTitle": "Scientist Emeritus",
+            "firstName": "Niel",
+            "lastName": "Plummer",
+            "organization": {
+                "displayText": "Deprecated[17098] Branch of Regional Research, Eastern Region"
+            },
+            "primaryLocation": {
+                "name": "Niel Plummer/WRD/USGS/DOI - Primary Location",
+                "building": "John W Powell FB",
+                "buildingCode": "AAA",
+                "officePhone": "7036485726",
+                "faxPhone": "7036485832",
+                "streetAddress": {
+                    "line1": "12201 Sunrise Valley Dr",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192"
+                },
+                "mailAddress": {
+                    "line1": "12201 Sunrise Valley Drive, Mail Stop 432",
+                    "mailStopCode": "432",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192-0002",
+                    "country": "USA"
+                }
+            },
+            "orcId": "0000-0002-4020-1013"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/wri7613",
+            "title": "Plummer, N., Jones, B.F., and Truesdell, A.H, 1976, WATEQF; a FORTRAN IV version of WATEQ : a computer program for calculating chemical equilibrium of natural waters: Water-Resources Investigations Report 76-13, https://doi.org/10.3133/wri7613.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

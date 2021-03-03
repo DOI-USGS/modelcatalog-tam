@@ -1,0 +1,202 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485d82ce25b5135abf62"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485d82ce25b5135abf62",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485d82ce25b5135abf62",
+    "title": "MODFLOW-OWHM - MODFLOW One Water Hydrologic Flow Model",
+    "subTitle": "MODFLOW One Water Hydrologic Flow Model",
+    "summary": "MODFLOW One Water Hydrologic Flow Model (MODFLOW-OWHM) is an integrated hydrologic flow model for the analysis of human and natural water movement within a supply-and-demand framework. The MODFLOW One-Water Hydrologic Flow Model (MF-OWHM; Boyce and others, 2020; Hanson and others, 2014) is a MODFLOW-2005 based integrated hydrologic model designed for the analysis of conjunctive-use management. The term \u201cintegrated\u201d refers to the tight coupling of groundwater flow, surface-water flow, landscape processes, aquifer compaction and subsidence, reservoir operations, and conduit (karst) flow. This fusion results in a simulation software capable of addressing water-use and sustainability problems, including conjunctive-use, water-management, [...]",
+    "body": "MODFLOW One Water Hydrologic Flow Model (MODFLOW-OWHM) is an integrated hydrologic flow model for the analysis of human and natural water movement within a supply-and-demand framework. The MODFLOW One-Water Hydrologic Flow Model (MF-OWHM;&nbsp;<a href=\"https://pubs.er.usgs.gov/publication/tm6A60\" style=\"background: transparent; box-sizing: border-box; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">Boyce and others, 2020</a>;&nbsp;<a href=\"http://pubs.usgs.gov/tm/06/a51/\" style=\"background: transparent; box-sizing: border-box; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">Hanson and others, 2014</a>) is a&nbsp;<a href=\"https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model\" style=\"background: transparent; box-sizing: border-box; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">MODFLOW-2005</a>&nbsp;based integrated hydrologic model&nbsp;designed for the analysis of conjunctive-use management. The term \u201cintegrated\u201d refers to the tight coupling of groundwater flow, surface-water flow, landscape processes, aquifer compaction and subsidence, reservoir operations, and conduit (karst) flow.&nbsp;This fusion results&nbsp;in&nbsp;a&nbsp;simulation software capable of addressing water-use and sustainability problems, including conjunctive-use, water-management, water-food-security, and climate-crop-water scenarios.\n\n<div>\n<div>&nbsp;</div>\n\n<div>&nbsp;</div>\n</div>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:49Z",
+        "lastUpdated": "2020-10-05T16:27:24Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Scott E Boyce",
+            "oldPartyId": 19850,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/19850",
+            "email": "seboyce@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Scott",
+            "lastName": "Boyce",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-0626-9492"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://ca.water.usgs.gov/modeling-software/one-water-hydrologic-model.html",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "sourceCode",
+            "uri": "https://doi.org/10.5066/P9CZM46C",
+            "title": "Code Repository",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/modflow-one-water-hydrologic-flow-model-conjunctive-use-simulation-software-mf-owhm",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/tm6A60",
+            "title": "Boyce, S.E., Hanson, R.T., Ferguson, I., Schmid, W., Henson, W., Reimann, T., Mehl, S.M., and Earll, M.M., 2020, One-Water Hydrologic Flow Model: A MODFLOW based conjunctive-use simulation software: U.S. Geological Survey Techniques and Methods 6\u2013A60, 435 p.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://www.sciencedirect.com/science/article/pii/S0309170819311790",
+            "title": "Alattar, Mustafa H., et al. \u201cModeling the Surface Water and Groundwater Budgets of the US Using MODFLOW-OWHM.\u201d Advances in Water Resources, vol. 143, 2020, p. 103682., doi:10.1016/j.advwatres.2020.103682.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "schematic-one-water-hydrologic-model.jpg",
+            "title": "MODFLOW-OWHM",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__0f/b4/46/0fb446b9d13a87b63aa0b45d108b0de9db2ef368",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 669,
+            "imageHeight": 498,
+            "size": 118947,
+            "dateUploaded": "2020-07-22T18:41:24Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "305b2875dc4f65f67668616893208b23",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=669&height=498",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=150&height=112",
+                    "width": 150,
+                    "height": 112
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=350&height=261",
+                    "width": 350,
+                    "height": 261
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=580&height=432",
+                    "width": 580,
+                    "height": 432
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MODFLOW_OWHM_MO.zip",
+            "files": [
+                {
+                    "name": "schematic-one-water-hydrologic-model.jpg",
+                    "title": "MODFLOW-OWHM",
+                    "contentType": "image/jpeg",
+                    "size": 118947
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=669&height=498",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?deprecated=__use__viewUri__instead__&f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=669&height=498",
+            "width": 669,
+            "height": 498,
+            "size": 118947,
+            "title": "MODFLOW-OWHM"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=150&height=112",
+            "width": 150,
+            "height": 112
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=350&height=261",
+            "width": 350,
+            "height": 261
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf62?f=__disk__0f%2Fb4%2F46%2F0fb446b9d13a87b63aa0b45d108b0de9db2ef368&width=580&height=432",
+            "width": 580,
+            "height": 432
+        }
+    }
+}

@@ -1,0 +1,273 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485e82ce25b5135abf78"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485e82ce25b5135abf78",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485e82ce25b5135abf78",
+    "title": "PHREEQC - Program for performing a variety of aqueous geochemical calculations",
+    "subTitle": "Program for performing a variety of aqueous geochemical calculations",
+    "summary": "PHREEQC Version 3 is a computer program written in the C++ programming language that is designed to perform a wide variety of aqueous geochemical calculations. PHREEQC implements several types of aqueous models including two ion-association aqueous models.",
+    "body": "<p>PHREEQC Version 3 is a computer program written in the C++ programming language that is designed to perform a wide variety of aqueous geochemical calculations. PHREEQC implements several types of aqueous models including two ion-association aqueous models.</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:50Z",
+        "lastUpdated": "2020-12-28T18:11:59Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Scott R Charlton",
+            "oldPartyId": 1722,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "charlton@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Scott",
+            "middleName": "R",
+            "lastName": "Charlton",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "Scott R Charlton/WRD/USGS/DOI - Primary Location",
+                "building": "Kittridge Business Center",
+                "buildingCode": "KZW",
+                "officePhone": "3032787935",
+                "faxPhone": "3032794165",
+                "streetAddress": {
+                    "line1": "4620 Technology Dr",
+                    "city": "Golden",
+                    "state": "CO",
+                    "zip": "80403",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "4620 Technology Drive",
+                    "city": "Golden",
+                    "state": "CO",
+                    "zip": "80401",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0001-7332-3394"
+        },
+        {
+            "name": "David L Parkhurst",
+            "oldPartyId": 7870,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/7870",
+            "email": "dlpark@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "firstName": "David",
+            "lastName": "Parkhurst",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-3348-1544"
+        },
+        {
+            "name": "Richard M Webb",
+            "oldPartyId": 11018,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/11018",
+            "email": "rmwebb@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Hydrologist",
+            "firstName": "Richard",
+            "lastName": "Webb",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0001-9531-2207"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/phreeqc-version-3",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/tm6A43",
+            "rel": "related",
+            "title": "Parkhurst, D.L. and Appelo, C.A.J., 2013, Description of input and examples for PHREEQC version 3: a computer program for speciation, batch-reaction, one-dimensional transport, and inverse geochemical calculations (No. 6-A43): US Geological Survey",
+            "hidden": false
+        },
+        {
+            "type": "download",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/PHREEQC/index.html",
+            "rel": "alternate",
+            "title": "Download PHREEQC",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Geochemistry"
+        },
+        {
+            "type": "Label",
+            "name": "C++"
+        }
+    ],
+    "dates": [
+        {
+            "type": "Release",
+            "dateString": "1999-12-15",
+            "label": "Release Date"
+        },
+        {
+            "type": "lastUpdate",
+            "dateString": "2020-01-28",
+            "label": "Last Update"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "PHREEQC-Belousov-chemical-waves.jpg",
+            "title": "Chemical waves of the Belousov reaction that are calculated with PHREEQC.",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__5d/c1/ef/5dc1ef09485e1c6d00ad58904c62da9599f1e898",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 340,
+            "imageHeight": 289,
+            "size": 36959,
+            "dateUploaded": "2020-06-04T16:34:22Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898&width=340&height=289",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898&width=150&height=128",
+                    "width": 150,
+                    "height": 128
+                }
+            }
+        },
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "PHREEQC.txt",
+            "title": "",
+            "contentType": "text/plain",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__10/b7/ce/10b7ceed0a051829cf2bbd5cc7a75ed8b819c498",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": null,
+            "imageHeight": null,
+            "size": 7039,
+            "dateUploaded": "2020-12-28T18:11:46Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "b730923542118e23c2e5a6320bbe9789",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__10%2Fb7%2Fce%2F10b7ceed0a051829cf2bbd5cc7a75ed8b819c498",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__10%2Fb7%2Fce%2F10b7ceed0a051829cf2bbd5cc7a75ed8b819c498",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__10%2Fb7%2Fce%2F10b7ceed0a051829cf2bbd5cc7a75ed8b819c498&allowOpen=true"
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "PHREEQC_Program.zip",
+            "files": [
+                {
+                    "name": "PHREEQC-Belousov-chemical-waves.jpg",
+                    "title": "Chemical waves of the Belousov reaction that are calculated with PHREEQC.",
+                    "contentType": "image/jpeg",
+                    "size": 36959
+                },
+                {
+                    "name": "PHREEQC.txt",
+                    "title": "",
+                    "contentType": "text/plain",
+                    "size": 7039
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898&width=340&height=289",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?deprecated=__use__viewUri__instead__&f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898&width=340&height=289",
+            "width": 340,
+            "height": 289,
+            "size": 36959,
+            "title": "Chemical waves of the Belousov reaction that are calculated with PHREEQC."
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485e82ce25b5135abf78?f=__disk__5d%2Fc1%2Fef%2F5dc1ef09485e1c6d00ad58904c62da9599f1e898&width=150&height=128",
+            "width": 150,
+            "height": 128
+        }
+    }
+}

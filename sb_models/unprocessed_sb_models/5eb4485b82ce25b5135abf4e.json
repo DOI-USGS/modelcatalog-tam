@@ -1,0 +1,134 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485b82ce25b5135abf4e"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485b82ce25b5135abf4e",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485b82ce25b5135abf4e",
+    "title": "MODBRNCH - MODFLOW/BRANCH coupled flow model",
+    "subTitle": "MODFLOW/BRANCH coupled flow model",
+    "summary": "Surface- and ground-water interactions can be simulated by the coupled BRANCH and USGS modular, three-dimensional, finite-difference ground-water flow (MODFLOW-96) models, referred to as MODBRNCH. MODFLOW-96 simulates steady and nonsteady flow in an irregularly shaped flow system in which aquifer layers can be confined, unconfined, or a combination of confined and unconfined. BRANCH simulates steady or unsteady flow in a single open-channel reach (branch) or throughout a system of branches (network)connected in a dendritic or looped pattern by solving the one-dimensional equations of continuity and momentum for the river flow. Channel-aquifer flows are leakage through a confining layer or riverbed. Computation of this leakage in the [...]",
+    "body": "Surface- and ground-water interactions can be simulated by the coupled BRANCH and USGS modular, three-dimensional, finite-difference ground-water flow (MODFLOW-96) models, referred to as MODBRNCH. MODFLOW-96 simulates steady and nonsteady flow in an irregularly shaped flow system in which aquifer layers can be confined, unconfined, or a combination of confined and unconfined. BRANCH simulates steady or unsteady flow in a single open-channel reach (branch) or throughout a system of branches (network)connected in a dendritic or looped pattern by solving the one-dimensional equations of continuity and momentum for the river flow. Channel-aquifer flows are leakage through a confining layer or riverbed. Computation of this leakage in the ground-water and surface-water systems allows these processes to be coupled for simulation purposes.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:47Z",
+        "lastUpdated": "2021-01-06T21:30:41Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-W h2osoft",
+            "oldPartyId": 61967,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/61967",
+            "email": "gs-w_h2osoft@usgs.gov",
+            "firstName": "GS-W",
+            "lastName": "h2osoft",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Eric D Swain",
+            "oldPartyId": 10133,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "edswain@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist (RGE)",
+            "personalTitle": "Dr.",
+            "firstName": "Eric",
+            "middleName": "D",
+            "lastName": "Swain",
+            "organization": {
+                "displayText": "Caribbean-Florida Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "Eric D Swain/WRD/USGS/DOI - Primary Location",
+                "building": "NSU Center For Collaborative Research",
+                "buildingCode": "BAM",
+                "officePhone": "9543775925",
+                "faxPhone": "9543775901",
+                "streetAddress": {
+                    "line1": "3321 College Avenue",
+                    "city": "Davie",
+                    "state": "FL",
+                    "zip": "33314",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "NSU Center for Collaborative Research (CCR)",
+                    "line2": "3321 College Avenue",
+                    "city": "Davie",
+                    "state": "FL",
+                    "zip": "33314",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0001-7168-708X"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/cgi-bin/man_wrdapp?modbrnch",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "download",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/software/MODBRNCH/",
+            "rel": "alternate",
+            "title": "Download MODBRNCH",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

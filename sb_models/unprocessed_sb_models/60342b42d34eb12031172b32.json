@@ -1,0 +1,111 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/60342b42d34eb12031172b32"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=60342b42d34eb12031172b32",
+            "rel": "related"
+        }
+    },
+    "id": "60342b42d34eb12031172b32",
+    "title": "Integrated Biosphere Simulator Model - IBIS",
+    "summary": "The Integrated Biosphere Simulator (or IBIS) is designed to be a comprehensive model of the terrestrial biosphere. The model represents a wide range of processes, including land surface physics, canopy physiology, plant phenology, vegetation dynamics and competition, and carbon and nutrient cycling. The model generates global simulations of the surface water balance (e.g., runoff), the terrestrial carbon balance (e.g., net primary production, net ecosystem exchange, soil carbon, aboveground and belowground litter, and soil CO2 fluxes), and vegetation structure (e.g., biomass, leaf area index, and vegetation composition). IBIS was developed by Center for Sustainability and the Global Environment (SAGE) researchers as a first step toward [...]",
+    "body": "<p>The Integrated Biosphere Simulator (or IBIS) is designed to be a comprehensive model of the terrestrial biosphere. The model represents a wide range of processes, including land surface physics, canopy physiology, plant phenology, vegetation dynamics and competition, and carbon and nutrient cycling. The model generates global simulations of the surface water balance (e.g., runoff), the terrestrial carbon balance (e.g., net primary production, net ecosystem exchange, soil carbon, aboveground and belowground litter, and soil CO2 fluxes), and vegetation structure (e.g., biomass, leaf area index, and vegetation composition). IBIS was developed by Center for Sustainability and the Global Environment (SAGE) researchers as a first step toward gaining an improved understanding of global biospheric processes and studying their potential response to human activity [Foley et al. 1996]. IBIS was constructed to explicitly link land surface and hydrological processes, terrestrial biogeochemical cycles, and vegetation dynamics within a single, physically consistent framework. Furthermore, IBIS was one of a new generation of global biosphere models, termed Dynamic Global Vegetation Models (or DGVMs), that consider transient changes in vegetation composition and structure in response to environmental change.</p>\n\n<p><strong>Name</strong> <em>The name of the item (model, framework, testbed, or tool). Format: Acronym (if relevant) - Expanded acronym or brief description</em>:</p>\n\n<p>Integrated Biosphere Simulator Model - IBIS</p>\n\n<p><strong>Version</strong> <em>Version of the model or item, (for example, 2.0.0)</em>:</p>\n\n<p>2.6</p>\n\n<p><strong>Description</strong> <em>A description of the item. Instructions: Description includes its purpose or goals and the type of the model</em>:</p>\n\n<p>\"The Integrated Biosphere Simulator (or IBIS) is designed to be a comprehensive model of the terrestrial biosphere. The model represents a wide range of processes, including land surface physics, canopy physiology, plant phenology, vegetation dynamics and competition, and carbon and nutrient cycling. The model generates global simulations of the surface water balance (e.g., runoff), the terrestrial carbon balance (e.g., net primary production, net ecosystem exchange, soil carbon, aboveground and belowground litter, and soil CO2 fluxes), and vegetation structure (e.g., biomass, leaf area index, and vegetation composition). IBIS was developed by Center for Sustainability and the Global Environment (SAGE) researchers as a first step toward gaining an improved understanding of global biospheric processes and studying their potential response to human activity [Foley et al. 1996]. IBIS was constructed to explicitly link land surface and hydrological processes, terrestrial biogeochemical cycles, and vegetation dynamics within a single, physically consistent framework. Furthermore, IBIS was one of a new generation of global biosphere models, termed Dynamic Global Vegetation Models (or DGVMs), that consider transient changes in vegetation composition and structure in response to environmental change.\"</p>\n\n<p><a href=\"https://doi.org/10.3334/ORNLDAAC/808\">https://doi.org/10.3334/ORNLDAAC/808</a></p>\n\n<p><strong>Author/Developer</strong> <em>The author(s) or developer(s) of this content</em>:</p>\n\n<p>Jonathan A Foley, I Colin Prentice, Navin Ramankutty, Samuel Levis, David Pollard, Steven Sitch, and Alex Haxeltine</p>\n\n<p><strong>Contact Person</strong> <em>Names of person(s) responsible for maintenance of the model along with their email</em>:</p>\n\n<p>Jonathan A Foley, Christopher J Kucharik, and Dierk Polzin</p>\n\n<p><strong>Release Date</strong> <em>Date model was released (YYYYMMDD, YYYYMM, YYYY)</em>:</p>\n\n<p>1996</p>\n\n<p><strong>Last Update</strong> <em>Date of last version update (YYYYMMDD, YYYYMM, YYYY)</em>:</p>\n\n<p>2005</p>\n\n<p><strong>Organization</strong> <em>Organization(s) that produced, funded, or partnered on the creation of this model</em>:</p>\n\n<p>University of Wisconsin-Madison</p>\n\n<p><strong>USGS Mission Area</strong> <em>USGS Mission Area(s) the model originate(s) from. Not applicable for non-USGS models</em>:</p>\n\n<p>Non-USGS Model</p>\n\n<p><strong>Programming Language</strong> <em>Computer language or platform used for programming (for example, Fortran, R, Python)</em>:</p>\n\n<p>NetCDF</p>\n\n<p><strong>Resources</strong> <em>How to use the model, where to download it, manuals, user community pages, other webpages about the model (in other catalogs), USGS webpage) Model project page, Source code (organizational website or repository, if available)</em>:</p>\n\n<p>Kucharik, C.J., J.A. Foley, C. Delire, V.A. Fisher, M.T. Coe, J. Lenters, C. Young-Molling, N. Ramankutty, J.M. Norman, and S.T. Gower (2000). Testing the performance of a dynamic global ecosystem model: Water balance, carbon balance and vegetation structure. Global Biogeochemical Cycles 14(3), 795-825, <a href=\"https://doi.org/10.1029/1999GB001138\">https://doi.org/10.1029/1999GB001138</a>.</p>\n\n<p>Foley, J.A., I.C. Prentice, N. Ramankutty, S. Levis, D. Pollard, S. Sitch, and A. Haxeltine (1996). An integrated biosphere model of land surface processes, terrestrial carbon balance, and vegetation dynamics. Global Biogeochemical Cycles 10(4), 603-628, <a href=\"https://doi.org/10.1029/96GB02692\">https://doi.org/10.1029/96GB02692</a>.<br>\n<br>\nSource Code: <a href=\"http://nelson.wisc.edu/sage/data-and-models/model-code.php\">http://nelson.wisc.edu/sage/data-and-models/model-code.php</a></p>\n\n<p>User Manual: <a href=\"https://doi.org/10.3334/ORNLDAAC/808\">https://doi.org/10.3334/ORNLDAAC/808</a></p>\n\n<p><strong>References</strong> <em>Where the model has been used: References to reports or publications where the model is used, or cited, outputs (data release), model archive, model application</em>:</p>\n\n<p>Li, S., W. Yuan, P. Ciais, N. Viovy, A. Ito, B. Jia, and D. Zhu. 2019. Benchmark estimates for aboveground litterfall data derived from ecosystem models. Environmental Research Letters. 14(8):084020. <a href=\"https://doi.org/10.1088/1748-9326/ab2ee4\">https://doi.org/10.1088/1748-9326/ab2ee4</a>.</p>\n\n<p>Cunha, A.P.M.A., R.C.S. Alvala, G. Sampaio, M.H. Shimizu, and M.H. Costa. 2013. Calibration and Validation of the Integrated Biosphere Simulator (IBIS) for a Brazilian Semiarid Region. Journal of Applied Meteorology and Climatology. 52(12):2753-2770. <a href=\"https://doi.org/10.1175/JAMC-D-12-0190.1\">https://doi.org/10.1175/JAMC-D-12-0190.1</a>.</p>\n\n<p>Bruno Locatelli, Hety Herawati, Maria Brockhaus, Monica Idinoba, Markku Kanninen (2008) Methods and Tools for Assessing the Vulnerability of Forests and People to Climate Change.Center for International Forestery Research (CIFOR) and Agricultral Research Center for International Development (CIRAD). Working Paper No. 43 <a href=\"https://doi.org/10.1175/JAMC-D-12-0190.1\">https://doi.org/10.1175/JAMC-D-12-0190.1</a>.</p>\n\n<p>Zhang, Y., Q. Yu, J. Jiang, and Y. Tang. 2008. Calibration of Terra/MODIS gross primary production over an irrigated cropland on the North China Plain and an alpine meadow on the Tibetan Plateau. Global Change Biology. 14(4):757-767. <a href=\"https://doi.org/10.1111/j.1365-2486.2008.01538.x\">https://doi.org/10.1111/j.1365-2486.2008.01538.x</a>.</p>\n\n<p>Zhang, Y., S. Wang, A.G. Barr, and T.A. Black. 2008. Impact of snow cover on soil temperature and its simulation in a boreal aspen forest. Cold Regions Science and Technology. 52(3):355-370. <a href=\"https://doi.org/10.1016/j.coldregions.2007.07.001\">https://doi.org/10.1016/j.coldregions.2007.07.001</a>.</p>\n\n<p><strong>Related Catalog Items (Components, Parent Frameworks, Tools, Testbeds)</strong> <em>Components (HasPart), Parent Framework (IsPartOf), Related Testbed (inTestbed?), or Related Tool (RelatedTool?), indicated by relationships, and displayed on the interface appropriately</em>:</p>\n\n<p>LUCAS</p>\n",
+    "provenance": {
+        "dataSource": "Input directly",
+        "dateCreated": "2021-02-22T22:08:02Z",
+        "lastUpdated": "2021-02-22T22:14:48Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "aliford@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Jonathan A Foley",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Christopher J Kucharik",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Dierk Polzin",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "Source Code",
+            "uri": "http://nelson.wisc.edu/sage/data-and-models/model-code.php",
+            "title": "Code Repository",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://doi.org/10.3334/ORNLDAAC/808",
+            "rel": "related",
+            "title": "External Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1088/1748-9326/ab2ee4",
+            "title": "Li, S., W. Yuan, P. Ciais, N. Viovy, A. Ito, B. Jia, and D. Zhu. 2019. Benchmark estimates for aboveground litterfall data derived from ecosystem models. Environmental Research Letters. 14(8):084020, https://doi.org/10.1088/1748-9326/ab2ee4.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1175/JAMC-D-12-0190.1",
+            "title": "Cunha, A.P.M.A., R.C.S. Alvala, G. Sampaio, M.H. Shimizu, and M.H. Costa. 2013. Calibration and Validation of the Integrated Biosphere Simulator (IBIS) for a Brazilian Semiarid Region. Journal of Applied Meteorology and Climatology. 52(12):2753-2770. https://doi.org/10.1175/JAMC-D-12-0190.1.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.1175/JAMC-D-12-0190.1",
+            "title": "Bruno Locatelli, Hety Herawati, Maria Brockhaus, Monica Idinoba, Markku Kanninen (2008) Methods and Tools for Assessing the Vulnerability of Forests and People to Climate Change.Center for International Forestery Research (CIFOR) and Agricultral Research Center for International Development (CIRAD). Working Paper No. 43 https://doi.org/10.1175/JAMC-D-12-0190.1.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1029/1999GB001138",
+            "title": "Kucharik, C.J., J.A. Foley, C. Delire, V.A. Fisher, M.T. Coe, J. Lenters, C. Young-Molling, N. Ramankutty, J.M. Norman, and S.T. Gower (2000). Testing the performance of a dynamic global ecosystem model: Water balance, carbon balance and vegetation structure. Global Biogeochemical Cycles 14(3), 795-825.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1029/96GB02692",
+            "title": "Foley, J.A., I.C. Prentice, N. Ramankutty, S. Levis, D. Pollard, S. Sitch, and A. Haxeltine (1996). An integrated biosphere model of land surface processes, terrestrial carbon balance, and vegetation dynamics. Global Biogeochemical Cycles 10(4), 603-628.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "NetCDF"
+        },
+        {
+            "type": "Label",
+            "name": "Non-USGS Model"
+        }
+    ],
+    "distributionLinks": []
+}

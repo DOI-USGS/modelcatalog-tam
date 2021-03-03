@@ -1,0 +1,244 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486082ce25b5135abf9e"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486082ce25b5135abf9e",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486082ce25b5135abf9e",
+    "title": "SWB - Soil Water Balance model",
+    "subTitle": "Soil Water Balance model",
+    "summary": "The Soil-Water-Balance (SWB) code has been developed to allow estimates of potential recharge to be made quickly and easily. The code calculates components of the water balance at a daily timestep by means of a modified version of the Thornthwaite-Mather soil-moisture-balance approach. Data requirements include several commonly available tabular and gridded data types: (1) precipitation, and minimum and maximum air temperature (tabular or gridded) (2) land-use classification (gridded) (3) hydrologic soil group (gridded) (4) flow direction (gridded) (5) soil-water capacity (gridded) The data and formats required are designed to take advantage of widely available GIS datasets and file structures.",
+    "body": "<p>The&nbsp;Soil-Water-Balance (SWB)&nbsp;code has been developed to allow estimates of potential recharge to be made quickly and easily. The code calculates components of the water balance at a daily timestep by means of a modified version of the Thornthwaite-Mather soil-moisture-balance approach. Data requirements include several commonly available tabular and gridded data types:</p>\n\n<p>(1) precipitation, and minimum and maximum air temperature (tabular or gridded)</p>\n\n<p>(2) land-use classification (gridded)</p>\n\n<p>(3) hydrologic soil group (gridded)</p>\n\n<p>(4) flow direction (gridded)</p>\n\n<p>(5) soil-water capacity (gridded)</p>\n\n<p>The data and formats required are designed to take advantage of widely available GIS datasets and file structures.</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:52Z",
+        "lastUpdated": "2021-01-27T20:28:14Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Stephen M Westenbroek",
+            "oldPartyId": 11130,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://usgs.gov/staff-profiles/stephen-m-westenbroek",
+            "email": "smwesten@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Stephen",
+            "middleName": "M",
+            "lastName": "Westenbroek",
+            "organization": {
+                "displayText": "Upper Midwest Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "Stephen M Westenbroek/WRD/USGS/DOI - Primary Location",
+                "buildingCode": "ARM",
+                "officePhone": "6088213888",
+                "faxPhone": "6088213817",
+                "streetAddress": {
+                    "line1": "8505 Research Way",
+                    "city": "Middleton",
+                    "state": "WI",
+                    "zip": "53562",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "8505 Research Way",
+                    "mailStopCode": "Office 165",
+                    "city": "Middleton",
+                    "state": "WI",
+                    "zip": "53562-3581",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0002-6284-8643"
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/swb-modified-thornthwaite-mather-soil-water-balance-code-estimating-groundwater-recharge",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.3334/ORNLDAAC/1219",
+            "rel": "related",
+            "title": "Thornton, P.E., M.M. Thornton, B.W. Mayer, Y. Wei, R. Devarakonda, R.S. Vose, and R.B. Cook. 2016. Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 3. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1328",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "http://doi.org/10.5066/F7CJ8BMS",
+            "rel": "related",
+            "title": "Bellino, J.C., 2018, Soil-Water Balance model and supporting datasets used to estimate  groundwater recharge in Florida and parts of Georgia, Alabama, and South Carolina,   1995-2010: U.S. Geological Survey data release, https://dx.doi.org/10.5066/F7CJ8BMS.",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9992YJM",
+            "rel": "related",
+            "title": "Nardi, M.R., 2018, Soil-Water Balance model and datasets used to estimate  groundwater recharge Brunswick, New Hanover, and Pender counties North Carolina  1980 through 2016:  U.S. Geological Survey data release https://doi.org/10.5066/P9992YJM.",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/F7XW4HRJ",
+            "rel": "related",
+            "title": "Trost, J.J., 2018, Soil-Water-Balance (SWB) model used to simulate potential groundwater recharge for the glacial aquifer system east of the Rocky Mountains, 1980-2011: U.S. Geological Survey data release",
+            "hidden": false
+        },
+        {
+            "typeLabel": "sourceCode",
+            "uri": "https://github.com/smwesten-usgs/swb",
+            "title": "Code Repository",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/tm6A31",
+            "title": "Westenbroek, S.M., Kelson, V.A., Dripps, W.R., Hunt, R.J., and Bradbury,K.R., 2010, SWB\u2014A modified Thornthwaite-Mather Soil-Water-Balance code for estimating groundwater recharge: U.S. Geological Survey Techniques and Methods 6\u2013A31, 60 p.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Land Use Change"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Soil Sciences"
+        },
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Label",
+            "name": "Fortran"
+        },
+        {
+            "type": "Label",
+            "name": "C"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "swb.png",
+            "title": "Data requirements for the soil-water-balance model",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__6b/7b/40/6b7b404476369cbad6062ffccc335c1a25448560",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 308,
+            "imageHeight": 502,
+            "size": 136162,
+            "dateUploaded": "2020-07-10T14:37:32Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "fe4121eef4a09102a6ad897205aecc93",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=308&height=502",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=69&height=113",
+                    "width": 69,
+                    "height": 113
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=161&height=263",
+                    "width": 161,
+                    "height": 263
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "SWB_SoilWaterBa.zip",
+            "files": [
+                {
+                    "name": "swb.png",
+                    "title": "Data requirements for the soil-water-balance model",
+                    "contentType": "image/png",
+                    "size": 136162
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=308&height=502",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?deprecated=__use__viewUri__instead__&f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=308&height=502",
+            "width": 308,
+            "height": 502,
+            "size": 136162,
+            "title": "Data requirements for the soil-water-balance model"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=69&height=113",
+            "width": 69,
+            "height": 113
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf9e?f=__disk__6b%2F7b%2F40%2F6b7b404476369cbad6062ffccc335c1a25448560&width=161&height=263",
+            "width": 161,
+            "height": 263
+        }
+    }
+}

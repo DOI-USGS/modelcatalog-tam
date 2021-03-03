@@ -1,0 +1,198 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485582ce25b5135abf14"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485582ce25b5135abf14",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485582ce25b5135abf14",
+    "title": "FACET - Floodplain and Channel Evaluation Tool\u00a0",
+    "subTitle": "Floodplain and Channel Evaluation Tool\u00a0",
+    "summary": "The Floodplain and Evaluation Tool (FACET) is an open-source python tool that maps the floodplain extent and derives reach-scale summaries of stream and floodplain geomorphic measurements from high-resolution digital elevation models (DEMs).FACET allows the user to hydrologically condition the DEM, generate a stream network, select one of two options for stream bank identification, map the floodplain extent using a Height Above Nearest Drainage (HAND) approach, and calculate stream and floodplain metrics using three approaches. The current version of FACET was built to process 3-m DEMs in the Chesapeake and Delaware Basins. Stay tuned for future FACET updates to run DEMs in other basins.",
+    "body": "The Floodplain and Evaluation Tool (FACET) is an open-source python tool that maps the floodplain extent and derives reach-scale summaries of stream and floodplain geomorphic measurements from high-resolution digital elevation models (DEMs).FACET allows the user to hydrologically condition the DEM, generate a stream network, select one of two options for stream bank identification, map the floodplain extent using a Height Above Nearest Drainage (HAND) approach, and calculate stream and floodplain metrics using three approaches. The current version of FACET was built to process 3-m DEMs in the Chesapeake and Delaware Basins. Stay tuned for future FACET updates to run DEMs in other basins.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:41Z",
+        "lastUpdated": "2020-09-25T21:37:46Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-W FACET",
+            "oldPartyId": 78586,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/78586",
+            "email": "gs-w_facet@usgs.gov",
+            "firstName": "GS-W",
+            "lastName": "FACET",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Kristina G Hopkins",
+            "oldPartyId": 70269,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "khopkins@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Physical Scientist",
+            "firstName": "Kristina",
+            "middleName": "G",
+            "lastName": "Hopkins",
+            "organization": {
+                "displayText": "South Atlantic Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "CN=Kristina G Hopkins,OU=EMEH,OU=Users,OU=OITS,OU=DI,DC=gs,DC=doi,DC=net - Primary Location",
+                "building": "Geological Surv Bldg",
+                "buildingCode": "AVB",
+                "officePhone": "9195714042",
+                "faxPhone": "9195714041",
+                "streetAddress": {
+                    "line1": "3916 Sunset Ridge Rd",
+                    "city": "Raleigh",
+                    "state": "NC",
+                    "zip": "27607",
+                    "country": "US"
+                },
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-1699-9384"
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "sourceCode",
+            "uri": "https://code.usgs.gov/water/facet",
+            "title": "Code Repository",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/floodplain-and-channel-evaluation-tool-facet",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9RQJPT1",
+            "title": "Hopkins, K.G., Ahmed, L., Metes, M.J., Claggett, P.R., Lamont, S., and Noe, G.B, 2020, Geomorphometry for Streams and Floodplains in the Chesapeake and Delaware Watersheds: U.S. Geological Survey data release, https://doi.org/10.5066/P9RQJPT1.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Python"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "FACET.gif",
+            "title": "FACET",
+            "contentType": "image/gif",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__e7/3f/64/e73f6465b44da958cae9aecb9c68ea2a04e1905c",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 340,
+            "imageHeight": 340,
+            "size": 723166,
+            "dateUploaded": "2020-07-14T17:26:23Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "da344eae7ea90a4a72286cfee5aa5175",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c&width=340&height=340",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c&width=150&height=150",
+                    "width": 150,
+                    "height": 150
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "FACET_Floodplai.zip",
+            "files": [
+                {
+                    "name": "FACET.gif",
+                    "title": "FACET",
+                    "contentType": "image/gif",
+                    "size": 723166
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c&width=340&height=340",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?deprecated=__use__viewUri__instead__&f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c&width=340&height=340",
+            "width": 340,
+            "height": 340,
+            "size": 723166,
+            "title": "FACET"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485582ce25b5135abf14?f=__disk__e7%2F3f%2F64%2Fe73f6465b44da958cae9aecb9c68ea2a04e1905c&width=150&height=150",
+            "width": 150,
+            "height": 150
+        }
+    }
+}

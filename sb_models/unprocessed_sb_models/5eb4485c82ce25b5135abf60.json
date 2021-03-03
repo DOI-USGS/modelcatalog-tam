@@ -1,0 +1,189 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485c82ce25b5135abf60"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485c82ce25b5135abf60",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485c82ce25b5135abf60",
+    "title": "MODFLOW-NWT - A Newton Formulation for MODFLOW-2005",
+    "subTitle": "A Newton Formulation for MODFLOW-2005",
+    "summary": "The USGS MODFLOW-NWT is a Newton-Raphson formulation for MODFLOW-2005 to improve solution of unconfined groundwater-flow problems. MODFLOW-NWT is a standalone program that is intended for solving problems involving drying and rewetting nonlinearities of the unconfined groundwater-flow equation.",
+    "body": "The USGS MODFLOW-NWT is a Newton-Raphson formulation for&nbsp;<a href=\"https://www.usgs.gov/software/modflow-2005-usgs-three-dimensional-finite-difference-ground-water-model\" style=\"box-sizing: border-box; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(29, 90, 171); text-decoration-line: underline; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px;\">MODFLOW-2005</a>&nbsp;to improve solution of unconfined groundwater-flow problems. MODFLOW-NWT is a standalone program that is intended for solving problems involving drying and rewetting nonlinearities of the unconfined groundwater-flow equation.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:48Z",
+        "lastUpdated": "2020-10-05T16:27:40Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "modflow@usgs.gov",
+            "type": "Contact",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/66925",
+            "email": "modflow_owhm@usgs.gov",
+            "firstName": "GS-CAWSC",
+            "lastName": "MODFLOW OWHM",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/modflow-nwt-a-newton-formulation-modflow-2005",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/MODFLOW-NWT/",
+            "title": "Download MODFLOW-NWT",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://pubs.usgs.gov/tm/tm6a37/",
+            "title": "Niswonger, R.G., Panday, Sorab, and Ibaraki, Motomu, 2011, MODFLOW-NWT, A Newton formulation for MODFLOW-2005: U.S. Geological Survey Techniques and Methods 6-A37, 44 p.",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "MODFLOW-NWT-layer-bottoms.jpg",
+            "title": "Distribution of layer-bottom altitudes for an example problem.",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__6a/2e/6a/6a2e6a9420cfe08248a697036916c614d350a220",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 847,
+            "imageHeight": 698,
+            "size": 451198,
+            "dateUploaded": "2020-07-22T21:40:23Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "3660e817ff55fdfcbafc1a6ec8f193b3",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=847&height=698",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=150&height=124",
+                    "width": 150,
+                    "height": 124
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=350&height=288",
+                    "width": 350,
+                    "height": 288
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=580&height=478",
+                    "width": 580,
+                    "height": 478
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MODFLOW_NWT_ANe.zip",
+            "files": [
+                {
+                    "name": "MODFLOW-NWT-layer-bottoms.jpg",
+                    "title": "Distribution of layer-bottom altitudes for an example problem.",
+                    "contentType": "image/jpeg",
+                    "size": 451198
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=847&height=698",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?deprecated=__use__viewUri__instead__&f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=847&height=698",
+            "width": 847,
+            "height": 698,
+            "size": 451198,
+            "title": "Distribution of layer-bottom altitudes for an example problem."
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=150&height=124",
+            "width": 150,
+            "height": 124
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=350&height=288",
+            "width": 350,
+            "height": 288
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485c82ce25b5135abf60?f=__disk__6a%2F2e%2F6a%2F6a2e6a9420cfe08248a697036916c614d350a220&width=580&height=478",
+            "width": 580,
+            "height": 478
+        }
+    }
+}

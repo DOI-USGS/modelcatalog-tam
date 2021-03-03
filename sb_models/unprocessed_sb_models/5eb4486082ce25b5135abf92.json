@@ -1,0 +1,178 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486082ce25b5135abf92"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486082ce25b5135abf92",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486082ce25b5135abf92",
+    "title": "SLAMMER - Seismic LAndslide Movement Modeled using Earthquake Records",
+    "subTitle": "Seismic LAndslide Movement Modeled using Earthquake Records",
+    "summary": "SLAMMER is a Java program that facilitates performing a variety of sliding-block analyses to evaluate seismic slope performance. Functionalities include both rigorous and simplified analyses of rigid sliding blocks (i.e. Newmark analysis) and flexible sliding blocks (i.e. decoupled and fully coupled approaches). More than 2,100 recorded ground motions from the PEER Ground Motion Database are included with the program, and users can import their own ground-motion records for analysis.   Model Name (Name of the model, including acronyms): SLAMMER - Seismic LAndslide Movement Modeled using Earthquake Records Model Version (Version of the model, (i.e., 2.0)): 1.1 Abstract (Description or summary of the model, including its purpose or goals [...]",
+    "body": "SLAMMER is a Java program that facilitates performing a variety of sliding-block analyses to evaluate seismic slope performance. Functionalities include both rigorous and simplified analyses of rigid sliding blocks (i.e. Newmark analysis) and flexible sliding blocks (i.e. decoupled and fully coupled approaches). More than 2,100 recorded ground motions from the PEER Ground Motion Database are included with the program, and users can import their own ground-motion records for analysis.<br>\n&nbsp;\n<p><strong>Model Name</strong> <em>(Name of the model, including acronyms)</em>:</p>\n\n<p>SLAMMER - Seismic LAndslide Movement Modeled using Earthquake Records</p>\n\n<p><strong>Model Version</strong> <em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p>1.1</p>\n\n<p><strong>Abstract</strong> <em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>SLAMMER is a Java program that facilitates performing a variety of sliding-block analyses to evaluate seismic slope performance. Functionalities include both rigorous and simplified analyses of rigid sliding blocks (i.e. Newmark analysis) and flexible sliding blocks (i.e. decoupled and fully coupled approaches). More than 2,100 recorded ground motions from the PEER Ground Motion Database are included with the program, and users can import their own ground-motion records for analysis.</p>\n\n<p><strong>Originator(s)</strong> <em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p>Randall W Jibson (USGS Emeritus)</p>\n\n<p><strong>Contact Name(s)</strong> <em>(Person(s) responsible for maintenance of the model)</em>:</p>\n\n<p><strong>Contact Email(s)</strong>:</p>\n\n<p><strong>Release Date</strong> <em>(Date model was originally released (MM, YYYY))</em>:</p>\n\n<p>2013-04-16</p>\n\n<p><strong>Last Update</strong> <em>(Date of last update (MM, YYYY))</em>:</p>\n\n<p>2014-11-12</p>\n\n<p><strong>Organization(s)</strong> <em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>USGS</p>\n\n<p><strong>Mission Area</strong> <em>(USGS mission area with which this model most clearly aligns. <a href=\"https://www.usgs.gov/science/mission-areas\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Natural Hazards</p>\n\n<p><strong>Language</strong> <em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>:</p>\n\n<p>Java</p>\n\n<p><strong>Resources</strong> <em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>Publication: Jibson, R. W., Rathje, E. M., Jibson, M. W., and Lee, Y. W., 2013, SLAMMER -- Seismic Land Movement Modeled using Earthquake Records: U.S. Geological Survey Techniques and Methods, book 12, chap. B1, unpaged, <a href=\"http://pubs.usgs.gov/tm/12b1/\">http://pubs.usgs.gov/tm/12b1/</a></p>\n\n<p><strong>Installation</strong> <em>(Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions))</em>:</p>\n\n<p>The program requires 225 MB of storage space on a hard drive. The program was compiled in Java version 7 and should run on Windows, Apple, and Linux operating systems. THE INSTALLER WILL ONLY LAUNCH ON MACHINES RUNNING JAVA 7 OR LATER. Go to <a href=\"http://www.java.com\">http://www.java.com</a> to download the most recent version of Java. Click (or double-click) on \u201cSLAMMER Install JAR\u201d to download the installation file. Click (or double-click) on the downloaded installation file (slammerinstall) to launch the installer. Follow the prompts in the script to complete installation. To launch the program, go to the \u201cprograms\u201d folder within the installation folder. Click (or double-click) on \u201cslammer.\u201d For convenience, a desktop shortcut to \u201cslammer\u201d can be created.</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:52Z",
+        "lastUpdated": "2021-01-06T20:50:08Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Randall W Jibson",
+            "oldPartyId": 5085,
+            "type": "Creator",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/5085",
+            "email": "jibson@usgs.gov",
+            "active": true,
+            "jobTitle": "Research Geologist",
+            "firstName": "Randall",
+            "lastName": "Jibson",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0003-3399-0875"
+        },
+        {
+            "name": "Natural Hazards",
+            "oldPartyId": 64240,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "organization": {},
+            "primaryLocation": {
+                "name": "Natural Hazards Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Landslide Hazards Program",
+            "oldPartyId": 64245,
+            "type": "Contact",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Landslide Hazards Program\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Landslide Hazards Program - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/slammer",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "http://pubs.usgs.gov/tm/12b1/",
+            "title": "Jibson, R. W., Rathje, E. M., Jibson, M. W., and Lee, Y. W., 2013, SLAMMER -- Seismic Land Movement Modeled using Earthquake Records: U.S. Geological Survey Techniques and Methods, book 12, chap. B1, unpaged",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Seismology"
+        },
+        {
+            "type": "Label",
+            "name": "Java"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "slammer.jpg",
+            "title": "SLAMMER icon",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__9a/2e/5b/9a2e5bd588f2267a719ac413796ad30c2c0214ef",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 120,
+            "imageHeight": 114,
+            "size": 4520,
+            "dateUploaded": "2020-06-12T13:53:51Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef&width=120&height=114",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef&width=150&height=142",
+                    "width": 150,
+                    "height": 142
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "SLAMMER_Seismic.zip",
+            "files": [
+                {
+                    "name": "slammer.jpg",
+                    "title": "SLAMMER icon",
+                    "contentType": "image/jpeg",
+                    "size": 4520
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef&width=120&height=114",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?deprecated=__use__viewUri__instead__&f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef&width=120&height=114",
+            "width": 120,
+            "height": 114,
+            "size": 4520,
+            "title": "SLAMMER icon"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf92?f=__disk__9a%2F2e%2F5b%2F9a2e5bd588f2267a719ac413796ad30c2c0214ef&width=150&height=142",
+            "width": 150,
+            "height": 142
+        }
+    }
+}

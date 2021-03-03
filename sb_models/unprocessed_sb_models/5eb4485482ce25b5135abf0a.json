@@ -1,0 +1,98 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485482ce25b5135abf0a"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485482ce25b5135abf0a",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485482ce25b5135abf0a",
+    "title": "DAFLOW - Streamflow routing in upland channels or channel networks",
+    "subTitle": "Streamflow routing in upland channels or channel networks",
+    "summary": "The DAFLOW model routes flows through a system of inter-connected one-dimensional channels and subdivides the system into a series of branches, with each branch divided into a number of subreaches. MODFLOW simulates ground-water flow through a three-dimensional grid of cells. The models are coupled by adding an exchange between each subreach and a specified ground-water cell, with the amount of flow from the stream to ground water being limited to the available streamflow. The water exchange for each subreach is computed on the basis of the stream-aquifer head difference, the streambed thickness, stream width, and streambed hydraulic conductivity.",
+    "body": "The DAFLOW model routes flows through a system of inter-connected one-dimensional channels and subdivides the system into a series of branches, with each branch divided into a number of subreaches. MODFLOW simulates ground-water flow through a three-dimensional grid of cells. The models are coupled by adding an exchange between each subreach and a specified ground-water cell, with the amount of flow from the stream to ground water being limited to the available streamflow. The water exchange for each subreach is computed on the basis of the stream-aquifer head difference, the streambed thickness, stream width, and streambed hydraulic conductivity.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:40Z",
+        "lastUpdated": "2021-01-06T21:27:52Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-W h2osoft",
+            "oldPartyId": 61967,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/61967",
+            "email": "gs-w_h2osoft@usgs.gov",
+            "firstName": "GS-W",
+            "lastName": "h2osoft",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/cgi-bin/man_wrdapp?daflow(1)",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "download",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/nrp/gwsoftware/daflow/daflow.html",
+            "rel": "alternate",
+            "title": "Download DAFLOW",
+            "hidden": false
+        },
+        {
+            "type": "Related_Primary_Publication",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/ofr99217",
+            "title": "Jobson, H.E., and A.W. Harbaugh. \u201cModifications to the Diffusion Analogy Surface-Water Flow Model (DAFLOW) for Coupling to the Modular Finite-Difference Ground-Water Flow Model (MODFLOW).\u201d Open-File Report, 1 Mar. 2000, doi.org/10.3133/ofr99217.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Groundwater"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

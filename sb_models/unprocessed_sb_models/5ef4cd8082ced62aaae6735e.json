@@ -1,0 +1,201 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5ef4cd8082ced62aaae6735e"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5ef4cd8082ced62aaae6735e",
+            "rel": "related"
+        }
+    },
+    "id": "5ef4cd8082ced62aaae6735e",
+    "title": "CE-QUAL-W2 - A water quality and hydrodynamic model in 2D",
+    "subTitle": "A water quality and hydrodynamic model in 2D",
+    "summary": "Note: This is an external, non-USGS model, but is included in the catalog because of its usage within USGS.  CE-QUAL-W2 is a water quality and hydrodynamic model in 2D (longitudinal-vertical) for rivers, estuaries, lakes, reservoirs and river basin systems. W2 models basic eutrophication processes such as temperature-nutrient-algae-dissolved oxygen-organic matter and sediment relationships.",
+    "body": "<div>\n<div>\n<div>\n<div><strong>Note</strong>: This is an external, non-USGS model, but is included in the catalog because of its usage within USGS.<br>\n<br>\nCE-QUAL-W2 is a water quality and hydrodynamic model in 2D (longitudinal-vertical) for rivers, estuaries, lakes, reservoirs and river basin systems. W2 models basic eutrophication processes such as temperature-nutrient-algae-dissolved oxygen-organic matter and sediment relationships.</div>\n</div>\n</div>\n</div>\n",
+    "provenance": {
+        "dataSource": "Input directly",
+        "dateCreated": "2020-06-25T16:14:56Z",
+        "lastUpdated": "2020-10-06T15:20:07Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "aliford@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Chris Berger",
+            "type": "Contact",
+            "email": "berger@pdx.edu",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Scott Wells",
+            "type": "Contact",
+            "email": "wellss@pdx.edu",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "External Model",
+            "type": "USGS Mission Area",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "typeLabel": "Source Code",
+            "uri": "http://www.ce.pdx.edu/w2/",
+            "title": "Download CE-QUAL-W2",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Publication",
+            "uri": "http://pubs.usgs.gov/sir/2013/5135/",
+            "rel": "related",
+            "title": "Sullivan, A.B., Sogutlugil, I.E., Rounds, S.A., and Deas, M.L., 2013, Modeling the water-quality effects of changes to the Klamath River upstream of Keno Dam, Oregon: U.S. Geological Survey Scientific Investigations Report 2013\u20135135, 60 p.",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://w2forum.cee.pdx.edu/",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Water Quality"
+        },
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "ce-qual-w2.png",
+            "title": "CE-QUAL-W2 model grid (Sullivan et al., 2013)",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__97/90/f0/9790f084c734a4510a5dde4e65ee47c60c808dd9",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 612,
+            "imageHeight": 644,
+            "size": 23056,
+            "dateUploaded": "2020-06-25T16:13:08Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=612&height=644",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=107&height=113",
+                    "width": 107,
+                    "height": 113
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=250&height=263",
+                    "width": 250,
+                    "height": 263
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=413&height=435",
+                    "width": 413,
+                    "height": 435
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "CE_QUAL_W2_Awat.zip",
+            "files": [
+                {
+                    "name": "ce-qual-w2.png",
+                    "title": "CE-QUAL-W2 model grid (Sullivan et al., 2013)",
+                    "contentType": "image/png",
+                    "size": 23056
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=612&height=644",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?deprecated=__use__viewUri__instead__&f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=612&height=644",
+            "width": 612,
+            "height": 644,
+            "size": 23056,
+            "title": "CE-QUAL-W2 model grid (Sullivan et al., 2013)"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=107&height=113",
+            "width": 107,
+            "height": 113
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=250&height=263",
+            "width": 250,
+            "height": 263
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5ef4cd8082ced62aaae6735e?f=__disk__97%2F90%2Ff0%2F9790f084c734a4510a5dde4e65ee47c60c808dd9&width=413&height=435",
+            "width": 413,
+            "height": 435
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485182ce25b5135abeec"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485182ce25b5135abeec",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485182ce25b5135abeec",
+    "title": "BCM - Basin Characterization Model",
+    "subTitle": "Basin Characterization Model",
+    "summary": "The Basin Characterization Model (BCM) is a mathematical computer model that calculates the hydrologic inputs and outputs of a specific landscape area and is generally run at a monthly timestep for large regions, although daily models have been developed for small watersheds. Scientists divide the landscape into grid cells, each of which uses specific climate data inputs, such as precipitation and air temperature, to solve the water balance for each cell. Model calculations include potential evapotranspiration, calculated from solar radiation with topographic shading and cloudiness; snow, as it accumulates and melts; and excess water moving through the soil profile, which is used to calculate actual evapotranspiration and climatic [...]",
+    "body": "The Basin Characterization Model (BCM) is a mathematical computer model that calculates the hydrologic inputs and outputs of a specific landscape area and is generally run at a monthly timestep for large regions, although daily models have been developed for small watersheds. Scientists divide the landscape into grid cells, each of which uses specific climate data inputs, such as precipitation and air temperature, to solve the water balance for each cell. Model calculations include potential evapotranspiration, calculated from solar radiation with topographic shading and cloudiness; snow, as it accumulates and melts; and excess water moving through the soil profile, which is used to calculate actual evapotranspiration and climatic water deficit\u2014the difference between potential and actual evapotranspiration.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:37Z",
+        "lastUpdated": "2020-09-25T18:16:27Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Claudia C Faunt",
+            "oldPartyId": 3098,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/3098",
+            "email": "ccfaunt@usgs.gov",
+            "active": true,
+            "jobTitle": "Supervisory Hydrologist",
+            "firstName": "Claudia",
+            "lastName": "Faunt",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Lorraine E Flint",
+            "oldPartyId": 3263,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "lflint@usgs.gov",
+            "active": true,
+            "jobTitle": "HYDROLOGIST",
+            "firstName": "Lorraine",
+            "middleName": "E",
+            "lastName": "Flint",
+            "cellPhone": "9167986530",
+            "organization": {
+                "displayText": "USGS Sacramento-Northern California Project Office, CA Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "Lorraine E Flint/WRD/USGS/DOI - Primary Location",
+                "building": "California District Office - Placer Hall",
+                "buildingCode": "WCA",
+                "officePhone": "9162783223",
+                "streetAddress": {
+                    "line1": "6000 J Street Placer Hall",
+                    "city": "Sacramento",
+                    "state": "CA",
+                    "zip": "95819",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "Placer Hall",
+                    "line2": "6000 J Street",
+                    "city": "Sacramento",
+                    "state": "CA",
+                    "zip": "95819-6129",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0002-7868-441X"
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://ca.water.usgs.gov/modeling-software/basin-characterization-model.html",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.1186/2192-1709-2-25",
+            "title": "Flint, L.E., Flint, A.L., Thorne, J.H. et al. Fine-scale hydrologic modeling for regional landscape applications: the California Basin Characterization Model development and performance. Ecol Process 2, 25 (2013)",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Mathematical Model"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "bcm.jpg",
+            "title": "Water balance for the California hydrologic region using BCM",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__8f/53/2d/8f532de1d3c7423ba96bb3fa781a6596adf27fcf",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 846,
+            "imageHeight": 675,
+            "size": 119718,
+            "dateUploaded": "2020-06-29T17:29:21Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=846&height=675",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=150&height=120",
+                    "width": 150,
+                    "height": 120
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=350&height=279",
+                    "width": 350,
+                    "height": 279
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=580&height=463",
+                    "width": 580,
+                    "height": 463
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "BCM_BasinCharac.zip",
+            "files": [
+                {
+                    "name": "bcm.jpg",
+                    "title": "Water balance for the California hydrologic region using BCM",
+                    "contentType": "image/jpeg",
+                    "size": 119718
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=846&height=675",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?deprecated=__use__viewUri__instead__&f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=846&height=675",
+            "width": 846,
+            "height": 675,
+            "size": 119718,
+            "title": "Water balance for the California hydrologic region using BCM"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=150&height=120",
+            "width": 150,
+            "height": 120
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=350&height=279",
+            "width": 350,
+            "height": 279
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485182ce25b5135abeec?f=__disk__8f%2F53%2F2d%2F8f532de1d3c7423ba96bb3fa781a6596adf27fcf&width=580&height=463",
+            "width": 580,
+            "height": 463
+        }
+    }
+}

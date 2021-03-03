@@ -1,0 +1,85 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485682ce25b5135abf1c"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485682ce25b5135abf1c",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485682ce25b5135abf1c",
+    "title": "FEQ - Full Equations Model for the Solution of the Full, Dynamic Equations of Motion for One-Dimensional Unsteady Flow in Open Channels and Through Control Structures",
+    "subTitle": "Full Equations Model for the Solution of the Full, Dynamic Equations of Motion for One-Dimensional Unsteady Flow in Open Channels and Through Control Structures",
+    "summary": "FEQ is a computer model for simulation of one-dimensional unsteady flow in open channels and through control structures. The structure of the program is designed to follow the structure of a stream system and provide maximum generality and flexibility. FEQ can be applied to simulate a wide range of stream configurations including loops and lateral-inflow conditions. Special features such as culverts, weirs, and sluice gates are included in coordination with the Full Equations Utilities package (FEQUTL). Boundary conditions can be water-surface elevation, discharge, or the stage-discharge relation at a node. Wind-stress, rainfall, evaporation, and irrigation terms are supported. The effects of lateral inflows also can be simulated in [...]",
+    "body": "FEQ is a computer model for simulation of one-dimensional unsteady flow in open channels and through control structures. The structure of the program is designed to follow the structure of a stream system and provide maximum generality and flexibility. FEQ can be applied to simulate a wide range of stream configurations including loops and lateral-inflow conditions. Special features such as culverts, weirs, and sluice gates are included in coordination with the Full Equations Utilities package (FEQUTL). Boundary conditions can be water-surface elevation, discharge, or the stage-discharge relation at a node. Wind-stress, rainfall, evaporation, and irrigation terms are supported. The effects of lateral inflows also can be simulated in FEQ when given local runoff intensity data.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:42Z",
+        "lastUpdated": "2021-01-06T21:31:19Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "dc_il@usgs.gov",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "sourceCode",
+            "typeLabel": "Source Code",
+            "uri": "https://il.water.usgs.gov/proj/feq/",
+            "rel": "related",
+            "title": "Download FEQ",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://il.water.usgs.gov/proj/feq/feqdoc/contents_1.html",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

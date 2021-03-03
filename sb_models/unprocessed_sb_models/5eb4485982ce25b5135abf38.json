@@ -1,0 +1,107 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485982ce25b5135abf38"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485982ce25b5135abf38",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485982ce25b5135abf38",
+    "title": "HSPF - Hydrological Simulation Program--Fortran",
+    "subTitle": "Hydrological Simulation Program--Fortran",
+    "summary": "HSPF simulates for extended periods of time the hydrologic, and associated water quality, processes on pervious and impervious land surfaces and in streams and well-mixed impoundments.HSPF uses continuous rainfall and other meteorologic records to compute streamflow hydrographs and pollutographs. HSPF simulates interception soil moisture, surface runoff, interflow, base flow, snowpack depth and water content, snowmelt, evapotranspiration, ground-water recharge, dissolved oxygen, biochemical oxygen demand (BOD), temperature, pesticides, conservatives, fecal coliforms, sediment detachment and transport, sediment routing by particle size, channel routing, reservoir routing, constituent routing, pH, ammonia, nitrite-nitrate, organic nitrogen, [...]",
+    "body": "HSPF simulates for extended periods of time the hydrologic, and associated water quality, processes on pervious and impervious land surfaces and in streams and well-mixed impoundments.HSPF uses continuous rainfall and other meteorologic records to compute streamflow hydrographs and pollutographs. HSPF simulates interception soil moisture, surface runoff, interflow, base flow, snowpack depth and water content, snowmelt, evapotranspiration, ground-water recharge, dissolved oxygen, biochemical oxygen demand (BOD), temperature, pesticides, conservatives, fecal coliforms, sediment detachment and transport, sediment routing by particle size, channel routing, reservoir routing, constituent routing, pH, ammonia, nitrite-nitrate, organic nitrogen, orthophosphate, organic phosphorus, phytoplankton, and zooplankton. Program can simulate one or many pervious or impervious unit areas discharging to one or many river reaches or reservoirs. Frequency-duration analysis can be done for any time series. Any time step from 1 minute to 1 day that divides equally into 1 day can be used. Any period from a few minutes to hundreds of years may be simulated. HSPF is generally used to assess the effects of land-use change, reservoir operations, point or nonpoint source treatment alternatives, flow diversions, etc. Programs, available separately, support data preprocessing and postprocessing for statistical and graphical analysis of data saved to the Watershed Data Management (WDM) file.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:45Z",
+        "lastUpdated": "2021-01-25T22:59:10Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "GS-W h2osoft",
+            "oldPartyId": 61967,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/61967",
+            "email": "gs-w_h2osoft@usgs.gov",
+            "firstName": "GS-W",
+            "lastName": "h2osoft",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "sourceCode",
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/software/HSPF/",
+            "rel": "related",
+            "title": "Download HSPS",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB97193114.xhtml",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://water.usgs.gov/cgi-bin/man_wrdapp?hspf",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Surface Water"
+        },
+        {
+            "type": "Subject",
+            "name": "Water Quality"
+        },
+        {
+            "type": "Label",
+            "name": "Fortran"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        },
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "distributionLinks": []
+}

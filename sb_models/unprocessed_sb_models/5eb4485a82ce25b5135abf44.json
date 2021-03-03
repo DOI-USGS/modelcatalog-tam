@@ -1,0 +1,150 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485a82ce25b5135abf44"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485a82ce25b5135abf44",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485a82ce25b5135abf44",
+    "title": "Laharz_py - GIS Tools for Automated Mapping of Lahar Inundation Hazard Zones",
+    "summary": "\"Laharz_py is written in the Python programming language as a suite of tools for use in ArcMap Geographic Information System (GIS). Primarily, Laharz_py is a computational model that uses statistical descriptions of areas inundated by past mass-flow events to forecast areas likely to be inundated by hypothetical future events. The forecasts use physically motivated and statistically calibrated power-law equations that each has a form A = cV2/3, relating mass-flow volume (V) to planimetric or cross-sectional areas (A) inundated by an average flow as it descends a given drainage. Calibration of the equations utilizes logarithmic transformation and linear regression to determine the best-fit values of c. The software uses values of V, [...]",
+    "body": "<p>\"Laharz_py is written in the Python programming language as a suite of tools for use in ArcMap Geographic Information System (GIS). Primarily, Laharz_py is a computational model that uses statistical descriptions of areas inundated by past mass-flow events to forecast areas likely to be inundated by hypothetical future events. The forecasts use physically motivated and statistically calibrated power-law equations that each has a form A = cV2/3, relating mass-flow volume (V) to planimetric or cross-sectional areas (A) inundated by an average flow as it descends a given drainage. Calibration of the equations utilizes logarithmic transformation and linear regression to determine the best-fit values of c. The software uses values of V, an algorithm for idenitifying mass-flow source locations, and digital elevation models of topography to portray forecast hazard zones for lahars, debris flows, or rock avalanches on maps. Laharz_py offers two methods to construct areas of potential inundation for lahars: (1) Selection of a range of plausible V values results in a set of nested hazard zones showing areas likely to be inundated by a range of hypothetical flows; and (2) The user selects a single volume and a confidence interval for the prediction. In either case, Laharz_py calculates the mean expected A and B value from each user-selected value of V. However, for the second case, a single value of V yields two additional results representing the upper and lower values of the confidence interval of prediction. Calculation of these two bounding predictions require the statistically calibrated prediction equations, a user-specified level of confidence, and t-distribution statistics to calculate the standard error of regression, standard error of the mean, and standard error of prediction. The portrayal of results from these two methods on maps compares the range of inundation areas due to prediction uncertainties with uncertainties in selection of V values.\"</p>\n\n<p>See 'Abstract': <a href=\"https://doi.org/10.3133/ofr20141073\">https://doi.org/10.3133/ofr20141073</a></p>\n\n<p><strong>Model Name</strong> <em>(Name of the model, including acronyms)</em>:</p>\n\n<p>Laharz_py - GIS Tools for Automated Mapping of Lahar Inundation Hazard Zones</p>\n\n<p><strong>Model Version</strong> <em>(Version of the model, (i.e., 2.0))</em>:</p>\n\n<p><strong>Abstract</strong> <em>(Description or summary of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords)</em>:</p>\n\n<p>\"Laharz_py is written in the Python programming language as a suite of tools for use in ArcMap Geographic Information System (GIS). Primarily, Laharz_py is a computational model that uses statistical descriptions of areas inundated by past mass-flow events to forecast areas likely to be inundated by hypothetical future events. The forecasts use physically motivated and statistically calibrated power-law equations that each has a form A = cV2/3, relating mass-flow volume (V) to planimetric or cross-sectional areas (A) inundated by an average flow as it descends a given drainage. Calibration of the equations utilizes logarithmic transformation and linear regression to determine the best-fit values of c. The software uses values of V, an algorithm for idenitifying mass-flow source locations, and digital elevation models of topography to portray forecast hazard zones for lahars, debris flows, or rock avalanches on maps. Laharz_py offers two methods to construct areas of potential inundation for lahars: (1) Selection of a range of plausible V values results in a set of nested hazard zones showing areas likely to be inundated by a range of hypothetical flows; and (2) The user selects a single volume and a confidence interval for the prediction. In either case, Laharz_py calculates the mean expected A and B value from each user-selected value of V. However, for the second case, a single value of V yields two additional results representing the upper and lower values of the confidence interval of prediction. Calculation of these two bounding predictions require the statistically calibrated prediction equations, a user-specified level of confidence, and t-distribution statistics to calculate the standard error of regression, standard error of the mean, and standard error of prediction. The portrayal of results from these two methods on maps compares the range of inundation areas due to prediction uncertainties with uncertainties in selection of V values.\"</p>\n\n<p>See 'Abstract': <a href=\"https://doi.org/10.3133/ofr20141073\">https://doi.org/10.3133/ofr20141073</a></p>\n\n<p><strong>Originator(s)</strong> <em>(Name(s) of the model developer(s)/author(s))</em>:</p>\n\n<p><strong>Contact Name(s) and Email Address(es)</strong> <em>(Names of person(s) responsible for maintenance of the model along with their email)</em>:</p>\n\n<p>Steve P Schilling (<a href=\"mailto:sschilli@usgs.gov\">sschilli@usgs.gov</a>)</p>\n\n<p><strong>Release Date</strong> <em>(Date model was originally released (YYYYMMDD, YYYYMM, YYYY))</em>:</p>\n\n<p><strong>Last Update</strong> <em>(Date of last update (YYYYMMDD, YYYYMM, YYYY))</em>:</p>\n\n<p><strong>Organization(s)</strong> <em>(Organization(s) that produced, funded, or partnered on the creation of this model)</em>:</p>\n\n<p>U.S. Geological Survey</p>\n\n<p><strong>Mission Area</strong> <em>(USGS mission area with which this model most clearly aligns. <a href=\"https://www.usgs.gov/science/mission-areas\">https://www.usgs.gov/science/mission-areas</a>)</em>:</p>\n\n<p>Natural Hazards</p>\n\n<p><strong>License</strong> <em>(OSI-approved (Open-Source Initiative) license (see <a href=\"https://opensource.org/licenses\">https://opensource.org/licenses</a>))</em>:</p>\n\n<p><strong>Model Citation</strong> <em>(How to cite the model&nbsp; (e.g., Software Release citation). For example, Doe, J.S., Sea Turtle Cuteness Model, 2020, U.S. Geological Survey, <a href=\"https://doi.org/xxxxx\">https://doi.org/xxxxx</a>))</em>:</p>\n\n<p><strong>Identifier</strong> <em>(Location where the model is posted or published (e.g. PID or DOI))</em>:</p>\n\n<p><strong>Language</strong> <em>(Computer language or platform used for programming (e.g., Fortan, R, Python))</em>:</p>\n\n<p>Python</p>\n\n<p><strong>References</strong> <em>(References (where the model has been cited, outputs, data release)</em>:</p>\n\n<p><strong>Resources</strong> <em>(Resources (how to use the model, where to download it, related publications, other webpages about the model (in other catalogs), USGS webpage)</em>:</p>\n\n<p>Schilling, S.P., 2014, Laharz_py\u2014GIS tools for automated mapping of lahar inundation hazard zones: U.S. Geological Survey Open-File Report 2014-1073, 78 p., <a href=\"http://dx.doi.org/10.3133/ofr20141073\">http://dx.doi.org/10.3133/ofr20141073</a>.</p>\n\n<p><strong>Image</strong> <em>(URL for an image that best represents the model, title of image, alternate text, URL of source):</em></p>\n\n<p>\"Figure 5. Diagram showing association between dimensions of an idealized lahar and cross-sectional (A) and planimetric (B) areas calculated by Laharz_py for a hypothetical volcano. The ratio of vertical drop (H) to horizontal runout distance (L) describes the extent of proximal volcano hazards. Laharz_py identifies cells where raster streams and the proximal-hazard zone boundary intersect as potential locations to begin calculations of distal laharinundation hazard zones. (Modifed from Iverson and others, 1998.)\"</p>\n\n<p><a href=\"https://doi.org/10.3133/ofr20141073\">https://doi.org/10.3133/ofr20141073</a></p>\n\n<p><strong>Model Type</strong> <em>(theoretical model, empirical model, or list both)</em>:</p>\n\n<p><strong>Tags</strong> <em>(Keywords or tags that describe the model (i.e., \"groundwater, aquifer, Southwest\"))</em>:</p>\n\n<p>volcanology</p>\n\n<p><strong>Requirements</strong> <em>(All software and/or hardware requirements needed to run the model and replicate any published results)</em>:</p>\n\n<p><strong>Dependencies</strong> <em>(All data dependencies needed to run the model and replicate any published results)</em>:</p>\n\n<p><strong>Installation</strong> <em>(Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions))</em>:</p>\n\n<p><strong>Version Updates</strong> <em>(Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate)</em>:</p>\n\n<p><strong>Assumptions</strong> <em>(What are the key assumptions made that define the dynamics of the model?)</em>:</p>\n\n<p><strong>Structure</strong> <em>(Model structure: provide a flow diagram of the model. (e.g. [Growing Degree Days since Jan 1]+[Warm Spells]=[Leaf Out Day of Year] and [Growing Degree Days since Leaf Out Day of Year]+[Warm Spells]=[Bloom Day of Year]))</em>:</p>\n\n<p><strong>Equations</strong> (What are the equations of the model?):</p>\n\n<p>See 'Laharz Algorithms': <a href=\"https://dx.doi.org/10.3133/ofr20141073\">https://dx.doi.org/10.3133/ofr20141073</a></p>\n\n<p><strong>Temporal Information</strong> <em>(Temporal resolution, time stepping, and units)</em>:</p>\n\n<p><strong>Spatial Information</strong> <em>(Spatial dimensionality, resolution, extent, grid type if relevant)</em>:</p>\n\n<p><strong>Limitations</strong> <em>(Limitations, domain ranges: What is this model specifically NOT intended to do)</em>:</p>\n\n<p><strong>Input/Output and Variables</strong> <em>(Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate); control variables; Key output variables and domain ranges)</em>:</p>\n\n<p><strong>Conditions</strong> <em>(Initial conditions)</em>:</p>\n\n<p><strong>Functions</strong> <em>(Forcing functions that affect the dynamics of the model)</em>:</p>\n\n<p><strong>Example</strong> <em>(Provide sample runs that illustrate the dynamics of the model)</em>:</p>\n\n<p>See 'Example Using Laharz_py': <a href=\"https://doi.org/10.3133/ofr20141073\">https://doi.org/10.3133/ofr20141073</a></p>\n\n<p><strong>Evaluation</strong> <em>(Model evaluation, uncertainty, and sensitivity)</em>:</p>\n\n<p><strong>Benchmarks</strong> <em>(Describe or provide benchmarks for validation of your model)</em>:</p>\n\n<p><strong>Usage</strong> <em>(Measure of use / community support (citations, forks, commits, members))</em>:</p>\n\n<p><strong>Model Components</strong> <em>(A subsection of the model that simulates a subset of processes (ex. COAWST))</em>:</p>\n\n<p>&nbsp;</p>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:46Z",
+        "lastUpdated": "2021-01-27T16:50:30Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Steve P Schilling",
+            "oldPartyId": 9108,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/9108",
+            "email": "sschilli@usgs.gov",
+            "active": true,
+            "jobTitle": "Volunteer",
+            "firstName": "Steve",
+            "lastName": "Schilling",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Natural Hazards",
+            "oldPartyId": 64240,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "organization": {},
+            "primaryLocation": {
+                "name": "Natural Hazards Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Publication ",
+            "uri": "https://pubs.usgs.gov/of/2014/1073/",
+            "rel": "related",
+            "title": "Schilling, S.P., 2014, Laharz_py\u2014GIS tools for automated mapping of lahar inundation hazard zones: U.S. Geological Survey Open-File Report 2014-1073, 78 p., https://dx.doi.org/10.3133/ofr20141073.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Python"
+        },
+        {
+            "type": "Science Topic",
+            "name": "volcanology"
+        },
+        {
+            "type": "Label",
+            "name": "ArcGIS"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "download.jpg",
+            "title": "Laharz_py",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__f7/fe/6e/f7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 262,
+            "imageHeight": 193,
+            "size": 10595,
+            "dateUploaded": "2020-06-16T21:27:21Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d&width=262&height=193",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d&width=150&height=110",
+                    "width": 150,
+                    "height": 110
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "Laharz_py_GISTo.zip",
+            "files": [
+                {
+                    "name": "download.jpg",
+                    "title": "Laharz_py",
+                    "contentType": "image/jpeg",
+                    "size": 10595
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d&width=262&height=193",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?deprecated=__use__viewUri__instead__&f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d&width=262&height=193",
+            "width": 262,
+            "height": 193,
+            "size": 10595,
+            "title": "Laharz_py"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485a82ce25b5135abf44?f=__disk__f7%2Ffe%2F6e%2Ff7fe6e57ad5c78ee27285ea04d31e0cf78d0ac7d&width=150&height=110",
+            "width": 150,
+            "height": 110
+        }
+    }
+}

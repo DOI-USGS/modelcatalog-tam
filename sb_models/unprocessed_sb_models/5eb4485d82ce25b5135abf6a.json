@@ -1,0 +1,161 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485d82ce25b5135abf6a"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485d82ce25b5135abf6a",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485d82ce25b5135abf6a",
+    "title": "MT3D-USGS - Groundwater Solute Transport Simulator for MODFLOW",
+    "subTitle": "Groundwater Solute Transport Simulator for MODFLOW",
+    "summary": "MT3D-USGS capabilities and features include:  supports simulation of transport using MODFLOW 6 flow solution (structured grids only) unsaturated-zone transport; transport within streams and lakes, including solute exchange with connected groundwater; capability to route solute through dry cells that may occur in the Newton-Raphson formulation of MODFLOW (that is, MODFLOW-NWT); and more.",
+    "body": "<p>MT3D-USGS capabilities and features include:</p>\n\n<ul>\n\t<li>supports simulation of transport using MODFLOW 6 flow solution (structured grids only)</li>\n\t<li>unsaturated-zone transport;</li>\n\t<li>transport within streams and lakes, including solute exchange with connected groundwater;</li>\n\t<li>capability to route solute through dry cells that may occur in the Newton-Raphson formulation of MODFLOW (that is, MODFLOW-NWT);</li>\n\t<li>and <a href=\"https://www.usgs.gov/software/mt3d-usgs-groundwater-solute-transport-simulator-modflow\">more</a>.</li>\n</ul>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:49Z",
+        "lastUpdated": "2020-07-22T22:12:56Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "modflow@usgs.gov",
+            "type": "Contact",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/66925",
+            "email": "modflow_owhm@usgs.gov",
+            "firstName": "GS-CAWSC",
+            "lastName": "MODFLOW OWHM",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/mt3d-usgs-groundwater-solute-transport-simulator-modflow",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/MT3D-USGS/",
+            "title": "Download MT3D-USGS",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/tm6A53",
+            "title": "Bedekar, V., Morway, E.D., Langevin, C.D., and Tonkin, M., 2016, MT3D-USGS version 1: A U.S. Geological Survey release of MT3DMS updated with new and expanded transport capabilities for use with MODFLOW: U.S. Geological Survey Techniques and Methods 6-A53, 69 p.",
+            "hidden": false
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "mt3dms_1.png",
+            "title": "Cover image from the MT3D-USGS user manual.",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__bc/b7/43/bcb743ac9e4bec7a8fd60cdb9d606674da2d9409",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 400,
+            "imageHeight": 400,
+            "size": 204085,
+            "dateUploaded": "2020-07-22T21:28:24Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "65721b1d28c8e8c26e30b2ea51bb4cbd",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=400&height=400",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=150&height=150",
+                    "width": 150,
+                    "height": 150
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=350&height=350",
+                    "width": 350,
+                    "height": 350
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MT3D_USGS_Groun.zip",
+            "files": [
+                {
+                    "name": "mt3dms_1.png",
+                    "title": "Cover image from the MT3D-USGS user manual.",
+                    "contentType": "image/png",
+                    "size": 204085
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=400&height=400",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?deprecated=__use__viewUri__instead__&f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=400&height=400",
+            "width": 400,
+            "height": 400,
+            "size": 204085,
+            "title": "Cover image from the MT3D-USGS user manual."
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=150&height=150",
+            "width": 150,
+            "height": 150
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485d82ce25b5135abf6a?f=__disk__bc%2Fb7%2F43%2Fbcb743ac9e4bec7a8fd60cdb9d606674da2d9409&width=350&height=350",
+            "width": 350,
+            "height": 350
+        }
+    }
+}

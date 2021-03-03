@@ -1,0 +1,71 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485582ce25b5135abf16"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485582ce25b5135abf16",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485582ce25b5135abf16",
+    "title": "FaSTMECH - Flow and Sediment Transport with Morphological Evolution of Channels",
+    "subTitle": "Flow and Sediment Transport with Morphological Evolution of Channels",
+    "summary": "Note: This is an external, non-USGS model, but is included in the catalog because of its usage within USGS.  \u201cFaSTMECH (Flow and Sediment Transport with Morphological Evolution of Channels)\u201d is a quasi-steady two and three-dimensional river flow and morphodynamics solver developed by Dr. Jonathan Nelson of the U.S. Geological Survey (USGS). Because FaSTMECH is developed under the quasi-steady approximation, meaning that discharge varies, but unsteady terms are neglected in the equations of motion, the solver has no Courant condition and can perform spatially detailed calculations over relatively long time scales extremely quickly. The quasi-three-dimensional version also provides explicit estimates of primary and secondary flow vertical [...]",
+    "body": "Note: This is an external, non-USGS model, but is included in the catalog because of its usage within USGS.<br>\n<br>\n\u201cFaSTMECH (Flow and Sediment Transport with Morphological Evolution of Channels)\u201d is a quasi-steady two and three-dimensional river flow and morphodynamics solver developed by Dr. Jonathan Nelson of the U.S. Geological Survey (USGS). Because FaSTMECH is developed under the quasi-steady approximation, meaning that discharge varies, but unsteady terms are neglected in the equations of motion, the solver has no Courant condition and can perform spatially detailed calculations over relatively long time scales extremely quickly. The quasi-three-dimensional version also provides explicit estimates of primary and secondary flow vertical structure, so flow solutions are provided throughout the flow for complex habitat or particle tracking problems that require three-dimensional flow without the computational expense of a fully three-dimensional model.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:41Z",
+        "lastUpdated": "2020-10-06T15:19:09Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "External Model",
+            "type": "USGS Mission Area",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://pubs.usgs.gov/sir/2009/5026/section3.html",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://i-ric.org/en/solvers/fastmech/#:~:text=What%20is%20FaSTMECH%3F,U.S.%20Geological%20Survey%20(USGS).",
+            "rel": "related",
+            "title": "User Documentation",
+            "hidden": false
+        }
+    ],
+    "distributionLinks": []
+}

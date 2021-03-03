@@ -1,0 +1,149 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485f82ce25b5135abf88"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485f82ce25b5135abf88",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485f82ce25b5135abf88",
+    "title": "Scoops3D - Software to analyze 3D slope stability throughout a digital landscape",
+    "subTitle": "Software to analyze 3D slope stability throughout a digital landscape",
+    "summary": "Scoops3D evaluates slope stability throughout a digital landscape represented by a digital elevation model (DEM). The program uses a three-dimensional (3D) method of columns limit-equilibrium analysis to assess the stability of many potential landslides (typically millions) within a user-defined size range. For each potential landslide, Scoops3D assesses the stability of a rotational, spherical slip surface encompassing many DEM cells. It provides the least-stable potential landslide for each DEM cell in the landscape, as well the associated volumes and (or) areas.",
+    "body": "Scoops3D evaluates slope stability throughout a digital landscape represented by a digital elevation model (DEM). The program uses a three-dimensional (3D) method of columns limit-equilibrium analysis to assess the stability of many potential landslides (typically millions) within a user-defined size range. For each potential landslide, Scoops3D assesses the stability of a rotational, spherical slip surface encompassing many DEM cells. It provides the least-stable potential landslide for each DEM cell in the landscape, as well the associated volumes and (or) areas.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:51Z",
+        "lastUpdated": "2020-09-25T19:12:27Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "scoops3d@usgs.gov",
+            "type": "Contact",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/67745",
+            "email": "scoops3d@usgs.gov",
+            "firstName": "GS-G-WR",
+            "lastName": "Scoops3D",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Natural Hazards",
+            "oldPartyId": 64240,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "organization": {},
+            "primaryLocation": {
+                "name": "Natural Hazards Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/scoops3d",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/tm14A1",
+            "title": "Reid, M.E., Christian, S.B., Brien, D.L., and Henderson, S.T., 2015, Scoops3D\u2014Software to analyze 3D slope stability throughout a digital landscape: U.S. Geological Survey Techniques and Methods, book 14, chap. A1, 218 p.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Seismology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "Scoops3Dimage.jpg",
+            "title": "Model of 3D slope stability of a volcano edifice computed using Scoops3D",
+            "contentType": "image/jpeg",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__04/f3/33/04f333f27b33d55fb8085312cfa8e03137f71246",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 340,
+            "imageHeight": 136,
+            "size": 33040,
+            "dateUploaded": "2020-06-22T16:40:36Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": null,
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246&width=340&height=136",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246&width=150&height=60",
+                    "width": 150,
+                    "height": 60
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "Scoops3D_Softwa.zip",
+            "files": [
+                {
+                    "name": "Scoops3Dimage.jpg",
+                    "title": "Model of 3D slope stability of a volcano edifice computed using Scoops3D",
+                    "contentType": "image/jpeg",
+                    "size": 33040
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246&width=340&height=136",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?deprecated=__use__viewUri__instead__&f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246&width=340&height=136",
+            "width": 340,
+            "height": 136,
+            "size": 33040,
+            "title": "Model of 3D slope stability of a volcano edifice computed using Scoops3D"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485f82ce25b5135abf88?f=__disk__04%2Ff3%2F33%2F04f333f27b33d55fb8085312cfa8e03137f71246&width=150&height=60",
+            "width": 150,
+            "height": 60
+        }
+    }
+}

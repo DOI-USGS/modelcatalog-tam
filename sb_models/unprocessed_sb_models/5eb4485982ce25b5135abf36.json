@@ -1,0 +1,69 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485982ce25b5135abf36"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485982ce25b5135abf36",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485982ce25b5135abf36",
+    "title": "MF2K-GWT - Groundwater Transport Process",
+    "subTitle": "Groundwater Transport Process",
+    "summary": "The MF2K-GWT model is an enhanced version of MODFLOW-2000 that incorporates the additional capability to simulate solute-transport processes and compute changes in concentration of a dissolved chemical constituent due to advection, hydrodynamic dispersion, retardation, decay, matrix diffusion, and mixing with multiple fluid sources.",
+    "body": "The MF2K-GWT model is an enhanced version of MODFLOW-2000 that incorporates the additional capability to simulate solute-transport processes and compute changes in concentration of a dissolved chemical constituent due to advection, hydrodynamic dispersion, retardation, decay, matrix diffusion, and mixing with multiple fluid sources.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:45Z",
+        "lastUpdated": "2020-10-05T16:30:58Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "modflow@usgs.gov",
+            "type": "Contact",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/software/groundwater-transport-process-gwt",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://water.usgs.gov/water-resources/software/MF2K-GWT/",
+            "title": "Download GWT",
+            "hidden": false
+        }
+    ],
+    "distributionLinks": []
+}

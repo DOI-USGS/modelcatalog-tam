@@ -1,0 +1,393 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4486082ce25b5135abf96"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4486082ce25b5135abf96",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4486082ce25b5135abf96",
+    "title": "SPARROW - SPAtially Referenced Regression On Watershed attributes",
+    "subTitle": "SPAtially Referenced Regression On Watershed attributes",
+    "summary": "SPARROW (SPAtially Referenced Regression On Watershed attributes) models estimate the amount of a contaminant transported from inland watersheds to larger water bodies by linking monitoring data with information on watershed characteristics and contaminant sources.  Interactive, online SPARROW mapping tools allow for easy access to explore relations between human activities, natural processes, and contaminant transport.",
+    "body": "<div>\n<div>\n<p>SPARROW (SPAtially Referenced Regression On Watershed attributes) models estimate the amount of a contaminant transported from inland watersheds to larger water bodies by linking monitoring data with information on watershed characteristics and contaminant sources. &nbsp;Interactive, online SPARROW mapping tools allow for easy access to explore relations between human activities, natural processes, and contaminant transport.</p>\n</div>\n</div>\n",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:52Z",
+        "lastUpdated": "2020-09-25T21:57:38Z",
+        "lastUpdatedBy": "aliford@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "David A Saad",
+            "oldPartyId": 8926,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "dasaad@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist (Geol)",
+            "firstName": "David",
+            "middleName": "A",
+            "lastName": "Saad",
+            "organization": {
+                "displayText": "Upper Midwest Water Science Center"
+            },
+            "primaryLocation": {
+                "name": "David A Saad/WRD/USGS/DOI - Primary Location",
+                "building": "8505 Research Way",
+                "buildingCode": "ARM",
+                "officePhone": "6088213865",
+                "faxPhone": "6088213817",
+                "streetAddress": {
+                    "line1": "8505 Research Way",
+                    "city": "Middleton",
+                    "state": "WI",
+                    "zip": "53562",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "8505 Research Way",
+                    "mailStopCode": "Office 176",
+                    "city": "Middleton",
+                    "state": "WI",
+                    "zip": "53562-3581",
+                    "country": "US"
+                }
+            },
+            "orcId": "0000-0001-6559-6181"
+        },
+        {
+            "name": "Gregory E Schwarz",
+            "oldPartyId": 9220,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "gschwarz@usgs.gov",
+            "active": true,
+            "jobTitle": "Economist",
+            "firstName": "Gregory",
+            "middleName": "E",
+            "lastName": "Schwarz",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "Gregory E Schwarz/WRD/USGS/DOI - Primary Location",
+                "building": "John W Powell FB",
+                "buildingCode": "AAA",
+                "officePhone": "7036485718",
+                "faxPhone": "7036486693",
+                "streetAddress": {
+                    "line1": "12201 Sunrise Valley Dr",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "12201 Sunrise Valley Drive",
+                    "mailStopCode": "413",
+                    "city": "Reston",
+                    "state": "VA",
+                    "zip": "20192-0002",
+                    "country": "US"
+                }
+            }
+        },
+        {
+            "name": "Stephen D Preston",
+            "oldPartyId": 8281,
+            "type": "Contact",
+            "contactType": "person",
+            "email": "spreston@usgs.gov",
+            "active": true,
+            "firstName": "Stephen",
+            "middleName": "D",
+            "lastName": "Preston",
+            "organization": {
+                "displayText": "Water - Office of the Chief Operating Officer"
+            },
+            "primaryLocation": {
+                "name": "Stephen D Preston/WRD/USGS/DOI - Primary Location",
+                "building": "Mcdaniel Park",
+                "buildingCode": "AMA",
+                "officePhone": "3022135058",
+                "streetAddress": {
+                    "line1": "1289 Mcdaniel Drive",
+                    "city": "Dover",
+                    "state": "DE",
+                    "zip": "19901",
+                    "country": "US"
+                },
+                "mailAddress": {
+                    "line1": "1289 McD Drive",
+                    "city": "Dover",
+                    "state": "DE",
+                    "zip": "19901",
+                    "country": "US"
+                }
+            }
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/mission-areas/water-resources/science/sparrow-modeling-estimating-nutrient-sediment-and-dissolved?qt-science_center_objects=0#qt-science_center_objects",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Source Code",
+            "uri": "https://www.usgs.gov/software/sparrow-modeling-program",
+            "title": "Download SPARROW",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://pubs.usgs.gov/tm/2006/tm6b3/",
+            "title": "Schwarz, G.E., Hoos, A.B., Alexander, R.B., and Smith, R.A., 2006, The SPARROW Surface Water-Quality Model: Theory, Application and User Documentation: U.S. Geological Survey Techniques and Methods Book 6, Section B, Chapter 3",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Web Link",
+            "uri": "https://www.usgs.gov/mission-areas/water-resources/science/sparrow-modeling-estimating-nutrient-sediment-and-dissolved?qt-science_center_objects=3#qt-science_center_objects",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://onlinelibrary.wiley.com/doi/full/10.1111/1752-1688.12807",
+            "rel": "related",
+            "title": "Miller, M., Capel, P.D., Garcia, A.M., and Ator, S. Response of nitrogen loading to the Chesapeake Bay to source reduction and land use change scenarios: A SPARROW\u2010informed analysis. Journal of the American Water Resources Association",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.3133/sir20195114",
+            "rel": "related",
+            "title": "Robertson, D.M., and Saad, D.A., 2019, Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Midwestern United States: U.S. Geological Survey Scientific Investigation Report 2019\u20135114, 74 p. including 5 appendixes,",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.3133/sir20195118",
+            "rel": "related",
+            "title": "Ator, S.W., 2019, Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Northeastern United States: U.S. Geological Survey Scientific Investigations Report 2019\u20135118, 57 p.",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Citation",
+            "uri": "https://doi.org/10.3133/sir20195112",
+            "rel": "related",
+            "title": "Wise, D.R., 2019, Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Pacific United States: U.S. Geological Survey Scientific Investigations Report 2019\u20135112, 64 p.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P93QMXC9",
+            "title": "Saad, D.A., and Robertson, D.M., 2020, SPARROW model inputs and simulated streamflow, nutrient and suspended-sediment loads in streams of the Midwestern United States, 2012 Base Year: U.S. Geological Survey data release",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9NKNVQO",
+            "title": "Ator, S.W., 2020, SPARROW model inputs and simulated streamflow, nutrient and suspended-sediment loads in streams of the Northeastern United States, 2012 Base Year: U.S. Geological Survey data release",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9AXLOSM",
+            "title": "Wise, D.R., 2020, SPARROW model inputs and simulated streamflow, nutrient and suspended-sediment loads in streams of the Pacific Region of the United States, 2012 Base Year (ver 1.1, June 2020): U.S. Geological Survey data release.",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9A682GW",
+            "title": "Roland, V.L., II, and Hoos, A.B., 2020, SPARROW model inputs and simulated streamflow, nutrient and suspended-sediment loads in streams of the Southeastern United States, 2012 Base Year: U.S. Geological Survey data release",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Model Output",
+            "uri": "https://doi.org/10.5066/P9GFLBG8",
+            "title": "Miller, O.L., Wise, D.R., and Anning, D.W., 2020, SPARROW model inputs and simulated streamflow, nutrient and suspended-sediment loads in streams of the Southwestern United States, 2012 Base Year: U.S. Geological Survey data release",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://sparrow.wim.usgs.gov/sparrow-midwest-2012/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://sparrow.wim.usgs.gov/sparrow-pacific-2012/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://sparrow.wim.usgs.gov/sparrow-northeast-2012/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://sparrow.wim.usgs.gov/sparrow-southeast-2012/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://sparrow.wim.usgs.gov/sparrow-southwest-2012/",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/sir20195135",
+            "title": "Hoos, A.B., and Roland, V.L. II, 2019, Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Southeastern United States: U.S. Geological Survey Scientific Investigations Report 2019\u20135135, 91 p.",
+            "hidden": false
+        },
+        {
+            "type": "citation",
+            "typeLabel": "Publication",
+            "uri": "https://doi.org/10.3133/sir20195106",
+            "rel": "related",
+            "title": "Wise, D.R., Anning, D.W., and Miller, O.L., 2019, Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Southwestern United States: U.S. Geological Survey Scientific Investigations Report 2019\u20135106, 66 p.",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Subject",
+            "name": "Water Quality"
+        },
+        {
+            "type": "Label",
+            "name": "Reviewed by model owner"
+        },
+        {
+            "type": "Science Topic",
+            "name": "Hydrology"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "sparrow.png",
+            "title": "Figure showing SPARROW output from Miller and others, 2020",
+            "contentType": "image/png",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__75/89/78/758978c35ee1a89d99209d67ae9f07a1a1e9e4c2",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 500,
+            "imageHeight": 477,
+            "size": 298582,
+            "dateUploaded": "2020-07-10T13:46:39Z",
+            "uploadedBy": "aliford@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "3aad61d0960ae13efb0816bbab056e46",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=500&height=477",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=150&height=143",
+                    "width": 150,
+                    "height": 143
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=350&height=334",
+                    "width": 350,
+                    "height": 334
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "SPARROW_SPAtial.zip",
+            "files": [
+                {
+                    "name": "sparrow.png",
+                    "title": "Figure showing SPARROW output from Miller and others, 2020",
+                    "contentType": "image/png",
+                    "size": 298582
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=500&height=477",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?deprecated=__use__viewUri__instead__&f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=500&height=477",
+            "width": 500,
+            "height": 477,
+            "size": 298582,
+            "title": "Figure showing SPARROW output from Miller and others, 2020"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=150&height=143",
+            "width": 150,
+            "height": 143
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4486082ce25b5135abf96?f=__disk__75%2F89%2F78%2F758978c35ee1a89d99209d67ae9f07a1a1e9e4c2&width=350&height=334",
+            "width": 350,
+            "height": 334
+        }
+    }
+}

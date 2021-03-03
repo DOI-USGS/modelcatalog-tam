@@ -1,0 +1,178 @@
+{
+    "link": {
+        "rel": "self",
+        "url": "https://www.sciencebase.gov/catalog/item/5eb4485b82ce25b5135abf4a"
+    },
+    "relatedItems": {
+        "link": {
+            "url": "https://www.sciencebase.gov/catalog/itemLinks?itemId=5eb4485b82ce25b5135abf4a",
+            "rel": "related"
+        }
+    },
+    "id": "5eb4485b82ce25b5135abf4a",
+    "title": "MD_SWMS - Multi-Dimensional Surface-Water Modeling System\u00a0",
+    "subTitle": "Multi-Dimensional Surface-Water Modeling System\u00a0",
+    "summary": "The U.S. Geological Survey\u2019s (USGS) Multi-Dimensional Surface-Water Modeling System (MD_SWMS) is a pre- and post-processing application for computational models of surface-water hydraulics. The system is both a tool and framework that provides an easy to use interface to a variety of environmental hydraulic models.",
+    "body": "The U.S. Geological Survey\u2019s (USGS) Multi-Dimensional Surface-Water Modeling System (MD_SWMS) is a pre- and post-processing application for computational models of surface-water hydraulics. The system is both a tool and framework that provides an easy to use interface to a variety of environmental hydraulic models.",
+    "provenance": {
+        "dateCreated": "2020-05-07T17:41:47Z",
+        "lastUpdated": "2021-01-06T21:33:25Z",
+        "lastUpdatedBy": "gdonovan@usgs.gov",
+        "createdBy": "sbristol@usgs.gov"
+    },
+    "hasChildren": false,
+    "parentId": "5ed7d36182ce7e579c66e3be",
+    "contacts": [
+        {
+            "name": "Richard R McDonald",
+            "oldPartyId": 6719,
+            "type": "Contact",
+            "contactType": "person",
+            "onlineResource": "https://my.usgs.gov/catalog/Global/catalogParty/show/6719",
+            "email": "rmcd@usgs.gov",
+            "active": true,
+            "jobTitle": "Hydrologist",
+            "firstName": "Richard",
+            "lastName": "McDonald",
+            "organization": {},
+            "primaryLocation": {
+                "streetAddress": {},
+                "mailAddress": {}
+            },
+            "orcId": "0000-0002-0703-0638"
+        },
+        {
+            "name": "Water Resources",
+            "oldPartyId": 64247,
+            "type": "USGS Mission Area",
+            "contactType": "organization",
+            "active": true,
+            "aliases": [
+                "{\"name\":\"USGS Water Resources Mission Area\"}"
+            ],
+            "organization": {},
+            "primaryLocation": {
+                "name": "Water Resources Mission Area - Location",
+                "streetAddress": {},
+                "mailAddress": {}
+            }
+        }
+    ],
+    "webLinks": [
+        {
+            "type": "webLink",
+            "typeLabel": "Web Link",
+            "uri": "https://wwwbrr.cr.usgs.gov/projects/GEOMORPH_Lab/project-MDSWMS.html",
+            "rel": "related",
+            "title": "USGS Webpage",
+            "hidden": false
+        },
+        {
+            "type": "sourceCode",
+            "typeLabel": "Source Code",
+            "uri": "https://www.usgs.gov/software/multidimensional-surface-water-modeling-system-mdswms",
+            "rel": "related",
+            "title": "Download MD_SWMS",
+            "hidden": false
+        }
+    ],
+    "tags": [
+        {
+            "type": "Label",
+            "name": "Legacy"
+        }
+    ],
+    "files": [
+        {
+            "cuid": null,
+            "key": null,
+            "bucket": null,
+            "published": null,
+            "node": null,
+            "name": "kootenai-large.gif",
+            "title": "MD_SWMS",
+            "contentType": "image/gif",
+            "contentEncoding": null,
+            "pathOnDisk": "__disk__83/25/e1/8325e153c1c3fc15d94397594b21549924af4d35",
+            "processed": false,
+            "processToken": null,
+            "imageWidth": 740,
+            "imageHeight": 493,
+            "size": 149046,
+            "dateUploaded": "2020-07-22T18:45:26Z",
+            "uploadedBy": "gdonovan@usgs.gov",
+            "originalMetadata": false,
+            "useForPreview": false,
+            "s3Object": null,
+            "checksum": {
+                "value": "69dc10bec344aae32d4e76fbd0ebd60d",
+                "type": "MD5"
+            },
+            "url": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35",
+            "downloadUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=740&height=493",
+            "previewImage": {
+                "thumbnail": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=150&height=100",
+                    "width": 150,
+                    "height": 100
+                },
+                "small": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=350&height=233",
+                    "width": 350,
+                    "height": 233
+                },
+                "medium": {
+                    "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=580&height=386",
+                    "width": 580,
+                    "height": 386
+                }
+            }
+        }
+    ],
+    "distributionLinks": [
+        {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a",
+            "title": "Download Attached Files",
+            "type": "downloadLink",
+            "typeLabel": "Download Link",
+            "rel": "alternate",
+            "name": "MD_SWMS_Multi_D.zip",
+            "files": [
+                {
+                    "name": "kootenai-large.gif",
+                    "title": "MD_SWMS",
+                    "contentType": "image/gif",
+                    "size": 149046
+                }
+            ]
+        }
+    ],
+    "previewImage": {
+        "from": "attachedFile",
+        "original": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35",
+            "viewUri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=740&height=493",
+            "viewUrl": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?deprecated=__use__viewUri__instead__&f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=740&height=493",
+            "width": 740,
+            "height": 493,
+            "size": 149046,
+            "title": "MD_SWMS"
+        },
+        "thumbnail": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=150&height=100",
+            "width": 150,
+            "height": 100
+        },
+        "small": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=350&height=233",
+            "width": 350,
+            "height": 233
+        },
+        "medium": {
+            "uri": "https://www.sciencebase.gov/catalog/file/get/5eb4485b82ce25b5135abf4a?f=__disk__83%2F25%2Fe1%2F8325e153c1c3fc15d94397594b21549924af4d35&width=580&height=386",
+            "width": 580,
+            "height": 386
+        }
+    }
+}
