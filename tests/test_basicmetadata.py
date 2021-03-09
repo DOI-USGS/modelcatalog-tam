@@ -12,7 +12,7 @@ def test_min_metadata():
         item_type="model",
         name="Modflow",
         description="Sample description",
-        organization=0,
+        organization=True,
     )
     assert mdata
 
@@ -40,7 +40,7 @@ def test_full_metadata():
         item_type="model",
         name="COAWST - Coupled-Ocean-Atmosphere-Waves-Sediment Transport",
         description='"The COAWST modeling system joins an ocean model, an atmosphere model, a wave model, and a sediment transport model for studies of coastal change. COAWST is an open-source tool that combines many sophisticated systems that each provide relative earth-system components necessary to investigate the dynamics of coastal storm impacts. Specifically, the COAWST Modeling System includes an ocean component—Regional Ocean Modeling System (ROMS); atmosphere component—Weather Research and Forecast Model (WRF), hydrology component- WRF_Hydro; wave components—Simulating Waves Nearshore (SWAN), WAVEWATCHIII, and InWave; a sediment component—the USGS Community Sediment Models; and a sea ice model. We began with a coupled modeling system as described [...]',
-        organization=0,
+        organization=True,
         release_date="200810",
         last_update="202009",
         author=ppl,

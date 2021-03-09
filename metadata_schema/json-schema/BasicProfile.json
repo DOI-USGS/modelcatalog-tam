@@ -1,15 +1,10 @@
 {
   "title": "BasicProfile",
-  "description": "Basic metadata profile\n\nFields\n------\nitem_type : ModelTypeEnum\n    model, tool, framework, testbed\n    model\nname : str\n    title\n    COAWST - Coupled-Ocean-Atmosphere-Waves-Sediment Transport\ndescription : str\n    abstract or general description\n    The COAWST modeling system joins an ocean model, an atmosphere model, a wave model, and a sediment transport model for studies of coastal change...\norganization: bool = 1\n    1 = usgs ; 0 = external\n    1\nexternal_organization_name: Optional[str]\nrelease_date : str\n    Date\n    200810\nlast_update : str\n    Date\n    202009\nauthor : Optional[List[Person]]\n    The author(s) or developer(s) of this content.\n    Person(\n            name=\"John C Warner\",\n            orcid=\"https://orcid.org/0000-0003-4993-021X\",\n            email=\"jcwarner@usgs.gov\",\n            authortype=\"maintainer\",\n        )\ncontact : Optional[List[Person]]\n    Person(s) responsible for maintenance of the model or item.\n    Person(\n            name=\"John C Warner\",\n            orcid=\"https://orcid.org/0000-0003-4993-021X\",\n            email=\"jcwarner@usgs.gov\",\n            authortype=\"author\",\n        )\nversion : str\n    Latest release version v1.0.0\n    3.4\nhow_to_cite: Optional[str]\n    Preferred citation format\n    Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System...\nusgs_missionarea: Optional[str]\n    USGS mission area\n    Water Resources\nidentifier: Optional[List[Identifier]]\n    Identifiers related to the model\nprogramming_language: Optional[str]\n    Primary programming language used for the modeling\n    Fortran, Roff, C++, C, MATLAB, PostScript\nlicense: Optional[str]\n   CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nresources: Optional[Resources]\n    Custom object containing advanced resource section\nreferences: Optional[References]\n    Custom object containing advanced reference section\nscience_keywords: Optional[str]\n    Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/\ntype_keywords: Optional[TypeKeywordEnum]\nother_keywords: Optional[str]\n    For example, platform and mode (Jupyter, Graphical User Interface, etc).\n    Jupyter Notebook\nimage: Optional[HttpUrl]\n    Header image for the model profile page\n    https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b\nrelated_catalog_items: Optional[List[str]]\n    coawst - wrf item\nrelated_catalog_item_types: Optional[str]",
+  "description": "Basic metadata profile\n\nFields\n------\nitem_type : ModelTypeEnum\n    model, tool, framework, testbed\nname : str\n    title\ndescription : str\n    abstract or general description\norganization: bool = True\n    True = usgs ; False = external\nexternal_organization_name: Optional[str]\nrelease_date : str\n    Date\nlast_update : str\n    Date\nauthor : Optional[List[Person]]\n    The author(s) or developer(s) of this content.\ncontact : Optional[List[Person]]\n    Person(s) responsible for maintenance of the model or item.\nversion : str\n    Latest release version v1.0.0\nhow_to_cite: Optional[str]\n    Preferred citation format\nusgs_missionarea: Optional[str]\n    USGS mission area\nidentifier: Optional[List[Identifier]]\n    Identifiers related to the model\nprogramming_language: Optional[str]\n    Primary programming language used for the modeling\nlicense: Optional[str]\n   CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nresources: Optional[Resources]\n    Custom object containing advanced resource section\nreferences: Optional[References]\n    Custom object containing advanced reference section\nscience_keywords: Optional[str]\n    Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/\ntype_keywords: Optional[TypeKeywordEnum]\nother_keywords: Optional[str]\n    For example, platform and mode (Jupyter, Graphical User Interface, etc).\nimage: Optional[HttpUrl]\n    Header image for the model profile page\nrelated_catalog_item: Optional[RelatedCatalogItem]\n\nExample\n-------\n>>> BasicProfile(item_type=\"model\",\n...              name=\"COAWST\",\n...              description=\"sample description\")\nBasicProfile(item_type=<ModelTypeEnum.model: 'model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)",
   "type": "object",
   "properties": {
     "item_type": {
-      "default": "model",
-      "allOf": [
-        {
-          "$ref": "#/definitions/ModelTypeEnum"
-        }
-      ]
+      "$ref": "#/definitions/ModelTypeEnum"
     },
     "name": {
       "title": "Name",
@@ -21,7 +16,7 @@
     },
     "organization": {
       "title": "Organization",
-      "default": 1,
+      "default": true,
       "type": "boolean"
     },
     "external_organization_name": {
@@ -141,7 +136,7 @@
     },
     "Person": {
       "title": "Person",
-      "description": "Person or contact model\n\nFields\n------\nname : str\n    Contact name to display\n    Alison P Appling\norcid : HttpUrl\n    Full URL for ORCID profile, see: https://orcid.org/\n    https://orcid.org/0000-0003-3638-8572\nemail : EmailStr\n    Valid email address\n    aappling@usgs.gov\nauthor_type : str\n    Specification for type of contact\n    author\nthumbnail_avatar_url : HttpUrl\n    Direct link to personal profile image\n    https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/appling_headshot.png\norganization : str\n    USGS organization\n    USGS Water Resources Mission Area\njob_title : str\n    Short job title\n    Data Scientist\nsciencebase_id : str\n    Sciencebase Directory link to profile (see https://www.sciencebase.gov/directory/person/68008)\n    68008\nusgs_staffprofile_url : HttpUrl\n    Direct link to USGS Staff Profile webpage\n    https://www.usgs.gov/staff-profiles/alison-appling\nusgs_gitlab_id: int\n    Internal gitlab user identifier\ngithub_profile: str\n    Public GitHub user profile\n    aappling-usgs\nusgs_employee: bool\n    USGS employee 1 = yes; 0 = no\n    1",
+      "description": "Person or contact model\n\nFields\n------\nname : str\n    Contact name to display\n    Alison P Appling\norcid : HttpUrl\n    Full URL for ORCID profile, see: https://orcid.org/\n    https://orcid.org/0000-0003-3638-8572\nemail : EmailStr\n    Valid email address\n    aappling@usgs.gov\nauthor_type : str\n    Specification for type of contact\n    author\nthumbnail_avatar_url : HttpUrl\n    Direct link to personal profile image\n    https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/appling_headshot.png\norganization : str\n    USGS organization\n    USGS Water Resources Mission Area\njob_title : str\n    Short job title\n    Data Scientist\nsciencebase_id : str\n    Sciencebase Directory link to profile (see https://www.sciencebase.gov/directory/person/68008)\n    68008\nusgs_staffprofile_url : HttpUrl\n    Direct link to USGS Staff Profile webpage\n    https://www.usgs.gov/staff-profiles/alison-appling\nusgs_gitlab_id: int\n    Internal gitlab user identifier\ngithub_profile: str\n    Public GitHub user profile\n    aappling-usgs\nusgs_employee: bool\n    USGS employee True = yes; False = no\n    1",
       "type": "object",
       "properties": {
         "name": {
@@ -149,16 +144,11 @@
           "type": "string"
         },
         "author_type": {
-          "default": "author",
-          "allOf": [
-            {
-              "$ref": "#/definitions/ContactTypeEnum"
-            }
-          ]
+          "$ref": "#/definitions/ContactTypeEnum"
         },
         "usgs_employee": {
           "title": "Usgs Employee",
-          "default": 0,
+          "default": false,
           "type": "boolean"
         },
         "orcid": {

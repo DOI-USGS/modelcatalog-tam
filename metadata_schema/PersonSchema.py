@@ -47,7 +47,7 @@ class Person(BaseModel):
         Public GitHub user profile
         aappling-usgs
     usgs_employee: bool
-        USGS employee 1 = yes; 0 = no
+        USGS employee True = yes; False = no
         1
     """
 
@@ -55,7 +55,7 @@ class Person(BaseModel):
 
     name: str
     author_type: ContactTypeEnum = "author"
-    usgs_employee: Optional[bool] = 0
+    usgs_employee: Optional[bool] = False
     orcid: Optional[HttpUrl]
     email: Optional[EmailStr]
     thumbnail_avatar_url: Optional[HttpUrl]

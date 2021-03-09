@@ -36,8 +36,8 @@ class BasicProfile(BaseModel):
         title
     description : str
         abstract or general description
-    organization: bool = 1
-        1 = usgs ; 0 = external
+    organization: bool = True
+        True = usgs ; False = external
     external_organization_name: Optional[str]
     release_date : str
         Date
@@ -77,7 +77,7 @@ class BasicProfile(BaseModel):
     >>> BasicProfile(item_type="model",
     ...              name="COAWST",
     ...              description="sample description")
-    BasicProfile(item_type=<ModelTypeEnum.model: 'model'>, name='COAWST', description='sample description', organization=1, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)
+    BasicProfile(item_type=<ModelTypeEnum.model: 'model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)
     """
 
     _version: str = "v1.0.0"
@@ -85,7 +85,7 @@ class BasicProfile(BaseModel):
     item_type: ModelTypeEnum = "model"
     name: str
     description: str
-    organization: bool = 1
+    organization: bool = True
     external_organization_name: Optional[str]
     release_date: Optional[str]
     last_update: Optional[str]
