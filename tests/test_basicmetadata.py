@@ -1,15 +1,16 @@
-from PersonSchema import Person
-from BasicProfileSchema import BasicProfile
-from ResourceSchema import Resources
-from ReferenceSchema import References
-from IdentifierSchema import Identifier
-from pydantic import ValidationError
 from hypothesis import given, strategies as st
+from pydantic import ValidationError
+
+from metadata_schema.BasicProfileSchema import BasicProfile
+from metadata_schema.IdentifierSchema import Identifier
+from metadata_schema.PersonSchema import Person
+from metadata_schema.ReferenceSchema import References
+from metadata_schema.ResourceSchema import Resources
 
 
 def test_min_metadata():
     mdata = BasicProfile(
-        item_type="model",
+        item_type="Model",
         name="Modflow",
         description="Sample description",
         organization=0,
@@ -23,7 +24,7 @@ def test_full_metadata():
             name="John C Warner",
             orcid="https://orcid.org/0000-0003-4993-021X",
             email="jcwarner@usgs.gov",
-            authortype="author",
+            authortype="Author",
         )
     ppl = [per1]
 
@@ -37,7 +38,7 @@ def test_full_metadata():
     )
 
     mdata = BasicProfile(
-        item_type="model",
+        item_type="Model",
         name="COAWST - Coupled-Ocean-Atmosphere-Waves-Sediment Transport",
         description='"The COAWST modeling system joins an ocean model, an atmosphere model, a wave model, and a sediment transport model for studies of coastal change. COAWST is an open-source tool that combines many sophisticated systems that each provide relative earth-system components necessary to investigate the dynamics of coastal storm impacts. Specifically, the COAWST Modeling System includes an ocean component—Regional Ocean Modeling System (ROMS); atmosphere component—Weather Research and Forecast Model (WRF), hydrology component- WRF_Hydro; wave components—Simulating Waves Nearshore (SWAN), WAVEWATCHIII, and InWave; a sediment component—the USGS Community Sediment Models; and a sea ice model. We began with a coupled modeling system as described [...]',
         organization=0,
@@ -53,7 +54,7 @@ def test_full_metadata():
             id="DOI:10.5066/P9NQUAOW",
             type="Digital Object Identifier")
             ],
-        programming_language="Fortran, Roff, C++, C, MATLAB, PostScript",
+        programming_language=["Fortran", "Roff", "C++", "C", "MATLAB", "PostScript"],
         resources=rsc,
         image="https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b",
     )

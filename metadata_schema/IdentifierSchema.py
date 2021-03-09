@@ -14,9 +14,9 @@ class Identifier(BaseModel):
 
     Fields
     ------
-    name: str
-    id: Optional[str]
-    url: Optional[HttpUrl]
+    name : str
+    id : Optional[str]
+    url : Optional[HttpUrl]
 
     """
 

@@ -5,7 +5,10 @@ from typing import List, Optional
 class Resources(BaseModel):
     """Resource extension for additional information
 
-    How to use the model: where to download it, manuals, user community pages, other webpages about the model (in other catalogs), USGS webpage, model project page, source code (organizational website or repository, if available).
+    How to use the model: where to download it, manuals, user community
+    pages, other webpages about the model (in other catalogs), USGS
+    webpage, model project page, source code (organizational website or
+    repository, if available).
 
     Fields
     ------

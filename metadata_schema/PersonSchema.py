@@ -4,9 +4,9 @@ from enum import Enum
 
 
 class ContactTypeEnum(str, Enum):
-    maintainer = "maintainer"
-    author = "author"
-    point_of_contact = "point_of_contact"
+    maintainer = "Maintainer"
+    author = "Author"
+    point_of_contact = "Point of Contact"
 
 
 class Person(BaseModel):
@@ -41,12 +41,12 @@ class Person(BaseModel):
     usgs_staffprofile_url : HttpUrl
         Direct link to USGS Staff Profile webpage
         https://www.usgs.gov/staff-profiles/alison-appling
-    usgs_gitlab_id: int
+    usgs_gitlab_id : int
         Internal gitlab user identifier
-    github_profile: str
+    github_profile : str
         Public GitHub user profile
         aappling-usgs
-    usgs_employee: bool
+    usgs_employee : bool
         USGS employee 1 = yes; 0 = no
         1
     """
@@ -54,7 +54,7 @@ class Person(BaseModel):
     _version: str = "v1.0.0"
 
     name: str
-    author_type: ContactTypeEnum = "author"
+    author_type: ContactTypeEnum = "Author"
     usgs_employee: Optional[bool] = 0
     orcid: Optional[HttpUrl]
     email: Optional[EmailStr]

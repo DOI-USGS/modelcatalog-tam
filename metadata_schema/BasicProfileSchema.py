@@ -1,19 +1,19 @@
-from ResourceSchema import Resources
-from ReferenceSchema import References
-from PersonSchema import Person
-from IdentifierSchema import Identifier
-from RelatedCatalogItemSchema import RelatedCatalogItem
-
 from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 from enum import Enum
 
+from .IdentifierSchema import Identifier
+from .PersonSchema import Person
+from .ReferenceSchema import References
+from .RelatedCatalogItemSchema import RelatedCatalogItem
+from .ResourceSchema import Resources
+
 
 class ModelTypeEnum(str, Enum):
-    model = "model"
-    framework = "framework"
-    tool = "tool"
-    testbed = "testbed"
+    model = "Model"
+    framework = "Framework"
+    tool = "Tool"
+    testbed = "Testbed"
 
 
 class TypeKeywordEnum(str, Enum):
@@ -82,7 +82,7 @@ class BasicProfile(BaseModel):
 
     _version: str = "v1.0.0"
 
-    item_type: ModelTypeEnum = "model"
+    item_type: ModelTypeEnum = "Model"
     name: str
     description: str
     organization: bool = 1
@@ -102,6 +102,6 @@ class BasicProfile(BaseModel):
     references: Optional[References]
     science_keywords: Optional[List[str]]
     type_keywords: Optional[TypeKeywordEnum]
-    other_keywords: Optional[str]
+    other_keywords: Optional[List[str]]
     image: Optional[HttpUrl]
     related_catalog_item: Optional[RelatedCatalogItem]

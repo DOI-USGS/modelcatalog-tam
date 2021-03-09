@@ -3,16 +3,20 @@ from typing import List, Optional
 
 
 class References(BaseModel):
-    """Where the model has been used: References to reports or publications where the model is used, or cited, outputs (data release), model archive, model application.
+    """Where the model has been used:
+
+    References to reports or publications where the model is used,
+    or cited, outputs (data release), model archive, model application.
 
     Fields
     ------
     model_output : Optional[str]
-        Optional container for model output information.
+        Optional container for model output information
     usgs_datarelease_links : Optional[List[HttpUrl]]
         Data release landing page
     model_citations : Optional[List[str]]
-       References to reports or publications where the model is used, or cited
+        References to reports or publications where the model is used
+        or cited
     model_archive : Optional[str]
     model_application : Optional[str]
     """

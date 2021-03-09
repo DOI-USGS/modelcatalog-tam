@@ -4,10 +4,10 @@ from enum import Enum
 
 
 class RelatedCatalogItemTypeEnum(str, Enum):
-    related_model = "related model"
-    related_framework = "related framework"
-    related_tool = "related tool"
-    related_testbed = "related testbed"
+    related_model = "Related Model"
+    related_framework = "Related Framework"
+    related_tool = "Related Tool"
+    related_testbed = "Related Testbed"
 
 
 class RelatedCatalogItem(BaseModel):
@@ -15,10 +15,10 @@ class RelatedCatalogItem(BaseModel):
 
     Fields
     ------
-    related_catalog_url: Optional[HttpUrl]
-    related_catalog_id: Optional[str]
-    component_of: Optional[str]
-    type: Optional[RelatedCatalogItemTypeEnum]
+    related_catalog_url : Optional[HttpUrl]
+    related_catalog_id : Optional[str]
+    component_of : Optional[str]
+    type : Optional[RelatedCatalogItemTypeEnum]
 
     """
 
