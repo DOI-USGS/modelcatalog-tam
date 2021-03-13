@@ -19,6 +19,12 @@ def write_file(file, model):
 
 
 def main():
+    if not config.SB_MODELS_OUT.is_dir():
+        config.SB_MODELS_OUT.mkdir(parents=True, exist_ok=True)
+
+    if not config.SB_MODELS_OUT.is_dir():
+        config.SB_MODELS_OUT.mkdir(parents=True, exist_ok=True)
+
     new_sb_models = [str(file) for file in config.SB_MODELS_IN.iterdir()]
     new_sb_model_dicts = read_files(new_sb_models)
     for sb_model in new_sb_model_dicts:

@@ -18,6 +18,9 @@ def download_sb_models():
     :return: None
     """
 
+    if not config.SB_MODELS_IN.is_dir():
+        config.SB_MODELS_IN.mkdir(parents=True, exist_ok=True)
+
     num_models_downloaded = 0
 
     for id_ in child_ids:
