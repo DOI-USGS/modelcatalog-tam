@@ -10,10 +10,10 @@ from enum import Enum
 
 
 class ModelTypeEnum(str, Enum):
-    model = "model"
-    framework = "framework"
-    tool = "tool"
-    testbed = "testbed"
+    model = "Model"
+    framework = "Framework"
+    tool = "Tool"
+    testbed = "Testbed"
 
 
 class TypeKeywordEnum(str, Enum):
@@ -30,24 +30,24 @@ class BasicProfile(BaseModel):
 
     Fields
     ------
-    item_type : ModelTypeEnum
+    item_type: ModelTypeEnum
         model, tool, framework, testbed
-    name : str
+    name: str
         title
-    description : str
+    description: str
         abstract or general description
     organization: bool = True
         True = usgs ; False = external
     external_organization_name: Optional[str]
-    release_date : str
+    release_date: str
         Date
-    last_update : str
+    last_update: str
         Date
-    author : Optional[List[Person]]
+    author: Optional[List[Person]]
         The author(s) or developer(s) of this content.
-    contact : Optional[List[Person]]
+    contact: Optional[List[Person]]
         Person(s) responsible for maintenance of the model or item.
-    version : str
+    version: str
         Latest release version v1.0.0
     how_to_cite: Optional[str]
         Preferred citation format
@@ -74,7 +74,7 @@ class BasicProfile(BaseModel):
 
     Example
     -------
-    >>> BasicProfile(item_type="model",
+    >>> BasicProfile(item_type="Model",
     ...              name="COAWST",
     ...              description="sample description")
     BasicProfile(item_type=<ModelTypeEnum.model: 'model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)
@@ -82,7 +82,7 @@ class BasicProfile(BaseModel):
 
     _version: str = "v1.0.0"
 
-    item_type: ModelTypeEnum = "model"
+    item_type: ModelTypeEnum = "Model"
     name: str
     description: str
     organization: bool = True
@@ -102,6 +102,6 @@ class BasicProfile(BaseModel):
     references: Optional[References]
     science_keywords: Optional[List[str]]
     type_keywords: Optional[TypeKeywordEnum]
-    other_keywords: Optional[str]
+    other_keywords: Optional[List[str]]
     image: Optional[HttpUrl]
     related_catalog_item: Optional[RelatedCatalogItem]

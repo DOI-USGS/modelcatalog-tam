@@ -8,7 +8,7 @@ def test_min_person():
         name="Alison P Appling",
     )
     assert ppl
-    assert ppl.author_type == "author"
+    assert ppl.author_type == "Author"
     assert ppl.name == "Alison P Appling"
 
 
@@ -17,7 +17,7 @@ def test_full_person():
         name="Alison P Appling",
         orcid="https://orcid.org/0000-0003-3638-8572",
         email="aappling@usgs.gov",
-        author_type="author",
+        author_type="Author",
         thumbnail_avatar_url="https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/appling_headshot.png",
         organization="USGS Water Resources Mission Area",
         job_title="Data Scientist",
@@ -38,7 +38,7 @@ def test_email():
             name="Sally Johnson",
             orcid="https://orcid.org/0000-0003-4993-0000",
             email="hello-world",
-            authortype="author",
+            authortype="Author",
         )
     except ValidationError as e:
         assert ppl is None

@@ -1,5 +1,5 @@
 import os 
-os.chdir('./metadata_schema')
+os.chdir('../metadata_schema')
 
 from BasicProfileSchema import BasicProfile
 
