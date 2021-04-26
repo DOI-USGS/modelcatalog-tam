@@ -10,21 +10,29 @@ class References(BaseModel):
 
     Fields
     ------
-    model_output: Optional[str]
-        Optional container for model output information
+    model_output: Optional[List[HttpUrl]]
+        Optional container for links to model output information
     usgs_datarelease_links: Optional[List[HttpUrl]]
-        Data release landing page
-    model_citations: Optional[List[str]]
-        References to reports or publications where the model is used
+        Optional field for USGS Data release Digital Object Identifiers
+    model_citations: Optional[List[HttpUrl]]
+        Optional field References to reports or publications where the model is used
         or cited
-    model_archive: Optional[str]
-    model_application: Optional[str]
+    model_archive: Optional[List[HttpUrl]]
+        Optional field for USGS interpretive information products that consists of a 
+        group of files that documents and archives numerical (ground)water
+        models. Policy dictates that these are distributed online as
+        USGS data releases. Terminology used in the USGS Water Resources Mission Area. 
+    model_application: Optional[List[HttpUrl]]
+        The use of a particular model software to analyze a specific
+        situation (region, time period, etc.). Terminology used in the
+        USGS Water Resources Mission Area. 
+
     """
 
     _version: str = "v1.0.0"
 
-    model_output: Optional[str]
+    model_output: Optional[List[HttpUrl]]
     usgs_datarelease_links: Optional[List[HttpUrl]]
-    model_citations: Optional[List[str]]
-    model_archive: Optional[str]
-    model_application: Optional[str]
+    model_citations: Optional[List[HttpUrl]]
+    model_archive: Optional[List[HttpUrl]]
+    model_application: Optional[List[HttpUrl]]
