@@ -104,9 +104,9 @@ class BasicProfile(BaseModel):
     person: Optional[List[Person]]
     version: Optional[str]
     how_to_cite: Optional[str]
-    usgs_missionarea: Optional[List[[MissionAreaKeywordEnum]]
+    usgs_missionarea: Optional[List[MissionAreaKeywordEnum]]
     identifier: Optional[List[Identifier]]
-    programming_language: Optional[List[[str]]
+    programming_language: Optional[List[str]]
     license: Optional[str] = "CC0"
     resources: Optional[Resources]
     references: Optional[References]
