@@ -48,7 +48,7 @@ class BasicProfile(BaseModel):
     contact: Optional[List[Person]]
         Person(s) responsible for maintenance of the model or item.
     version: str
-        Latest release version v1.0.0
+        Latest release version v1.0.1
     how_to_cite: Optional[str]
         Preferred citation format
     usgs_missionarea: Optional[str]
@@ -80,7 +80,7 @@ class BasicProfile(BaseModel):
     BasicProfile(item_type=<ModelTypeEnum.model: 'Model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)
     """
 
-    _version: str = "v1.0.0"
+    _version: str = "v1.0.1"
 
     item_type: ModelTypeEnum = "Model"
     name: str

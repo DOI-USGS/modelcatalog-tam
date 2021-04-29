@@ -29,7 +29,7 @@ class References(BaseModel):
 
     """
 
-    _version: str = "v1.0.0"
+    _version: str = "v1.0.1"
 
     model_output: Optional[List[HttpUrl]]
     usgs_datarelease_links: Optional[List[HttpUrl]]

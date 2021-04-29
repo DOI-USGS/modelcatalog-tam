@@ -50,7 +50,7 @@ class Person(BaseModel):
         USGS employee True = yes; False = no
     """
 
-    _version: str = "v1.0.0"
+    _version: str = "v1.0.1"
 
     name: str
     author_type: ContactTypeEnum = "Author"
