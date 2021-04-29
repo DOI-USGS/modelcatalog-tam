@@ -22,7 +22,7 @@ class RelatedCatalogItem(BaseModel):
 
     """
 
-    _version: str = "v1.0.0"
+    _version: str = "v1.0.1"
 
     related_catalog_url: Optional[HttpUrl]
     related_catalog_id: Optional[str]

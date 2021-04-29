@@ -20,7 +20,7 @@ class Identifier(BaseModel):
 
     """
 
-    _version: str = "v1.0.0"
+    _version: str = "v1.0.1"
 
     name: str
     id: Optional[str]
