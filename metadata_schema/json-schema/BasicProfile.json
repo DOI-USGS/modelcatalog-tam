@@ -255,26 +255,38 @@
     },
     "Resources": {
       "title": "Resources",
-      "description": "Resource extension for additional information\n\nHow to use the model: where to download it, manuals, user community\npages, other webpages about the model (in other catalogs), USGS\nwebpage, model project page, source code (organizational website or\nrepository, if available).\n\nFields\n------\ndownload_url: Optional[HttpUrl]\n    Where users would download the model\nprimary_publications: Optional[str]\nweblinks: Optional[List[HttpUrl]]\nusgs_website: Optional[HttpUrl]\nusgs_software_gitlab_release_urls: Optional[List[HttpUrl]]\nexternal_software_repository_urls: Optional[List[HttpUrl]]\nquickstart_notebook: Optional[HttpUrl]\nruntime_image: Optional[HttpUrl]",
+      "description": "Resource extension for additional information\n\nHow to use the model: where to download it, manuals, user community\npages, other webpages about the model (in other catalogs), USGS\nwebpage, model project page, source code (organizational website or\nrepository, if available).\n\nFields\n------\nuser_manual_url: Optional[List[HttpUrl]]\n    Optional field for locations of model user manuals or similar documentation.\ndownload_url: Optional[List[HttpUrl]]\n    Optional field for locations where users would download the model executable\nprimary_publications: Optional[List[HttpUrl]]\n    Optional field for the main publications describing the model itself\nweblinks: Optional[List[HttpUrl]]\n    Optional field for URLs that are not a usgs.gov (Drupal CMS) website. \n    Examples include community forums for the model.\nusgs_website: Optional[List[HttpUrl]]\n    Optional field for URLs that are part of the usgs.gov (Drupal CMS) website\nusgs_software_gitlab_release_urls: Optional[List[HttpUrl]]\n    Optional field for official USGS software releases on code.usgs.gov (Gitlab)\n    Use the DOI of the software release, unless the DOI does not point to the\n    main landing page of the repository. If the DOI points to a location other\n    than the main repository landing page, point to the main repository landing page.\nexternal_software_repository_urls: Optional[List[HttpUrl]]\n    Optional field for related code repositories that are not on code.usgs.gov (Gitlab),\n    for example, repositories that are on github.com or gitlab.com\nquickstart_notebook: Optional[List[HttpUrl]]\n    Optional field for links to quickstart code notebooks on platforms such as Colab.\nruntime_image: Optional[List[HttpUrl]]\n    Optional field for links to runtime images such as Docker images. ",
       "type": "object",
       "properties": {
         "user_manual_url": {
           "title": "User Manual Url",
-          "minLength": 1,
-          "maxLength": 2083,
-          "format": "uri",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         },
         "download_url": {
           "title": "Download Url",
-          "minLength": 1,
-          "maxLength": 2083,
-          "format": "uri",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         },
         "primary_publications": {
           "title": "Primary Publications",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         },
         "weblink_url": {
           "title": "Weblink Url",
@@ -318,28 +330,40 @@
         },
         "quickstart_notebook": {
           "title": "Quickstart Notebook",
-          "minLength": 1,
-          "maxLength": 2083,
-          "format": "uri",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         },
         "runtime_image": {
           "title": "Runtime Image",
-          "minLength": 1,
-          "maxLength": 2083,
-          "format": "uri",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         }
       }
     },
     "References": {
       "title": "References",
-      "description": "Where the model has been used:\n\nReferences to reports or publications where the model is used,\nor cited, outputs (data release), model archive, model application.\n\nFields\n------\nmodel_output: Optional[str]\n    Optional container for model output information\nusgs_datarelease_links: Optional[List[HttpUrl]]\n    Data release landing page\nmodel_citations: Optional[List[str]]\n    References to reports or publications where the model is used\n    or cited\nmodel_archive: Optional[str]\nmodel_application: Optional[str]",
+      "description": "Where the model has been used:\n\nReferences to reports or publications where the model is used,\nor cited, outputs (data release), model archive, model application.\n\nFields\n------\nmodel_output: Optional[List[HttpUrl]]\n    Optional container for links to model output information\nusgs_datarelease_links: Optional[List[HttpUrl]]\n    Optional field for USGS Data release Digital Object Identifiers\nmodel_citations: Optional[List[HttpUrl]]\n    Optional field References to reports or publications where the model is used\n    or cited\nmodel_archive: Optional[List[HttpUrl]]\n    Optional field for USGS interpretive information products that consists of a \n    group of files that documents and archives numerical (ground)water\n    models. Policy dictates that these are distributed online as\n    USGS data releases. Terminology used in the USGS Water Resources Mission Area. \nmodel_application: Optional[List[HttpUrl]]\n    The use of a particular model software to analyze a specific\n    situation (region, time period, etc.). Terminology used in the\n    USGS Water Resources Mission Area. ",
       "type": "object",
       "properties": {
         "model_output": {
           "title": "Model Output",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         },
         "usgs_datarelease_links": {
           "title": "Usgs Datarelease Links",
@@ -355,16 +379,31 @@
           "title": "Model Citations",
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
           }
         },
         "model_archive": {
           "title": "Model Archive",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         },
         "model_application": {
           "title": "Model Application",
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
         }
       }
     },

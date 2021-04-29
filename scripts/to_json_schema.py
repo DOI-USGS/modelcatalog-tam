@@ -1,5 +1,14 @@
+'''
+Run script within the scripts directory
+'''
+
 import os 
-os.chdir('../metadata_schema')
+from pathlib import Path
+
+cpath = Path.cwd().parents[0]
+npath = Path.joinpath(cpath, 'metadata_schema')
+
+os.chdir(npath)
 
 from BasicProfileSchema import BasicProfile
 
