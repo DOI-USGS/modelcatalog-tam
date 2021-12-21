@@ -95,7 +95,7 @@ class BasicProfile(BaseModel):
     how_to_cite: Optional[str]
     usgs_missionarea: Optional[str]
     identifier: Optional[List[Identifier]]
-    programming_language: Optional[str]
+    programming_language: Optional[List[str]]
     license: Optional[str] = "CC0"
     resources: Optional[Resources]
     references: Optional[References]
