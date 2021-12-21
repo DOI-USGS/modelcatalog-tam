@@ -85,7 +85,7 @@ class BasicProfile(BaseModel):
     name: str
     description: str
     organization: bool = True
-    external_organization_name: Optional[str]
+    external_organization_name: Optional[List[str]]
     release_date: Optional[str]
     last_update: Optional[str]
     subtitle: Optional[str]
