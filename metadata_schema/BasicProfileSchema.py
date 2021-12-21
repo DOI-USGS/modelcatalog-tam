@@ -2,7 +2,6 @@ from ResourceSchema import Resources
 from ReferenceSchema import References
 from PersonSchema import Person
 from IdentifierSchema import Identifier
-from RelatedCatalogItemSchema import RelatedCatalogItem
 
 from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
@@ -104,4 +103,4 @@ class BasicProfile(BaseModel):
     type_keywords: Optional[TypeKeywordEnum]
     other_keywords: Optional[List[str]]
     image: Optional[HttpUrl]
-    related_catalog_item: Optional[RelatedCatalogItem]
+    related_modelcatalog_assets: Optional[List[str]]
