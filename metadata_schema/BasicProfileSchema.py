@@ -93,7 +93,7 @@ class BasicProfile(BaseModel):
     contact: Optional[List[Person]]
     version: Optional[str]
     how_to_cite: Optional[str]
-    usgs_missionarea: Optional[str]
+    usgs_missionarea: Optional[List[str]]
     identifier: Optional[List[Identifier]]
     programming_language: Optional[List[str]]
     license: Optional[str] = "CC0"
