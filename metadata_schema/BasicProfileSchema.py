@@ -1,5 +1,7 @@
-from ResourceSchema import Resources
-from ReferenceSchema import References
+from DataSchema import Data
+from SoftwareSchema import Softwares
+from PublicationsSchema import Publications
+from OtherLinksSchema import OtherLinks
 from PersonSchema import Person
 from IdentifierSchema import Identifier
 
@@ -37,31 +39,33 @@ class BasicProfile(BaseModel):
         abstract or general description
     organization: bool = True
         True = usgs ; False = external
-    external_organization_name: Optional[str]
+    external_organization_name: Optional[List[str]]
     release_date: str
         Date
     last_update: str
         Date
-    author: Optional[List[Person]]
-        The author(s) or developer(s) of this content.
-    contact: Optional[List[Person]]
-        Person(s) responsible for maintenance of the model or item.
+    person: Optional[List[Person]]
+        Person(s) (author(s) or developer(s)) responsible for maintenance of the model or item or content.
     version: str
         Latest release version v1.0.1
     how_to_cite: Optional[str]
         Preferred citation format
-    usgs_missionarea: Optional[str]
+    usgs_missionarea: Optional[List[str]]
         USGS mission area
     identifier: Optional[List[Identifier]]
         Identifiers related to the model
-    programming_language: Optional[str]
+    programming_language: Optional[List[str]]
         Primary programming language used for the modeling
     license: Optional[str]
        CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode
-    resources: Optional[Resources]
-        Custom object containing advanced resource section
-    references: Optional[References]
-        Custom object containing advanced reference section
+    data: Optional[Data]
+        Custom object containing advanced data section
+    software: Optional[Softwares]
+        Custom object containing advanced softwares section
+    publications: Optional[Publications]
+        Custom object containing advanced publications section
+    other_links: Optional[OtherLinks]
+        Custom object containing advanced other links section
     science_keywords: Optional[str]
         Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/
     type_keywords: Optional[TypeKeywordEnum]
@@ -69,7 +73,8 @@ class BasicProfile(BaseModel):
         For example, platform and mode (Jupyter, Graphical User Interface, etc).
     image: Optional[HttpUrl]
         Header image for the model profile page
-    related_catalog_item: Optional[RelatedCatalogItem]
+    related_modelcatalog_assets: Optional[List[str]]
+        Related catalog items for the model
 
     Example
     -------
@@ -96,8 +101,10 @@ class BasicProfile(BaseModel):
     identifier: Optional[List[Identifier]]
     programming_language: Optional[List[str]]
     license: Optional[str] = "CC0"
-    resources: Optional[Resources]
-    references: Optional[References]
+    data: Optional[Data]
+    software: Optional[Softwares]
+    publications: Optional[Publications]
+    other_links: Optional[OtherLinks]
     science_keywords: Optional[List[str]]
     type_keywords: Optional[TypeKeywordEnum]
     other_keywords: Optional[List[str]]
