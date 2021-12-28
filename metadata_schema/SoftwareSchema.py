@@ -2,8 +2,8 @@ from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 
 
-class Softwares(BaseModel):
-    """Softwares
+class Software(BaseModel):
+    """Software
 
     Where to download it, related software release pages,
     source code (organizational website or repository, if available).

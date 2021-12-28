@@ -1,7 +1,7 @@
 from PersonSchema import Person
 from BasicProfileSchema import BasicProfile
 from DataSchema import Data
-from SoftwareSchema import Softwares
+from SoftwareSchema import Software
 from PublicationsSchema import Publications
 from OtherLinksSchema import OtherLinks
 from IdentifierSchema import Identifier
@@ -43,7 +43,7 @@ def test_full_metadata():
         model_archive=["https://doi.org/10.5066/P9NQUAOW"],
     )
 
-    sftwrs = Softwares(
+    sftwr = Software(
         usgs_software_gitlab_release_urls=[
             "https://code.usgs.gov/coawstmodel/COAWST/"
         ],
@@ -85,7 +85,7 @@ def test_full_metadata():
         ],
         programming_language=["Fortran", "Roff", "C++", "C", "MATLAB", "PostScript"],
         data=dta,
-        softwares=sftwrs,
+        software=sftwr,
         publications=pubs,
         other_links=othrlnks,
         image="https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b",
@@ -116,7 +116,7 @@ def test_full_metadata_prev1():
         model_archive=["https://doi.org/10.5066/P9NQUAOW"],
     )
 
-    sftwrs = Softwares(
+    sftwr = Software(
         usgs_software_gitlab_release_urls=[
             "https://code.usgs.gov/coawstmodel/COAWST/"
         ],
@@ -158,7 +158,7 @@ def test_full_metadata_prev1():
         ],
         programming_language=["Fortran", "Roff", "C++", "C", "MATLAB", "PostScript"],
         data=dta,
-        softwares=sftwrs,
+        software=sftwr,
         publications=pubs,
         other_links=othrlnks,
         image="https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b",

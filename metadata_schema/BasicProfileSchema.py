@@ -1,5 +1,5 @@
 from DataSchema import Data
-from SoftwareSchema import Softwares
+from SoftwareSchema import Software
 from PublicationsSchema import Publications
 from OtherLinksSchema import OtherLinks
 from PersonSchema import Person
@@ -60,8 +60,8 @@ class BasicProfile(BaseModel):
        CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode
     data: Optional[Data]
         Custom object containing advanced data section
-    software: Optional[Softwares]
-        Custom object containing advanced softwares section
+    software: Optional[Software]
+        Custom object containing advanced software section
     publications: Optional[Publications]
         Custom object containing advanced publications section
     other_links: Optional[OtherLinks]
@@ -102,7 +102,7 @@ class BasicProfile(BaseModel):
     programming_language: Optional[List[str]]
     license: Optional[str] = "CC0"
     data: Optional[Data]
-    software: Optional[Softwares]
+    software: Optional[Software]
     publications: Optional[Publications]
     other_links: Optional[OtherLinks]
     science_keywords: Optional[List[str]]
