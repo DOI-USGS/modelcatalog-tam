@@ -18,12 +18,20 @@ class ModelTypeEnum(str, Enum):
 
 
 class TypeKeywordEnum(str, Enum):
-    theoretical = "Theoretical"
+    analytical = "Analytical"
+    conceptual = "Conceptual"
+    data_driven = "Data-driven"
+    deterministic = "Deterministic"
     empirical = "Empirical"
+    geospatial = "Geospatial"
+    mathematical = "Mathematical"
+    mechanistic = "Mechanistic"
+    numerical = "Numerical"
     physics_based = "Physics-based"
     process_based = "Process-based"
     statistical = "Statistical"
-    geospatial = "Geospatial"
+    stochastic = "Stochastic"
+    theoretical = "Theoretical"
 
 
 class MissionAreaKeywordEnum(str, Enum):
@@ -76,7 +84,7 @@ class BasicProfile(BaseModel):
         Custom object containing advanced other links section
     science_keywords: Optional[str]
         Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/
-    type_keywords: Optional[TypeKeywordEnum]
+    type_keywords: Optional[List[TypeKeywordEnum]]
     other_keywords: Optional[str]
         For example, platform and mode (Jupyter, Graphical User Interface, etc).
     image: Optional[HttpUrl]
@@ -114,7 +122,7 @@ class BasicProfile(BaseModel):
     publications: Optional[Publications]
     other_links: Optional[OtherLinks]
     science_keywords: Optional[List[str]]
-    type_keywords: Optional[TypeKeywordEnum]
+    type_keywords: Optional[List[TypeKeywordEnum]]
     other_keywords: Optional[List[str]]
     image: Optional[HttpUrl]
     related_modelcatalog_assets: Optional[List[str]]
