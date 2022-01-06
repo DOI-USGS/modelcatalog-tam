@@ -26,6 +26,14 @@ class TypeKeywordEnum(str, Enum):
     geospatial = "Geospatial"
 
 
+class MissionAreaKeywordEnum(str, Enum):
+    core_science_systems = "Core Science Systems"
+    ecosystems = "Ecosystems"
+    energy_minerals = "Energy and Minerals"
+    natural_hazards = "Natural Hazards"
+    water = "Water Resources"
+
+
 class BasicProfile(BaseModel):
     """Basic metadata profile
 
@@ -50,7 +58,7 @@ class BasicProfile(BaseModel):
         Latest release version v1.0.1
     how_to_cite: Optional[str]
         Preferred citation format
-    usgs_missionarea: Optional[List[str]]
+    usgs_missionarea: Optional[List[MissionAreaKeywordEnum]]
         USGS mission area
     identifier: Optional[List[Identifier]]
         Identifiers related to the model
@@ -97,7 +105,7 @@ class BasicProfile(BaseModel):
     person: Optional[List[Person]]
     version: Optional[str]
     how_to_cite: Optional[str]
-    usgs_missionarea: Optional[List[str]]
+    usgs_missionarea: Optional[List[MissionAreaKeywordEnum]]
     identifier: Optional[List[Identifier]]
     programming_language: Optional[List[str]]
     license: Optional[str] = "CC0"

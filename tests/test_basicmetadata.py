@@ -148,7 +148,7 @@ def test_full_metadata_prev1():
         person=ppl,
         version="3.4",
         how_to_cite='Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System: U.S. Geological Survey Software Release, 23 April 2019,&nbsp;<a href="https://doi.org/10.5066/P9NQUAOW" style="box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);">https://doi.org/10.5066/P9NQUAOW',
-        usgs_missionarea=["Water Resources"],
+        usgs_missionarea=["Ecosystems", "Water Resources"],
         identifier=[
             Identifier(
                 name="DOI:10.5066/P9NQUAOW",
