@@ -97,7 +97,7 @@ class BasicProfile(BaseModel):
     >>> BasicProfile(item_type="Model",
     ...              name="COAWST",
     ...              description="sample description")
-    BasicProfile(item_type=<ModelTypeEnum.model: 'Model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)
+    BasicProfile(item_type=<ModelTypeEnum.model: 'Model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, person=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', software=None, publications=None, other_links=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_modelcatalog_assets=None)
     """
 
     _version: str = "v1.0.1"
@@ -109,7 +109,6 @@ class BasicProfile(BaseModel):
     external_organization_name: Optional[List[str]]
     release_date: Optional[str]
     last_update: Optional[str]
-    subtitle: Optional[str]
     person: Optional[List[Person]]
     version: Optional[str]
     how_to_cite: Optional[str]
