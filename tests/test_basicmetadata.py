@@ -1,7 +1,9 @@
 from PersonSchema import Person
 from BasicProfileSchema import BasicProfile
-from ResourceSchema import Resources
-from ReferenceSchema import References
+from DataSchema import Data
+from SoftwareSchema import Software
+from PublicationsSchema import Publications
+from OtherLinksSchema import OtherLinks
 from IdentifierSchema import Identifier
 from pydantic import ValidationError
 from hypothesis import given, strategies as st
@@ -31,29 +33,36 @@ def test_full_metadata():
         name="John C Warner",
         orcid="https://orcid.org/0000-0003-4993-021X",
         email="jcwarner@usgs.gov",
-        authortype="Author",
+        authortype=["Author"],
     )
     ppl = [per1]
 
-    rsc = Resources(
-        release_download_url="https://www.usgs.gov/software/coupled-ocean-atmosphere-wave-sediment-transport-coawst-modeling-system",
-        weblinks=["https://code.usgs.gov/coawstmodel/COAWST/-/tree/master"],
-        usgs_website="https://coawstmodel-trac.sourcerepo.com/coawstmodel_COAWST/",
-        official_usgs_software_gitlab_releases=[
+    dta = Data(
+        usgs_datarelease_links=["https://code.usgs.gov/coawstmodel/COAWST/"],
+        model_output=["https://doi.org/10.5066/P9NQUAOW"],
+        model_archive=["https://doi.org/10.5066/P9NQUAOW"],
+    )
+
+    sftwr = Software(
+        usgs_software_gitlab_release_urls=[
             "https://code.usgs.gov/coawstmodel/COAWST/"
         ],
-        user_manual_url=["https://doi.org/10.5066/P9NQUAOW"],
         download_url=["https://doi.org/10.5066/P9NQUAOW"],
-        primary_publications=["https://doi.org/10.5066/P9NQUAOW"],
-        quickstart_notebook=["https://doi.org/10.5066/P9NQUAOW"],
+        external_software_repository_urls=["https://code.usgs.gov/coawstmodel/COAWST/-/tree/master"],
         runtime_image=["https://doi.org/10.5066/P9NQUAOW"],
     )
 
-    ref = References(
-        model_output=["https://doi.org/10.5066/P9NQUAOW"],
+    pubs = Publications(
+        primary_publications=["https://doi.org/10.5066/P9NQUAOW"],
         model_citations=["https://doi.org/10.5066/P9NQUAOW"],
-        model_archive=["https://doi.org/10.5066/P9NQUAOW"],
         model_application=["https://doi.org/10.5066/P9NQUAOW"],
+        user_manual_url=["https://doi.org/10.5066/P9NQUAOW"],
+    )
+
+    othrlnks = OtherLinks(
+        usgs_website=["https://coawstmodel-trac.sourcerepo.com/coawstmodel_COAWST/"],
+        weblinks=["https://code.usgs.gov/coawstmodel/COAWST/-/tree/master"],
+        quickstart_notebook=["https://doi.org/10.5066/P9NQUAOW"],
     )
 
     mdata = BasicProfile(
@@ -63,11 +72,10 @@ def test_full_metadata():
         organization=True,
         release_date="200810",
         last_update="202009",
-        author=ppl,
-        contact=ppl,
+        person=ppl,
         version="3.4",
         how_to_cite='Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System: U.S. Geological Survey Software Release, 23 April 2019,&nbsp;<a href="https://doi.org/10.5066/P9NQUAOW" style="box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);">https://doi.org/10.5066/P9NQUAOW',
-        usgs_missionarea="Water Resources",
+        usgs_missionarea=["Water Resources"],
         identifier=[
             Identifier(
                 name="DOI:10.5066/P9NQUAOW",
@@ -75,9 +83,11 @@ def test_full_metadata():
                 type="Digital Object Identifier",
             )
         ],
-        programming_language="Fortran, Roff, C++, C, MATLAB, PostScript",
-        resources=rsc,
-        references=ref,
+        programming_language=["Fortran", "Roff", "C++", "C", "MATLAB", "PostScript"],
+        data=dta,
+        software=sftwr,
+        publications=pubs,
+        other_links=othrlnks,
         image="https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b",
     )
     assert mdata
@@ -89,29 +99,43 @@ def test_full_metadata_prev1():
         name="John C Warner",
         orcid="https://orcid.org/0000-0003-4993-021X",
         email="jcwarner@usgs.gov",
-        authortype="Author",
+        authortype=["Author"],
     )
-    ppl = [per1]
 
-    rsc = Resources(
-        release_download_url="https://www.usgs.gov/software/coupled-ocean-atmosphere-wave-sediment-transport-coawst-modeling-system",
-        weblinks=["https://code.usgs.gov/coawstmodel/COAWST/-/tree/master"],
-        usgs_website="https://coawstmodel-trac.sourcerepo.com/coawstmodel_COAWST/",
-        official_usgs_software_gitlab_releases=[
+    per2 = Person(
+        name="Maitane Olabarrieta",
+        orcid="https://orcid.org/0000-0002-7619-7992",
+        email="maitane.olabarrieta@essie.ufl.edu",
+        authortype=["Author", "Point of Contact"],
+    )
+    ppl = [per1, per2]
+
+    dta = Data(
+        usgs_datarelease_links=["https://code.usgs.gov/coawstmodel/COAWST/"],
+        model_output=["https://doi.org/10.5066/P9NQUAOW"],
+        model_archive=["https://doi.org/10.5066/P9NQUAOW"],
+    )
+
+    sftwr = Software(
+        usgs_software_gitlab_release_urls=[
             "https://code.usgs.gov/coawstmodel/COAWST/"
         ],
-        user_manual_url=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        download_url=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        primary_publications=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        quickstart_notebook=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        runtime_image=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
+        download_url=["https://doi.org/10.5066/P9NQUAOW"],
+        external_software_repository_urls=["https://code.usgs.gov/coawstmodel/COAWST/-/tree/master"],
+        runtime_image=["https://doi.org/10.5066/P9NQUAOW"],
     )
 
-    ref = References(
-        model_output=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        model_citations=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        model_archive=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
-        model_application=str_to_list("https://doi.org/10.5066/P9NQUAOW"),
+    pubs = Publications(
+        primary_publications=["https://doi.org/10.1029/2011JC007387"],
+        model_citations=["https://doi.org/10.5066/P9NQUAOW"],
+        model_application=["https://doi.org/10.5066/P9NQUAOW"],
+        user_manual_url=["https://doi.org/10.5066/P9NQUAOW"],
+    )
+
+    othrlnks = OtherLinks(
+        usgs_website=["https://coawstmodel-trac.sourcerepo.com/coawstmodel_COAWST/"],
+        weblinks=["https://code.usgs.gov/coawstmodel/COAWST/-/tree/master"],
+        quickstart_notebook=["https://doi.org/10.5066/P9NQUAOW"],
     )
 
     mdata = BasicProfile(
@@ -121,11 +145,10 @@ def test_full_metadata_prev1():
         organization=True,
         release_date="200810",
         last_update="202009",
-        author=ppl,
-        contact=ppl,
+        person=ppl,
         version="3.4",
         how_to_cite='Warner, J.C., Ganju, N.K., Sherwood, C.R., Tarandeep, K., Aretxabaleta, A., He, R., Zambon, J., and Kumar, N., 2019, Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System: U.S. Geological Survey Software Release, 23 April 2019,&nbsp;<a href="https://doi.org/10.5066/P9NQUAOW" style="box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183);">https://doi.org/10.5066/P9NQUAOW',
-        usgs_missionarea="Water Resources",
+        usgs_missionarea=["Ecosystems", "Water Resources"],
         identifier=[
             Identifier(
                 name="DOI:10.5066/P9NQUAOW",
@@ -133,10 +156,13 @@ def test_full_metadata_prev1():
                 type="Digital Object Identifier",
             )
         ],
-        programming_language="Fortran, Roff, C++, C, MATLAB, PostScript",
-        resources=rsc,
-        references=ref,
+        programming_language=["Fortran", "Roff", "C++", "C", "MATLAB", "PostScript"],
+        data=dta,
+        software=sftwr,
+        publications=pubs,
+        other_links=othrlnks,
         image="https://www.sciencebase.gov/catalog/file/get/5eb4485382ce25b5135abf00?f=__disk__d0%2F5d%2F21%2Fd05d214d168dd342556cb4b7a73f7e488e04fa5b",
+        related_modelcatalog_assets=["https://data.usgs.gov/modelcatalog/model/49328aa8-573c-4764-841a-93da0ee334e3"],
     )
     assert mdata
 

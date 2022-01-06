@@ -1,5 +1,5 @@
 from pydantic import BaseModel, HttpUrl, EmailStr
-from typing import Optional
+from typing import List, Optional
 from enum import Enum
 
 
@@ -53,7 +53,7 @@ class Person(BaseModel):
     _version: str = "v1.0.1"
 
     name: str
-    author_type: ContactTypeEnum = "Author"
+    author_type: List[ContactTypeEnum] = "Author"
     usgs_employee: Optional[bool] = False
     orcid: Optional[HttpUrl]
     email: Optional[EmailStr]
