@@ -1,6 +1,6 @@
 {
   "title": "BasicProfile",
-  "description": "Basic metadata profile\n\nFields\n------\nitem_type: ModelTypeEnum\n    model, tool, framework, testbed\nname: str\n    title\ndescription: str\n    abstract or general description\norganization: bool = True\n    True = usgs ; False = external\nexternal_organization_name: Optional[str]\nrelease_date: str\n    Date\nlast_update: str\n    Date\nauthor: Optional[List[Person]]\n    The author(s) or developer(s) of this content.\ncontact: Optional[List[Person]]\n    Person(s) responsible for maintenance of the model or item.\nversion: str\n    Latest release version v1.0.1\nhow_to_cite: Optional[str]\n    Preferred citation format\nusgs_missionarea: Optional[str]\n    USGS mission area\nidentifier: Optional[List[Identifier]]\n    Identifiers related to the model\nprogramming_language: Optional[str]\n    Primary programming language used for the modeling\nlicense: Optional[str]\n   CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode\nresources: Optional[Resources]\n    Custom object containing advanced resource section\nreferences: Optional[References]\n    Custom object containing advanced reference section\nscience_keywords: Optional[str]\n    Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/\ntype_keywords: Optional[TypeKeywordEnum]\nother_keywords: Optional[str]\n    For example, platform and mode (Jupyter, Graphical User Interface, etc).\nimage: Optional[HttpUrl]\n    Header image for the model profile page\nrelated_catalog_item: Optional[RelatedCatalogItem]\n\nExample\n-------\n>>> BasicProfile(item_type=\"Model\",\n...              name=\"COAWST\",\n...              description=\"sample description\")\nBasicProfile(item_type=<ModelTypeEnum.model: 'Model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, subtitle=None, author=None, contact=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', resources=None, references=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_catalog_item=None)",
+  "description": "Basic metadata profile\n\nFields\n------\nitem_type: ModelTypeEnum\n    model, tool, framework, testbed\nname: str\n    title\ndescription: str\n    abstract or general description\norganization: bool = True\n    True = usgs ; False = external\nexternal_organization_name: Optional[List[str]]\nrelease_date: str\n    Date\nlast_update: str\n    Date\nperson: Optional[List[Person]]\n    Person(s) (author(s) or developer(s)) responsible for maintenance of the model or item or content.\nversion: str\n    Latest release version v1.0.2\nhow_to_cite: Optional[str]\n    Preferred citation format\nusgs_missionarea: Optional[List[MissionAreaKeywordEnum]]\n    USGS mission area\nidentifier: Optional[List[Identifier]]\n    Identifiers related to the model\nprogramming_language: Optional[List[str]]\n    Primary programming language used for the modeling\nlicense: Optional[str]\n   CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode\ndata: Optional[Data]\n    Custom object containing advanced data section\nsoftware: Optional[Software]\n    Custom object containing advanced software section\npublications: Optional[Publications]\n    Custom object containing advanced publications section\nother_links: Optional[OtherLinks]\n    Custom object containing advanced other links section\nscience_keywords: Optional[str]\n    Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/\ntype_keywords: Optional[List[TypeKeywordEnum]]\nother_keywords: Optional[str]\n    For example, platform and mode (Jupyter, Graphical User Interface, etc).\nimage: Optional[HttpUrl]\n    Header image for the model profile page\nrelated_modelcatalog_assets: Optional[List[str]]\n    Related catalog items for the model\n\nExample\n-------\n>>> BasicProfile(item_type=\"Model\",\n...              name=\"COAWST\",\n...              description=\"sample description\")\nBasicProfile(item_type=<ModelTypeEnum.model: 'Model'>, name='COAWST', description='sample description', organization=True, external_organization_name=None, release_date=None, last_update=None, person=None, version=None, how_to_cite=None, usgs_missionarea=None, identifier=None, programming_language=None, license='CC0', data=None, software=None, publications=None, other_links=None, science_keywords=None, type_keywords=None, other_keywords=None, image=None, related_modelcatalog_assets=None)",
   "type": "object",
   "properties": {
     "item_type": {
@@ -26,7 +26,10 @@
     },
     "external_organization_name": {
       "title": "External Organization Name",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "release_date": {
       "title": "Release Date",
@@ -36,19 +39,8 @@
       "title": "Last Update",
       "type": "string"
     },
-    "subtitle": {
-      "title": "Subtitle",
-      "type": "string"
-    },
-    "author": {
-      "title": "Author",
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/Person"
-      }
-    },
-    "contact": {
-      "title": "Contact",
+    "person": {
+      "title": "Person",
       "type": "array",
       "items": {
         "$ref": "#/definitions/Person"
@@ -63,8 +55,10 @@
       "type": "string"
     },
     "usgs_missionarea": {
-      "title": "Usgs Missionarea",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/MissionAreaKeywordEnum"
+      }
     },
     "identifier": {
       "title": "Identifier",
@@ -75,18 +69,27 @@
     },
     "programming_language": {
       "title": "Programming Language",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "license": {
       "title": "License",
       "default": "CC0",
       "type": "string"
     },
-    "resources": {
-      "$ref": "#/definitions/Resources"
+    "data": {
+      "$ref": "#/definitions/Data"
     },
-    "references": {
-      "$ref": "#/definitions/References"
+    "software": {
+      "$ref": "#/definitions/Software"
+    },
+    "publications": {
+      "$ref": "#/definitions/Publications"
+    },
+    "other_links": {
+      "$ref": "#/definitions/OtherLinks"
     },
     "science_keywords": {
       "title": "Science Keywords",
@@ -96,7 +99,10 @@
       }
     },
     "type_keywords": {
-      "$ref": "#/definitions/TypeKeywordEnum"
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/TypeKeywordEnum"
+      }
     },
     "other_keywords": {
       "title": "Other Keywords",
@@ -112,8 +118,12 @@
       "format": "uri",
       "type": "string"
     },
-    "related_catalog_item": {
-      "$ref": "#/definitions/RelatedCatalogItem"
+    "related_modelcatalog_assets": {
+      "title": "Related Modelcatalog Assets",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "required": [
@@ -153,11 +163,10 @@
         },
         "author_type": {
           "default": "Author",
-          "allOf": [
-            {
-              "$ref": "#/definitions/ContactTypeEnum"
-            }
-          ]
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ContactTypeEnum"
+          }
         },
         "usgs_employee": {
           "title": "Usgs Employee",
@@ -215,6 +224,18 @@
         "name"
       ]
     },
+    "MissionAreaKeywordEnum": {
+      "title": "MissionAreaKeywordEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "Core Science Systems",
+        "Ecosystems",
+        "Energy and Minerals",
+        "Natural Hazards",
+        "Water Resources"
+      ],
+      "type": "string"
+    },
     "IdentifierTypeEnum": {
       "title": "IdentifierTypeEnum",
       "description": "An enumeration.",
@@ -253,13 +274,50 @@
         "name"
       ]
     },
-    "Resources": {
-      "title": "Resources",
-      "description": "Resource extension for additional information\n\nHow to use the model: where to download it, manuals, user community\npages, other webpages about the model (in other catalogs), USGS\nwebpage, model project page, source code (organizational website or\nrepository, if available).\n\nFields\n------\nuser_manual_url: Optional[List[HttpUrl]]\n    Optional field for locations of model user manuals or similar documentation.\ndownload_url: Optional[List[HttpUrl]]\n    Optional field for locations where users would download the model executable\nprimary_publications: Optional[List[HttpUrl]]\n    Optional field for the main publications describing the model itself\nweblinks: Optional[List[HttpUrl]]\n    Optional field for URLs that are not a usgs.gov (Drupal CMS) website. \n    Examples include community forums for the model.\nusgs_website: Optional[List[HttpUrl]]\n    Optional field for URLs that are part of the usgs.gov (Drupal CMS) website\nusgs_software_gitlab_release_urls: Optional[List[HttpUrl]]\n    Optional field for official USGS software releases on code.usgs.gov (Gitlab)\n    Use the DOI of the software release, unless the DOI does not point to the\n    main landing page of the repository. If the DOI points to a location other\n    than the main repository landing page, point to the main repository landing page.\nexternal_software_repository_urls: Optional[List[HttpUrl]]\n    Optional field for related code repositories that are not on code.usgs.gov (Gitlab),\n    for example, repositories that are on github.com or gitlab.com\nquickstart_notebook: Optional[List[HttpUrl]]\n    Optional field for links to quickstart code notebooks on platforms such as Colab.\nruntime_image: Optional[List[HttpUrl]]\n    Optional field for links to runtime images such as Docker images. ",
+    "Data": {
+      "title": "Data",
+      "description": "Data:\n\nData to report where the model is used, outputs (data release) or model archive.\n\nFields\n------\nusgs_datarelease_links: Optional[List[HttpUrl]]\n    Optional field for USGS Data release Digital Object Identifiers\nmodel_output: Optional[List[HttpUrl]]\n    Optional container for links to model output information\nmodel_archive: Optional[List[HttpUrl]]\n    Optional field for USGS interpretive information products that consists of a \n    group of files that documents and archives numerical (ground)water\n    models. Policy dictates that these are distributed online as\n    USGS data releases. Terminology used in the USGS Water Resources Mission Area. ",
       "type": "object",
       "properties": {
-        "user_manual_url": {
-          "title": "User Manual Url",
+        "usgs_datarelease_links": {
+          "title": "Usgs Datarelease Links",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "model_output": {
+          "title": "Model Output",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "model_archive": {
+          "title": "Model Archive",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "Software": {
+      "title": "Software",
+      "description": "Software\n\nWhere to download it, related software release pages,\nsource code (organizational website or repository, if available).\n\nFields\n------\nusgs_software_gitlab_release_urls: Optional[List[HttpUrl]]\n    Optional field for official USGS software releases on code.usgs.gov (Gitlab)\n    Use the DOI of the software release, unless the DOI does not point to the\n    main landing page of the repository. If the DOI points to a location other\n    than the main repository landing page, point to the main repository landing page.\ndownload_url: Optional[List[HttpUrl]]\n    Optional field for locations where users would download the model executable\nexternal_software_repository_urls: Optional[List[HttpUrl]]\n    Optional field for related code repositories that are not on code.usgs.gov (Gitlab),\n    for example, repositories that are on github.com or gitlab.com\nruntime_image: Optional[List[HttpUrl]]\n    Optional field for links to runtime images such as Docker images.",
+      "type": "object",
+      "properties": {
+        "usgs_software_gitlab_release_urls": {
+          "title": "Usgs Software Gitlab Release Urls",
           "type": "array",
           "items": {
             "type": "string",
@@ -278,58 +336,8 @@
             "format": "uri"
           }
         },
-        "primary_publications": {
-          "title": "Primary Publications",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri"
-          }
-        },
-        "weblink_url": {
-          "title": "Weblink Url",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri"
-          }
-        },
-        "usgs_website_url": {
-          "title": "Usgs Website Url",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri"
-          }
-        },
-        "usgs_software_gitlab_release_urls": {
-          "title": "Usgs Software Gitlab Release Urls",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri"
-          }
-        },
         "external_software_repository_urls": {
           "title": "External Software Repository Urls",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri"
-          }
-        },
-        "quickstart_notebook": {
-          "title": "Quickstart Notebook",
           "type": "array",
           "items": {
             "type": "string",
@@ -350,23 +358,13 @@
         }
       }
     },
-    "References": {
-      "title": "References",
-      "description": "Where the model has been used:\n\nReferences to reports or publications where the model is used,\nor cited, outputs (data release), model archive, model application.\n\nFields\n------\nmodel_output: Optional[List[HttpUrl]]\n    Optional container for links to model output information\nusgs_datarelease_links: Optional[List[HttpUrl]]\n    Optional field for USGS Data release Digital Object Identifiers\nmodel_citations: Optional[List[HttpUrl]]\n    Optional field References to reports or publications where the model is used\n    or cited\nmodel_archive: Optional[List[HttpUrl]]\n    Optional field for USGS interpretive information products that consists of a \n    group of files that documents and archives numerical (ground)water\n    models. Policy dictates that these are distributed online as\n    USGS data releases. Terminology used in the USGS Water Resources Mission Area. \nmodel_application: Optional[List[HttpUrl]]\n    The use of a particular model software to analyze a specific\n    situation (region, time period, etc.). Terminology used in the\n    USGS Water Resources Mission Area. ",
+    "Publications": {
+      "title": "Publications",
+      "description": "Publications:\n\nReferences to publications where the model is used,\nor cited, model archive, model application, user manuals or documentations.\n\nFields\n------\nprimary_publications: Optional[List[HttpUrl]]\n    Optional container for primary publications links\nmodel_output: Optional[List[HttpUrl]]\n    Optional container for links to model output information\nmodel_citations: Optional[List[HttpUrl]]\n    Optional field References to reports or publications where the model is used\n    or cited\nmodel_application: Optional[List[HttpUrl]]\n    The use of a particular model software to analyze a specific\n    situation (region, time period, etc.). Terminology used in the\n    USGS Water Resources Mission Area.\nuser_manual_url: Optional[List[HttpUrl]]\n    Optional field for locations of model user manuals or similar documentation.",
       "type": "object",
       "properties": {
-        "model_output": {
-          "title": "Model Output",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri"
-          }
-        },
-        "usgs_datarelease_links": {
-          "title": "Usgs Datarelease Links",
+        "primary_publications": {
+          "title": "Primary Publications",
           "type": "array",
           "items": {
             "type": "string",
@@ -385,8 +383,8 @@
             "format": "uri"
           }
         },
-        "model_archive": {
-          "title": "Model Archive",
+        "model_application": {
+          "title": "Model Application",
           "type": "array",
           "items": {
             "type": "string",
@@ -395,8 +393,45 @@
             "format": "uri"
           }
         },
-        "model_application": {
-          "title": "Model Application",
+        "user_manual_url": {
+          "title": "User Manual Url",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "OtherLinks": {
+      "title": "OtherLinks",
+      "description": "Additional Information:\n\nOther webpages about the model (in other catalogs), USGS\nwebpage, model project page, etc.\n\nFields\n------\nusgs_website: Optional[List[HttpUrl]]\n    Optional field for URLs that are part of the usgs.gov (Drupal CMS) website\nweblinks: Optional[List[HttpUrl]]\n    Optional field for URLs that are not a usgs.gov (Drupal CMS) website. \n    Examples include community forums for the model.\nquickstart_notebook: Optional[List[HttpUrl]]\n    Optional field for links to quickstart code notebooks on platforms such as Colab.",
+      "type": "object",
+      "properties": {
+        "usgs_website": {
+          "title": "Usgs Website",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "weblinks": {
+          "title": "Weblinks",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri"
+          }
+        },
+        "quickstart_notebook": {
+          "title": "Quickstart Notebook",
           "type": "array",
           "items": {
             "type": "string",
@@ -411,50 +446,22 @@
       "title": "TypeKeywordEnum",
       "description": "An enumeration.",
       "enum": [
-        "Theoretical",
+        "Analytical",
+        "Conceptual",
+        "Data-driven",
+        "Deterministic",
         "Empirical",
+        "Geospatial",
+        "Mathematical",
+        "Mechanistic",
+        "Numerical",
         "Physics-based",
         "Process-based",
         "Statistical",
-        "Geospatial"
+        "Stochastic",
+        "Theoretical"
       ],
       "type": "string"
-    },
-    "RelatedCatalogItemTypeEnum": {
-      "title": "RelatedCatalogItemTypeEnum",
-      "description": "An enumeration.",
-      "enum": [
-        "Related Model",
-        "Related Framework",
-        "Related Tool",
-        "Related Testbed"
-      ],
-      "type": "string"
-    },
-    "RelatedCatalogItem": {
-      "title": "RelatedCatalogItem",
-      "description": "Fields\n------\nrelated_catalog_url: Optional[HttpUrl]\nrelated_catalog_id: Optional[str]\ncomponent_of: Optional[str]\ntype: Optional[RelatedCatalogItemTypeEnum]",
-      "type": "object",
-      "properties": {
-        "related_catalog_url": {
-          "title": "Related Catalog Url",
-          "minLength": 1,
-          "maxLength": 2083,
-          "format": "uri",
-          "type": "string"
-        },
-        "related_catalog_id": {
-          "title": "Related Catalog Id",
-          "type": "string"
-        },
-        "component_of": {
-          "title": "Component Of",
-          "type": "string"
-        },
-        "type": {
-          "$ref": "#/definitions/RelatedCatalogItemTypeEnum"
-        }
-      }
     }
   }
 }
