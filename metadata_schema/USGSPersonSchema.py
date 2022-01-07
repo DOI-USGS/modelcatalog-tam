@@ -1,5 +1,5 @@
 from pydantic import BaseModel, HttpUrl, EmailStr
-from typing import List, Optional
+from typing import Optional
 from enum import Enum
 
 
@@ -9,8 +9,8 @@ class ContactTypeEnum(str, Enum):
     point_of_contact = "Point of Contact"
 
 
-class Person(BaseModel):
-    """Person or contact model
+class UsgsPerson(BaseModel):
+    """Person schema model
 
     Fields
     ------
@@ -50,10 +50,10 @@ class Person(BaseModel):
         USGS employee True = yes; False = no
     """
 
-    _version: str = "v1.0.2"
+    _version: str = "v1.0.0"
 
     name: str
-    author_type: List[ContactTypeEnum] = "Author"
+    author_type: ContactTypeEnum = "Author"
     usgs_employee: Optional[bool] = False
     orcid: Optional[HttpUrl]
     email: Optional[EmailStr]

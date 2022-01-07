@@ -26,7 +26,7 @@ class Publications(BaseModel):
 
     """
 
-    _version: str = "v1.0.1"
+    _version: str = "v1.0.2"
 
     primary_publications: Optional[List[HttpUrl]]
     model_citations: Optional[List[HttpUrl]]

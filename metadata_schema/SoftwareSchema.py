@@ -25,7 +25,7 @@ class Software(BaseModel):
 
     """
 
-    _version: str = "v1.0.1"
+    _version: str = "v1.0.2"
 
     usgs_software_gitlab_release_urls: Optional[List[HttpUrl]]
     download_url: Optional[List[HttpUrl]]

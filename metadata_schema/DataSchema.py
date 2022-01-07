@@ -21,7 +21,7 @@ class Data(BaseModel):
 
     """
 
-    _version: str = "v1.0.1"
+    _version: str = "v1.0.2"
 
     usgs_datarelease_links: Optional[List[HttpUrl]]
     model_output: Optional[List[HttpUrl]]
