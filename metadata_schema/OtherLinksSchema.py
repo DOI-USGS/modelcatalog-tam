@@ -20,7 +20,7 @@ class OtherLinks(BaseModel):
 
     """
 
-    _version: str = "v1.0.2"
+    _version: str = "v1.0.3"
 
     usgs_website: Optional[List[HttpUrl]]
     weblinks: Optional[List[HttpUrl]]
