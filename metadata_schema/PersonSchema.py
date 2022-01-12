@@ -3,7 +3,7 @@ from typing import List, Optional
 from enum import Enum
 
 
-class ContactTypeEnum(str, Enum):
+class PersonTypeEnum(str, Enum):
     maintainer = "Maintainer"
     author = "Author"
     point_of_contact = "Point of Contact"
@@ -23,9 +23,9 @@ class Person(BaseModel):
     email: EmailStr
         Valid email address
         aappling@usgs.gov
-    author_type: str
+    person_type: PersonTypeEnum
         Specification for type of contact
-        author
+        maintainer, author, point_of_contact
     thumbnail_avatar_url: HttpUrl
         Direct link to personal profile image
         https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/appling_headshot.png
@@ -53,7 +53,7 @@ class Person(BaseModel):
     _version: str = "v1.0.1"
 
     name: str
-    author_type: List[ContactTypeEnum] = "Author"
+    person_type: List[PersonTypeEnum] = "Author"
     usgs_employee: Optional[bool] = False
     orcid: Optional[HttpUrl]
     email: Optional[EmailStr]
