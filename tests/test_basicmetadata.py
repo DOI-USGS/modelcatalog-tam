@@ -33,7 +33,7 @@ def test_full_metadata():
         name="John C Warner",
         orcid="https://orcid.org/0000-0003-4993-021X",
         email="jcwarner@usgs.gov",
-        authortype=["Author"],
+        person_type=["Author"],
     )
     ppl = [per1]
 
@@ -99,14 +99,14 @@ def test_full_metadata_prev1():
         name="John C Warner",
         orcid="https://orcid.org/0000-0003-4993-021X",
         email="jcwarner@usgs.gov",
-        authortype=["Author"],
+        person_type=["Author"],
     )
 
     per2 = Person(
         name="Maitane Olabarrieta",
         orcid="https://orcid.org/0000-0002-7619-7992",
         email="maitane.olabarrieta@essie.ufl.edu",
-        authortype=["Author", "Point of Contact"],
+        person_type=["Author", "Point of Contact"],
     )
     ppl = [per1, per2]
 
