@@ -50,7 +50,7 @@ class Person(BaseModel):
         USGS employee True = yes; False = no
     """
 
-    _version: str = "v1.0.2"
+    _version: str = "v1.0.3"
 
     name: str
     person_type: List[PersonTypeEnum] = "Author"
