@@ -1,0 +1,4 @@
+pydantic[email]
+hypothesis
+twine
+wheel

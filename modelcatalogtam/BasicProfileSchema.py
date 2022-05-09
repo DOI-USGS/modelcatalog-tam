@@ -1,9 +1,9 @@
-from DataSchema import Data
-from SoftwareSchema import Software
-from PublicationsSchema import Publications
-from OtherLinksSchema import OtherLinks
-from PersonSchema import Person
-from IdentifierSchema import Identifier
+from .DataSchema import Data
+from .SoftwareSchema import Software
+from .PublicationsSchema import Publications
+from .OtherLinksSchema import OtherLinks
+from .PersonSchema import Person
+from .IdentifierSchema import Identifier
 
 from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
