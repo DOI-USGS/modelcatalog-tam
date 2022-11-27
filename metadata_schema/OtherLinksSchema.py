@@ -5,7 +5,7 @@ from typing import List, Optional
 class OtherLinks(BaseModel):
     """Additional Information:
 
-    Other webpages about the model (in other catalogs), USGS
+    Other webpages about the model (such as in other catalogs), USGS
     webpage, model project page, etc.
 
     Fields

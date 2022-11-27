@@ -5,7 +5,7 @@ from typing import List, Optional
 class Data(BaseModel):
     """Data:
 
-    Data to report where the model is used, outputs (data release) or model archive.
+    Data related to the model, such as inputs and outputs (for example, USGS data release) or model application archive.
 
     Fields
     ------
@@ -14,8 +14,7 @@ class Data(BaseModel):
     model_output: Optional[List[HttpUrl]]
         Optional container for links to model output information
     model_archive: Optional[List[HttpUrl]]
-        Optional field for USGS interpretive information products that consists of a 
-        group of files that documents and archives numerical (ground)water
+        Optional field for USGS interpretive information products that consists of a group of files that documents and archives numerical (ground)water
         models. Policy dictates that these are distributed online as
         USGS data releases. Terminology used in the USGS Water Resources Mission Area. 
 

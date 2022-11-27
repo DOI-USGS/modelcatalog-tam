@@ -48,32 +48,32 @@ class BasicProfile(BaseModel):
     Fields
     ------
     item_type: ModelTypeEnum
-        model, tool, framework, testbed
+        Model, tool, framework, testbed
     name: str
-        title
+        Title, recommended format: "ACRONYM/Short name - longer description"
     description: str
-        abstract or general description
+        General description, recommended format of a short paragraph, 4-5 sentences. HTML is allowed.
     organization: bool = True
         True = usgs ; False = external
     external_organization_name: Optional[List[str]]
     release_date: str
-        Date
+        Date, in YYYY-MM-DD format. May be year only.
     last_update: str
-        Date
+        Date, in YYYY-MM-DD format. May be year only.
     person: Optional[List[Person]]
         Person(s) (author(s) or developer(s)) responsible for maintenance of the model or item or content.
     version: str
-        Latest release version v1.0.3
+        Latest release version, ex. v1.0
     how_to_cite: Optional[str]
-        Preferred citation format
+        Preferred citation format: Authors, Year, Title, Publisher, DOI.
     usgs_missionarea: Optional[List[MissionAreaKeywordEnum]]
         USGS mission area
     identifier: Optional[List[Identifier]]
-        Identifiers related to the model
+        Identifiers related to the model, especially the identifier assigned by the USGS identifier tool.
     programming_language: Optional[List[str]]
-        Primary programming language used for the modeling
+        Primary programming language(s) used for the modeling
     license: Optional[str]
-       CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+        Default to CC0 see: https://creativecommons.org/publicdomain/zero/1.0/legalcode
     data: Optional[Data]
         Custom object containing advanced data section
     software: Optional[Software]
@@ -83,17 +83,18 @@ class BasicProfile(BaseModel):
     other_links: Optional[OtherLinks]
         Custom object containing advanced other links section
     science_keywords: Optional[str]
-        Topical science keywords that will help for discovering the item. Preferred to use terms from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/
+        Topical science keywords that will help for discovering the item. Terms must come from the USGS Thesaurus please see: https://apps.usgs.gov/thesaurus/
     type_keywords: Optional[List[TypeKeywordEnum]]
+        Keywords describing the type of model. For example "Numerical"
     other_keywords: Optional[str]
-        For example, platform and mode (Jupyter, Graphical User Interface, etc).
+        Other keywords that are not in the USGS Thesaurus or other controlled keyword lists. For example, platform and mode (Jupyter, Graphical User Interface, etc).
     image: Optional[HttpUrl]
         Header image for the model profile page
     related_modelcatalog_assets: Optional[List[str]]
-        Related catalog items for the model
+        Related catalog items for the model, formatted as the full URL for the Model Catalog landing page.
 
-    Example
-    -------
+    Example of a working python instance of the data model
+    ------------------------------------------------------
     >>> BasicProfile(item_type="Model",
     ...              name="COAWST",
     ...              description="sample description")

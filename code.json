@@ -1,0 +1,52 @@
+[
+  {
+    "name": "tam",
+    "organization": "U.S. Geological Survey",
+    "description": "This project contains the metadata schema component of a modular catalog implementation. This example is for the USGS Model Catalog (https://data.usgs.gov/modelcatalog), which has metadata for scientific models used in the USGS.",
+    "version": "main",
+    "status": "Development",
+
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://code.usgs.gov/sas/sdm/model-catalog/tam/-/raw/main/LICENSE.md"
+        }
+      ]
+    },
+
+    "homepageURL": "https://code.usgs.gov/sas/sdm/model-catalog/tam",
+    "downloadURL": "https://code.usgs.gov/sas/sdm/model-catalog/tam/-/archive/main/intake-main.zip",
+    "disclaimerURL": "https://code.usgs.gov/sas/sdm/model-catalog/tam/-/raw/main/DISCLAIMER.md",
+    "repositoryURL": "https://code.usgs.gov/sas/sdm/model-catalog/tam.git",
+    "vcs": "git",
+
+    "laborHours": 100,
+
+    "tags": [
+      "modeling",
+      "scientific models",
+      "model metadata",
+      "Python",
+      "USGS",
+      "usgs_ma|Core Science Systems",
+      "usgs_sc|Science Analytics and Synthesis",
+      "doi|https://doi.org/10.5066/P9WU0F71",
+      "ipds|IP-144090"
+    ],
+
+    "languages": [
+      "python"
+    ],
+
+    "contact": {
+      "name": "Brandon Serna",
+      "email": "bserna@usgs.gov"
+    },
+
+    "date": {
+      "metadataLastUpdated": "2022-11-18"
+    }
+  }
+]
