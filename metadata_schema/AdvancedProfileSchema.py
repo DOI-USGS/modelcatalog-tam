@@ -55,14 +55,9 @@ class AdvancedProfile(BaseModel):
         relationships between different code repositories.
 
 
-
-    Example
-    -------
-        TBD
-
     """
 
-    _version: str = "v1.0.0"
+    _version: str = "v1.0.3"
 
     status_type = Optional[List[StatusTypeEnum]] = "Public"
     compute_environment = Optional[List[ComputeEnvEnum]]

@@ -12,40 +12,42 @@ class PersonTypeEnum(str, Enum):
 class Person(BaseModel):
     """Person or contact model
 
+    Information about people related to the model. If an ORCID exists for a USGS employee, entering name and orcid fields only will pull in additional information from the USGS staff profile page. 
+
     Fields
     ------
     name: str
         Contact name to display
-        Alison P Appling
+        Ex., Alison P Appling
     orcid: HttpUrl
         Full URL for ORCID profile, see: https://orcid.org/
-        https://orcid.org/0000-0003-3638-8572
+        Ex., https://orcid.org/0000-0003-3638-8572
     email: EmailStr
         Valid email address
-        aappling@usgs.gov
+        Ex., aappling@usgs.gov
     person_type: PersonTypeEnum
         Specification for type of contact
-        maintainer, author, point_of_contact
+        maintainer (maintainer of the metadata in the Model Catalog), author, point_of_contact
     thumbnail_avatar_url: HttpUrl
         Direct link to personal profile image
-        https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/appling_headshot.png
+        Ex., https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/staff_profile/public/thumbnails/image/appling_headshot.png?itok=O8ZO1_s5
     organization: str
         USGS organization
-        USGS Water Resources Mission Area
+        Ex., USGS Water Resources Mission Area
     job_title: str
         Short job title
-        Data Scientist
+        Ex., Data Scientist
     sciencebase_id: str
         Sciencebase Directory link to profile (see https://www.sciencebase.gov/directory/person/68008)
-        68008
+        Ex., 68008
     usgs_staffprofile_url: HttpUrl
         Direct link to USGS Staff Profile webpage
-        https://www.usgs.gov/staff-profiles/alison-appling
+        Ex., https://www.usgs.gov/staff-profiles/alison-appling
     usgs_gitlab_id: int
         Internal gitlab user identifier
     github_profile : str
         Public GitHub user profile
-        aappling-usgs
+        Ex., aappling-usgs
     usgs_employee: bool
         USGS employee True = yes; False = no
     """
